@@ -1,119 +1,226 @@
 Front,Back,Topic,Type
-"Five tiers of lawyer discipline, lightest to heaviest","Probation → private reprimand (act published, not the lawyer's name) → public reprimand → suspension → disbarment.",Regulating the Practice of Law,Concept
-Is disbarment permanent? How does a lawyer get reinstated?,No. After 5 years the lawyer may apply. Must prove by clear and convincing evidence (1) rehabilitation AND (2) compliance with all conditions.,Regulating the Practice of Law,Concept
-Does discipline require harm to a client? Does malpractice?,Discipline: no harm required. Malpractice: harm and causation required.,Regulating the Practice of Law,Concept
-UPL: what's the general rule and the one universal exception?,Most states bar nonlawyers from practicing law (no settled definition of “practice of law”). Exception: you may always represent yourself.,Regulating the Practice of Law,Concept
-UPL: are legal advice books and legal software allowed?,"Books: allowed in most jurisdictions. Software: generally OK; some states have tried to ban it, and how far it may go is an open question.",Regulating the Practice of Law,Concept
-Rule 5.5 cmt. [2]: purpose of UPL rules,"Limiting practice to bar members protects the public against legal services by unqualified persons. → UPL rules protect the public, not lawyers' business.",Regulating the Practice of Law,Rule
-Florida Bar v. Brumbaugh,"Nonlawyers MAY sell legal forms and printed material explaining procedure and run a typing service, but may NOT give individualized legal advice. D typed customers' documents, never held herself out as a lawyer. Class point: nobody was harmed; complaint came from lawyers losing business.",Regulating the Practice of Law,Case
-Rule 5.3: nonlawyer assistants,Lawyers may work with nonlawyer employees if lawyers run the legal services and don't share fees. Lawyer must make reasonable efforts to ensure the nonlawyer's conduct is compatible with the Rules.,Regulating the Practice of Law,Rule
-"Rule 5.4(a), (b), (d): professional independence",(a) No sharing legal fees with a nonlawyer. (b) No partnership with a nonlawyer if any activity is the practice of law. (d) No practicing in a for-profit organization a nonlawyer owns an interest in.,Regulating the Practice of Law,Rule
-Which jurisdictions allow lawyer–nonlawyer fee splitting?,"DC, Utah, and Arizona. Everywhere else Rule 5.4 controls.",Regulating the Practice of Law,Concept
-Rule 5.7,The Rules still apply when a lawyer provides law-related (nonlegal) services.,Regulating the Practice of Law,Rule
-How does an out-of-state lawyer avoid UPL in litigation?,Motion to appear pro hac vice (temporary admission). Amended rules also allow temporary practice in some circumstances and full-time practice for in-house counsel.,Regulating the Practice of Law,Concept
-"Birbrower, Montalbano, Condon & Frank v. Superior Court","Representing a client in preparation for arbitration is the practice of law; physical presence is a factor but not required, sufficient contact with the state is enough. NY lawyers advised ESQ in CA under a CA-law contract → UPL, fee agreement unenforceable for the CA work. Legislature later exempted arbitration.",Regulating the Practice of Law,Case
-"Character & fitness: who bears the burden, and who has the final word?","The applicant bears the burden of proving fitness. Each state's supreme court has the final word. Passing the bar is not enough, and disclosing bad acts is necessary but not sufficient.",Regulating the Practice of Law,Concept
-In re Application of Chapman,Applicant must prove good moral character; past bad acts count even when disclosed. He disclosed settling a case over his father's upholstery business's bad practices → admission denied.,Regulating the Practice of Law,Case
-In re Hamm,"Past serious crime + lack of candor and responsibility supports denial. Killed college students in a marijuana deal, served his sentence; denied for not being forthright about the murders, unpaid child support with excuses, plagiarized brief.",Regulating the Practice of Law,Case
-"How is a lawyer–client relationship usually formed, and what is NOT required?","Usually through a retainer, but it can form inadvertently (usually to the lawyer's detriment). No written agreement or fee required.",The Lawyer–Client Relationship,Concept
-Rest. § 14: formation of the relationship,"(1) Person manifests intent that the lawyer provide legal services, and either (a) lawyer consents, or (b) lawyer fails to manifest lack of consent and knows or should know the person reasonably relies; or (2) a tribunal appoints the lawyer.",The Lawyer–Client Relationship,Rule
-Rule 1.13(a): organization as client,"A lawyer retained by an organization represents the organization acting through its duly authorized constituents. Client = the entity, not officers or employees. (1.13(f): may also represent constituents.)",The Lawyer–Client Relationship,Rule
-Morris v. Margulis,"A relationship exists when the client subjectively believes he is consulting the lawyer for legal advice, regardless of the lawyer's intent. Bryan Cave formally declining and Morris having other counsel did not defeat it.",The Lawyer–Client Relationship,Case
-In re Robbins,"A relationship can arise without a written agreement or fees. Robbins recruited his friend Day as an indemnitor; Day believed Robbins represented him, never got a bill → all ethical duties applied.",The Lawyer–Client Relationship,Case
-Can a court-appointed lawyer decline? What should they do if they object?,Only for good cause (Rule 6.2). Practical answer: raise the objection with the court and let it decide.,The Lawyer–Client Relationship,Concept
-Rule 6.2: three good-cause grounds to avoid an appointment,(a) Representation likely violates the Rules or other law; (b) unreasonable financial burden on the lawyer; (c) client or cause so repugnant it would impair the relationship or the lawyer's ability to represent.,The Lawyer–Client Relationship,Rule
-Board of Professional Responsibility (Tennessee),"Moral or religious objection alone is not enough to decline an appointment (judicial-bypass abortion cases); present the objection to the court. Not compelling: repugnance of subject matter, identity of a person, belief defendant is guilty, view of the civil case's merits.",The Lawyer–Client Relationship,Case
-Nathanson v. MCAD,A lawyer may not decline a client solely because of gender. Firm took only women in divorces; a law office is a place of public accommodation; free speech yields to the state's interest in ending gender discrimination.,The Lawyer–Client Relationship,Case
-Rule 1.16(a) vs. 1.16(b): what's the difference?,"(a) is mandatory: “shall not represent” / “shall withdraw.” (b) is permissive: “may withdraw,” allowed even with a material adverse effect on the client.",The Lawyer–Client Relationship,Concept
-Rule 1.16(a): three grounds for mandatory withdrawal,(1) Representation will violate the Rules or other law; (2) lawyer's physical or mental condition materially impairs representation; (3) client persists in using the lawyer's services for crime or fraud.,The Lawyer–Client Relationship,Rule
-Rule 1.16(c),"Must get the tribunal's permission where required, and must continue if ordered, EVEN IF good cause exists. Overrides even a mandatory reason to withdraw.",The Lawyer–Client Relationship,Rule
-Rule 1.16(d),"On termination, take steps reasonably practicable to protect the client's interests.",The Lawyer–Client Relationship,Rule
-Is a client's nonpayment alone an “unreasonable financial burden”?,No.,The Lawyer–Client Relationship,Concept
-Rule 3.1: meritorious claims,"No bringing or defending a proceeding without a non-frivolous basis in law and fact. A good-faith argument to extend, modify, or reverse existing law is fine.",The Lawyer–Client Relationship,Rule
-Whiting v. Lacara,Withdrawal on the eve of trial requires the court's consent and good cause. Whiting (third lawyer) insisted on unsupported claims and planned to sue for malpractice if he lost; withdrawal allowed only because Lacara was stuck between a malpractice suit and frivolous arguments.,The Lawyer–Client Relationship,Case
-Rusinow v. Kamara,"Even with good cause, a court may deny withdrawal when trial is close. Lawyer learned weeks before trial the client was lying (possible insurance fraud) → not enough to withdraw.",The Lawyer–Client Relationship,Case
-Class problem 2-10: court orders the lawyer to stay. Answer?,C. He must stay (Rule 1.16(c)).,The Lawyer–Client Relationship,Concept
-Class problem 2-11: material disagreement with the client. Answer?,D. Permissive withdrawal is allowed even with a material adverse effect on the client.,The Lawyer–Client Relationship,Concept
-Two independent checks on competence,(1) Discipline under the Rules: no harm required. (2) Malpractice liability: harm and causation required. Both measure against a reasonable lawyer.,Competence & Malpractice,Concept
-Rule 1.1: competence,"Competent representation requires the legal knowledge, skill, thoroughness, and preparation reasonably necessary for the representation.",Competence & Malpractice,Rule
-Rule 5.1(c): when is a lawyer responsible for another lawyer's violation?,"(1) Orders it, or ratifies it with knowledge of the conduct; or (2) is a partner/manager or direct supervisor who knows in time to avoid or mitigate the consequences but fails to take reasonable remedial action.",Competence & Malpractice,Rule
-Rule 5.3(c),"Same two tests as 5.1(c), applied to a nonlawyer's conduct that would violate the Rules if done by a lawyer.",Competence & Malpractice,Rule
-Malpractice: what's the agency relationship?,"Client = principal, lawyer = agent. Firms are vicariously liable for their lawyers' malpractice (§ 58(1)), but not for discipline.",Competence & Malpractice,Concept
-Rest. § 48: elements of professional negligence,Duty of care + failure to exercise care (breach) + legal causation + injury.,Competence & Malpractice,Rule
-Rest. § 52: standard of care,Competence and diligence normally exercised by lawyers in similar circumstances. Violating an ethics rule does not by itself create a cause of action. Higher standard if the lawyer claims special expertise.,Competence & Malpractice,Rule
-Rest. § 58(1): law firm liability,A firm is civilly liable for wrongful acts of any principal or employee acting in the ordinary course of business or with actual or apparent authority. Vicarious liability (except NY and NJ).,Competence & Malpractice,Rule
-Bailey v. Algonquin Gas Transmission Co.,"The client is bound by the lawyer's neglect as principal, but may recover through malpractice. Lawyer threw away court mail; client lost by default through no fault of her own.",Competence & Malpractice,Case
-"Togstad v. Vesely, Otto, Miller & Keefe",Advice to a prospective client can create a relationship and malpractice liability even if the lawyer declines. “I don't think you have a case” → she waited past the statute of limitations. Lesson: tell them to see another lawyer.,Competence & Malpractice,Case
-Rule 1.2(c): limited scope,A lawyer may limit the scope of representation if the limit is reasonable and the client gives informed consent.,Competence & Malpractice,Rule
-Rule 1.8(h): limiting malpractice liability,(1) Prospective limit only if the client is independently represented. (2) Settling a malpractice claim with an unrepresented client only after written advice to seek independent counsel. Arbitration clauses are allowed.,Competence & Malpractice,Rule
-Lerner v. Laufer,"A lawyer may exclude services normally expected under a clear, signed agreement with informed consent. Divorce lawyer's letter said he would not advise on the settlement because he hadn't reviewed her finances → no breach.",Competence & Malpractice,Case
-Strickland v. Washington,"Ineffective assistance (6th Am., criminal only): (1) performance below a reasonably competent lawyer AND (2) prejudice, a reasonable probability the result would differ. Prong 2 is the hard one.",Competence & Malpractice,Case
-Criminal malpractice vs. ineffective assistance,Malpractice has a higher burden: lawyer failed to act properly AND but for that failure the result would have differed (vs. Strickland's “reasonable probability”).,Competence & Malpractice,Concept
-Rule 1.2(a): what's always the client's call?,"Objectives, whether to settle, and in criminal cases: the plea, waiving a jury, and whether to testify. Lawyer decides the means, after consultation.",Allocating Authority,Rule
-Rule 1.2 cmts. [2] and [3],"[2] On a fundamental disagreement, the lawyer may withdraw or the client may fire the lawyer. [3] Client may give advance authorization; absent a material change, the lawyer may rely on it.",Allocating Authority,Concept
-Client says “don't bring me offers below X.” Must the lawyer relay lower offers?,"Not required, but should.",Allocating Authority,Concept
-Rest. § 21 cmt. d and § 23 cmt. c,§ 21 cmt. d: lawyer need not follow an instruction reasonably believed unlawful or unethical. § 23 cmt. c: lawyer may decide for the client when there's no time to consult.,Allocating Authority,Rule
-Jones v. Barnes,"Appointed appellate counsel need not raise every nonfrivolous issue the client wants; issue selection is professional judgment. Dissent (Brennan, Marshall): 6A makes counsel an assistant, so client should control.",Allocating Authority,Case
-Boyd v. Brett-Major,"Following a client's explicit, informed instructions is not malpractice (unless they require crime or fraud). Clients chose not to raise an absolute foreclosure defense to protect a bonding relationship.",Allocating Authority,Case
-The Florida Bar v. Stopa,Accepting a settlement without the client's consent violates Rule 1.2(a). Disbarred.,Allocating Authority,Case
-McCoy v. Louisiana,"Counsel may not concede guilt over the defendant's express objection. Distinguish Florida v. Nixon: counsel may concede when D, after consultation, stays silent.",Allocating Authority,Case
-Rule 1.2(d): client crime or fraud,"May not counsel or assist conduct the lawyer knows is criminal or fraudulent, but MAY discuss the legal consequences of any proposed conduct and help the client determine what the law means.",Allocating Authority,Rule
-"Rule 8.4(b), (c): misconduct","(b) Committing a criminal act (including aiding a client's crime). (c) Conduct involving dishonesty, fraud, deceit, or misrepresentation.",Allocating Authority,Rule
-Rule 2.1: advisor,"Exercise independent professional judgment and give candid advice; may refer to moral, economic, social, and political factors, not just law.",Allocating Authority,Rule
-People v. Chappell,"Knowingly counseling and assisting a client's crime → disbarment. Told client about a safehouse network to evade custody loss, helped liquidate assets, invoked privilege about her location. Violated 1.2(d), 8.4(b), 8.4(c).",Allocating Authority,Case
-"Rule 1.14(a), (b): diminished capacity","(a) Maintain a normal relationship as far as reasonably possible. (b) If client has diminished capacity, faces risk of substantial harm, and can't act in own interest, lawyer MAY take protective action (e.g., seek a guardian). Permitted, not required.",Allocating Authority,Rule
-Gilmore v. Utah,A competent defendant may waive appeal of a death sentence if the waiver is knowing and intelligent. Mother's “next friend” petition failed because he was competent and had counsel.,Allocating Authority,Case
-Class problem 2-21. Answer?,B. Objectives vs. means.,Allocating Authority,Concept
-Rule 7.3(a): what is “solicitation”?,"A communication initiated by a lawyer, directed to a specific person the lawyer knows or should know needs legal services in a particular matter, offering to provide those services. Targeted + known need + offer.",Solicitation & Advertising,Rule
-What counts as “live person-to-person contact”?,"In person, live phone, or real-time video/audio, with no time for reflection. Does NOT include chat rooms or texts.",Solicitation & Advertising,Concept
-Rule 7.3(b): live solicitation ban and its exceptions,"No live solicitation when a significant motive is pecuniary gain, unless the target is (1) a lawyer; (2) family, close personal, or prior business/professional relationship; or (3) a routine business user of that type of service.",Solicitation & Advertising,Rule
-Rule 7.3(c)–(e),"(c) Even then, no solicitation if the target said no, or it involves coercion, duress, or harassment. (d) Communications authorized by law or court order are fine. (e) Prepaid/group legal plans may use live contact with people not known to need services.",Solicitation & Advertising,Rule
-Ohralik v. Ohio State Bar Ass'n,"Banning in-person solicitation for pecuniary gain doesn't violate the 1st Am. Lawyer signed an accident victim in the hospital to a 1/3 contingency, secretly recorded her parents.",Solicitation & Advertising,Case
-In re Primus,State may not punish solicitation by a nonprofit lawyer pursuing political/ideological goals (exacting scrutiny). ACLU lawyer offered free representation to women sterilized as a Medicaid condition.,Solicitation & Advertising,Case
-Florida Bar v. Barrett,"Paying a third party to solicit warrants severe discipline. Lawyer paid a minister to enter hospital areas, pray with families, and hand out his card.",Solicitation & Advertising,Case
-"Advertising: which case allowed it, and what are the main limits?",Bates allowed lawyer advertising. No fee comparisons implying your fees are lower; truthful statements can mislead if a reasonable person would expect the same result (disclaimer can cure); no specialist claims unless true AND the certifier is named.,Solicitation & Advertising,Concept
-Rule 7.1: false or misleading communications,"Misleading if it contains a material misrepresentation of fact or law, OR omits a fact necessary to make the statement as a whole not materially misleading.",Solicitation & Advertising,Rule
-Rule 7.2(b): five exceptions to the ban on paying for recommendations,"(1) Reasonable costs of permitted ads; (2) charges of a legal service plan or qualified referral service; (3) purchase of a practice (1.17); (4) disclosed, non-exclusive reciprocal referral agreements; (5) nominal gifts of appreciation.",Solicitation & Advertising,Rule
-"Rule 7.2(c), (d)",(c) No claiming specialist certification unless certified by an approved/ABA-accredited body AND it is clearly named. (d) Every communication names at least one responsible lawyer or firm with contact info.,Solicitation & Advertising,Rule
-Firm name rules (DE Rule 7.5),Trade names OK if no implied government/public/charitable connection; no name of a lawyer in public office not actively practicing; multi-state firms note jurisdictional limits; imply a partnership only if one exists.,Solicitation & Advertising,Concept
-Matter of Zang,False or misleading lawyer advertising isn't protected commercial speech; no actual harm needed. Ads portrayed inexperienced lawyers as experienced trial lawyers.,Solicitation & Advertising,Case
-Four fee types,Hourly; contingent (most common for plaintiffs); flat (routine services); equity interest.,Fees & Client Property,Concept
-Rule 1.5(a): eight reasonableness factors,"(1) Time, labor, novelty, difficulty, skill; (2) precludes other work; (3) customary local fee; (4) amount involved and results; (5) time limits; (6) nature and length of relationship; (7) lawyer's experience, reputation, ability; (8) fixed or contingent.",Fees & Client Property,Rule
-Rule 1.5(b): communicating the fee,"Scope and basis/rate of fee and expenses communicated, preferably in writing, before or soon after starting (not needed for a regular client on the same basis). Changes communicated too.",Fees & Client Property,Rule
-ABA Formal Op. 93-379: billing,No charging for overhead; in-house services at reasonable cost; third-party disbursements at actual cost; no double billing. Disclose the fee basis at the outset.,Fees & Client Property,Rule
-4 hours of work that benefits 3 clients = how many billable hours?,"4, not 12. You can't bill two clients for the same time.",Fees & Client Property,Concept
-Matter of Ledingham,"A fee grossly out of proportion to the work is unreasonable. $120,000 on a routine ~30-hour matter, including time learning VT law.",Fees & Client Property,Case
-In re Berg,Billing multiple clients for the same time is improper. Billed each of 41 malpractice cases for the entire time he was at court.,Fees & Client Property,Case
-Cincinnati Bar Ass'n v. Alsfelder,"Billing for non-legal conversations is improper even if the client was told. $30,000 for weekly life-advice calls while handling a trust → 1-year suspension.",Fees & Client Property,Case
-Attorney Grievance Comm'n of Maryland v. Kreamer,Fees must be connected to actual legal work. Billed divorce clients for time filling out her time sheets → disbarred.,Fees & Client Property,Case
-Rule 1.5(c): contingent fee requirements,"Writing signed by the client stating the method: percentages for settlement, trial, appeal; expenses deducted; whether expenses come out before or after the fee. Written closing statement at the end.",Fees & Client Property,Rule
-Rule 1.5(d): prohibited contingent fees,"(1) Domestic relations matters contingent on divorce or amount of alimony, support, or property settlement; (2) criminal defense.",Fees & Client Property,Rule
-Three justifications for contingent fees (Rest. § 35 cmt. b),(1) Access for people who can't otherwise afford a lawyer; (2) incentive to win and screen weak claims; (3) client shares risk with a lawyer better able to bear it.,Fees & Client Property,Concept
-Can a lawyer raise a contingent fee mid-litigation? What if the client voids the contract?,"Late or modified contracts get special scrutiny (Rest. § 18 cmt. e), so no raising fees mid-litigation. Client may avoid the contract anytime; lawyer then gets fair value (§ 39).",Fees & Client Property,Concept
-Rule 1.5(e): dividing fees between firms,"(1) In proportion to services OR each lawyer assumes joint responsibility; (2) client agrees, including each share, confirmed in writing; (3) total fee is reasonable.",Fees & Client Property,Rule
-Rule 1.8(a): business transactions with a client,"(1) Fair, reasonable terms fully disclosed in writing; (2) client advised in writing to seek independent counsel, with time to do so; (3) client's informed consent in a signed writing to the terms and lawyer's role.",Fees & Client Property,Rule
-Rule 1.8(d) and (f),"(d) No media/literary rights deal before the representation ends. (f) Payment from a third party only with client's informed consent, no interference with independent judgment, and confidentiality protected.",Fees & Client Property,Rule
-Rule 1.8(e): financial assistance to a client,"Not allowed, except (1) advancing court costs repayable on outcome; (2) paying costs for an indigent client; (3) modest pro bono gifts for living expenses (not promised in advance, reimbursed, or advertised).",Fees & Client Property,Rule
-Rule 1.8(i): proprietary interest in litigation,"No ownership stake in the cause of action or subject matter, except (1) a lien authorized by law for fees/expenses and (2) a reasonable contingent fee in a civil case. Class examples: interest in a patent or wrestling ring at issue.",Fees & Client Property,Rule
-May a lawyer take property as a fee?,"Yes (Rule 1.5 cmt. [4]), but it may trigger Rule 1.8(a) as a business transaction.",Fees & Client Property,Concept
-Rule 1.15: safekeeping property,"Separate trust account; records 5 years; own funds only for bank charges; advance fees stay in trust until earned; promptly notify, deliver, account; disputed funds stay separate, undisputed portion distributed promptly.",Fees & Client Property,Rule
-Court-awarded fees: lodestar and who owns them,"Courts use the lodestar, with a strong presumption it is sufficient. Fees belong to the client, not the lawyer. A lawyer may agree to waive statutory fees.",Fees & Client Property,Concept
-Perdue v. Kenny A.,Lodestar enhancement only in extraordinary circumstances; a good result isn't enough. Party must identify a factor the lodestar doesn't already account for.,Fees & Client Property,Case
-Attorney–client privilege vs. work product vs. confidentiality: what kind of rule is each?,"Privilege: rule of evidence (testimony, depositions, document demands). Work product: rule of discovery. Confidentiality: ethical rule.",Privilege & Confidentiality,Concept
-"Work product: what does it protect, and is it absolute?","Materials prepared in anticipation of litigation, including notes and memos reflecting the lawyer's theories and mental impressions. Qualified: a judge may order disclosure on substantial need and undue hardship.",Privilege & Confidentiality,Concept
-How is confidentiality broader than privilege? How is it narrower?,"Broader: covers ALL information relating to the representation, from any source, everywhere. Narrower: some 1.6(b) exceptions are not privilege exceptions.",Privilege & Confidentiality,Concept
-Does privilege protect underlying facts?,"No. It protects communications, not facts.",Privilege & Confidentiality,Concept
-Rule 1.6(a): general confidentiality rule,"No revealing information relating to the representation unless (1) client gives informed consent, (2) disclosure is impliedly authorized, or (3) a 1.6(b) exception applies.",Privilege & Confidentiality,Rule
-Rule 1.6(b): seven permissive exceptions,"(1) Prevent reasonably certain death or substantial bodily harm; (2) prevent client crime/fraud causing substantial financial injury using lawyer's services; (3) prevent, mitigate, rectify that injury; (4) get advice on lawyer's own compliance; (5) lawyer–client claim or defense; (6) comply with law/court order; (7) detect conflicts from firm changes.",Privilege & Confidentiality,Rule
-Rule 1.6(c): safeguarding,"Make reasonable efforts to prevent inadvertent or unauthorized disclosure of, or access to, client information.",Privilege & Confidentiality,Rule
-Three elements of attorney–client privilege,"A communication (1) between client and counsel, (2) intended to be and actually kept confidential, (3) made to obtain or provide legal advice.",Privilege & Confidentiality,Concept
-Can a client get privilege by hiring a lawyer for any task?,No. Not for work a nonlawyer could do just as well. Ask: is the work primarily legal?,Privilege & Confidentiality,Concept
-Does privilege extend to nonlawyers? (Kovel),"Yes, to nonlawyers helping the lawyer give legal advice: Kovel (former IRS agent at a firm), assistants, accountants, summer associates.",Privilege & Confidentiality,Concept
-IPO information: privileged?,Information meant to go public is not privileged. Discussion of whether to make it public is.,Privilege & Confidentiality,Concept
-Rest. § 72: purpose of legal assistance,"Communication made to (1) a lawyer or someone the client reasonably believes is a lawyer, (2) whom the client consults to obtain legal assistance.",Privilege & Confidentiality,Rule
-Rest. §§ 69–71,"§ 69: communication = any expression between privileged persons (and records of it). § 70: privileged persons = client (incl. prospective), lawyer, and their facilitating agents. § 71: in confidence if the speaker reasonably believes only privileged persons will learn it.",Privilege & Confidentiality,Rule
-FRE 501: privilege in federal court,"Federal common law governs, except in civil cases where state law supplies the rule of decision; then state privilege law applies.",Privilege & Confidentiality,Rule
-In re County of Erie,"Privilege covers communications whose predominant purpose is legal advice, even if they touch on policy. County lawyer's emails on strip-search policy → privileged (Fourth Amendment compliance). Special force for government officials.",Privilege & Confidentiality,Case
-Upjohn Co. v. United States,"A corporation can claim privilege over lawyer communications with employees at any level made to secure legal advice. Factors: for legal advice to the company; within employee's duties; employee knew it was confidential; kept confidential. Protects communications, not facts.",Privilege & Confidentiality,Case
-People v. Meredith,"When the defense moves or alters physical evidence, privilege doesn't protect its original location. Investigator retrieved a buried wallet; lawyer turned it over but wouldn't say where it was found → must disclose location.",Privilege & Confidentiality,Case
-Physical evidence: what does privilege cover?,"Communications and observations resulting from them, BUT not where the defense alters or moves the evidence.",Privilege & Confidentiality,Concept
+"Discipline sanctions, lightest to heaviest: probation → ___ → public reprimand → suspension → disbarment",Private reprimand,Regulating the Practice of Law,Rule
+"Discipline sanctions, lightest to heaviest: probation → private reprimand → public reprimand → ___ → disbarment",Suspension,Regulating the Practice of Law,Rule
+"In a private reprimand, what gets published?","The misconduct, but not the lawyer's name",Regulating the Practice of Law,Rule
+How long must a disbarred lawyer wait before applying for reinstatement?,5 years,Regulating the Practice of Law,Rule
+Reinstatement after disbarment: what burden of proof?,Clear and convincing evidence,Regulating the Practice of Law,Rule
+Reinstatement after disbarment: what two things must the lawyer prove?,(1) Rehabilitation and (2) compliance with all conditions,Regulating the Practice of Law,Rule
+Which requires harm to a client: discipline or malpractice?,Malpractice only — Discipline needs no harm.,Regulating the Practice of Law,Rule
+Who may always practice law without a license?,Anyone representing themselves,Regulating the Practice of Law,Rule
+Stated purpose of UPL rules (Rule 5.5 cmt. [2])?,Protect the public from unqualified providers — Class point: not to protect lawyers' business.,Regulating the Practice of Law,Rule
+General rule on nonlawyers selling legal software?,Generally permitted — Some states have tried to ban it; how far it can go is open.,Regulating the Practice of Law,Rule
+Florida Bar v. Brumbaugh: what may a nonlawyer form-and-typing service NOT do?,Give individualized legal advice,Regulating the Practice of Law,Case
+"Which case: nonlawyer typed customers' divorce papers, never claimed to be a lawyer, and nobody was harmed?",Florida Bar v. Brumbaugh,Regulating the Practice of Law,Case
+A nonlawyer sells blank divorce forms and types in information customers supply. UPL?,"No — Brumbaugh allows forms, procedure booklets, and typing.",Regulating the Practice of Law,Hypo
+A nonlawyer reviews a customer's finances and recommends seeking sole custody. UPL?,Yes — Applying law to one person's situation is individualized legal advice (Brumbaugh).,Regulating the Practice of Law,Hypo
+Rule 5.4(a) prohibits sharing what with a nonlawyer?,Legal fees,Regulating the Practice of Law,Rule
+Rule 5.4(b): when may a lawyer NOT form a partnership with a nonlawyer?,When any of its activities consist of the practice of law,Regulating the Practice of Law,Rule
+Rule 5.4(d): a lawyer may not practice in a for-profit firm in which a nonlawyer ___.,Owns an interest,Regulating the Practice of Law,Rule
+Lawyer and accountant form a 50/50 LLC doing estate and tax planning. Clients consent in writing. Can Lawyer be disciplined?,"Yes, under Rule 5.4 — Client consent does not cure fee-sharing or a nonlawyer-owned firm.",Regulating the Practice of Law,Hypo
+Which three jurisdictions let lawyers split fees with nonlawyers?,"DC, Utah, and Arizona",Regulating the Practice of Law,Rule
+Rule 5.3: what must a lawyer do about nonlawyer assistants' conduct?,Make reasonable efforts to ensure it is compatible with the Rules,Regulating the Practice of Law,Rule
+Rule 5.7: do the Rules apply when a lawyer provides law-related (nonlegal) services?,Yes,Regulating the Practice of Law,Rule
+How does a lawyer not admitted in a state appear in litigation there?,Motion to appear pro hac vice (temporary admission),Regulating the Practice of Law,Rule
+Birbrower: is physical presence in the state required for UPL?,"No. Sufficient contact with the state is enough — Presence is a factor, not a requirement.",Regulating the Practice of Law,Case
+Birbrower: is preparing a client for arbitration the practice of law?,Yes — The legislature later exempted arbitration.,Regulating the Practice of Law,Case
+Birbrower: consequence of the NY firm's UPL in California?,Its fee agreement was unenforceable for the California work,Regulating the Practice of Law,Case
+"Which case: NY lawyers advised client ESQ in California under a CA-law contract, then sued for fees?","Birbrower, Montalbano, Condon & Frank v. Superior Court",Regulating the Practice of Law,Case
+Character & fitness: who bears the burden of proof?,The applicant,Regulating the Practice of Law,Rule
+Character & fitness: who has the final word on admission?,The state's supreme court,Regulating the Practice of Law,Rule
+In re Chapman: is disclosing past bad acts enough to gain admission?,No. Disclosure is necessary but not sufficient,Regulating the Practice of Law,Case
+Which case: applicant disclosed a suit over his father's upholstery business and was still denied?,In re Application of Chapman,Regulating the Practice of Law,Case
+"In re Hamm: beyond the crime itself, what sank the application?",Lack of candor and responsibility — Not forthright about the killing; excuses for unpaid child support; plagiarized brief.,Regulating the Practice of Law,Case
+"Which case: applicant killed someone in a marijuana deal, served his sentence, and was denied admission?",In re Hamm,Regulating the Practice of Law,Case
+Rest. § 14: client manifests intent to get legal services + lawyer ___ → relationship.,Manifests consent,Forming & Ending Representation,Rule
+Rest. § 14: client manifests intent + lawyer stays silent → relationship when?,When the lawyer knows or should know the client reasonably relies on the lawyer,Forming & Ending Representation,Rule
+"Rest. § 14: besides client intent, what else creates a lawyer-client relationship?",Appointment by a tribunal,Forming & Ending Representation,Rule
+Is a written agreement or a fee required to form a lawyer-client relationship?,No — In re Robbins.,Forming & Ending Representation,Rule
+Morris v. Margulis: whose belief decides whether a relationship exists?,The client's subjective belief that he is consulting the lawyer for legal advice,Forming & Ending Representation,Case
+"Which case: lawyer recruited his friend as an indemnitor, who thought the lawyer was his lawyer and never got a bill?",In re Robbins,Forming & Ending Representation,Case
+Rule 1.13(a): lawyer retained by a corporation. Who is the client?,"The corporation itself, not its officers or employees",Forming & Ending Representation,Rule
+"Rule 6.2 good cause to decline an appointment: (a) likely rule or law violation, (b) ___, (c) repugnance",Unreasonable financial burden on the lawyer,Forming & Ending Representation,Rule
+"Rule 6.2 good cause to decline an appointment: (a) ___, (b) unreasonable financial burden, (c) repugnance",Representation likely to violate the Rules or other law,Forming & Ending Representation,Rule
+Rule 6.2(c): when does repugnance justify declining an appointment?,When it is likely to impair the relationship or the lawyer's ability to represent,Forming & Ending Representation,Rule
+Appointed lawyer objects to the case. Practical next step?,Raise the objection with the court and let it decide,Forming & Ending Representation,Rule
+Tennessee Board of Prof. Resp.: is a moral or religious objection alone good cause to decline an appointment?,No,Forming & Ending Representation,Case
+Appointed lawyer believes her criminal client is guilty. Good cause to decline?,No — Tennessee Board: belief in guilt is not a compelling reason.,Forming & Ending Representation,Hypo
+Nathanson v. MCAD: may a lawyer turn away a client solely because of gender?,No. A law office is a place of public accommodation,Forming & Ending Representation,Case
+"Rule 1.16(a) mandatory withdrawal: (1) rule or law violation, (2) ___, (3) client crime or fraud",Lawyer's physical or mental condition materially impairs the representation,Forming & Ending Representation,Rule
+"Rule 1.16(a) mandatory withdrawal: (1) rule or law violation, (2) lawyer impairment, (3) ___",Client persists in using the lawyer's services for crime or fraud,Forming & Ending Representation,Rule
+Rule 1.16(b): may a lawyer permissively withdraw even if it materially harms the client?,Yes,Forming & Ending Representation,Rule
+"Is a client's nonpayment alone an ""unreasonable financial burden""?",No,Forming & Ending Representation,Rule
+"Rule 1.16(c): court orders the lawyer to keep going, though the lawyer has good cause. Result?",Lawyer must continue — Overrides even a mandatory reason to withdraw.,Forming & Ending Representation,Rule
+Rule 1.16(d): lawyer's duty when the representation ends?,Take reasonably practicable steps to protect the client's interests,Forming & Ending Representation,Rule
+"As trial gets closer, the standard to withdraw gets ___.",Higher,Forming & Ending Representation,Rule
+Rule 3.1: what's needed to bring or defend a claim?,A non-frivolous basis in law and fact — A good-faith argument to change the law qualifies.,Forming & Ending Representation,Rule
+Whiting v. Lacara: withdrawal on the eve of trial requires what?,Court's consent and good cause,Forming & Ending Representation,Case
+Whiting v. Lacara: why was withdrawal allowed?,Lawyer was stuck between a threatened malpractice suit and making frivolous arguments,Forming & Ending Representation,Case
+Rusinow v. Kamara: can a court deny withdrawal even when the lawyer has good cause?,"Yes, when trial is close",Forming & Ending Representation,Case
+"Which case: weeks before trial, lawyer learned the client was lying (possible insurance fraud), and withdrawal was denied?",Rusinow v. Kamara,Forming & Ending Representation,Case
+Class problem 2-10: the court orders the lawyer to stay in the case. Answer?,C. He must stay (Rule 1.16(c)),Forming & Ending Representation,Hypo
+Class problem 2-11: lawyer and client have a material disagreement. Answer?,D. Permissive withdrawal is allowed even with a material adverse effect,Forming & Ending Representation,Hypo
+"Rule 1.1 competence: legal knowledge, skill, ___, and preparation",Thoroughness,Competence & Malpractice,Rule
+"Rule 1.1 competence: legal knowledge, ___, thoroughness, and preparation",Skill,Competence & Malpractice,Rule
+Rule 5.1(c)(1): a lawyer is responsible for another lawyer's violation if she ___ it or knowingly ___ it.,Orders it; ratifies it,Competence & Malpractice,Rule
+Rule 5.1(c)(2): when is a supervising lawyer responsible for another lawyer's violation?,She knew in time to prevent or mitigate it but took no reasonable remedial action,Competence & Malpractice,Rule
+Rule 5.3(c): what test makes a lawyer responsible for a nonlawyer's misconduct?,The same two tests as Rule 5.1(c),Competence & Malpractice,Rule
+Rest. § 48: four elements of professional negligence?,"Duty, breach, causation, injury",Competence & Malpractice,Rule
+Rest. § 52: standard of care for lawyers?,Competence and diligence normally exercised by lawyers in similar circumstances,Competence & Malpractice,Rule
+Rest. § 52: does violating an ethics rule by itself create a malpractice claim?,No,Competence & Malpractice,Rule
+When is a lawyer held to a higher standard of care?,When she claims specialized expertise,Competence & Malpractice,Rule
+Rest. § 58(1): is a firm vicariously liable for its lawyers' malpractice?,"Yes, except in NY and NJ",Competence & Malpractice,Rule
+Is a firm vicariously liable for its lawyers' discipline?,No. Only for malpractice,Competence & Malpractice,Rule
+Bailey v. Algonquin Gas: client loses because of the lawyer's neglect. Remedy?,Malpractice suit against the lawyer — Client is bound as principal; lawyer is agent.,Competence & Malpractice,Case
+"Which case: lawyer threw away all court mail, and the client lost by default?",Bailey v. Algonquin Gas Transmission Co.,Competence & Malpractice,Case
+Togstad: can advice to a prospective client create malpractice liability even if the lawyer declines the case?,Yes,Competence & Malpractice,Case
+Togstad: what should the lawyer have told her?,To see another lawyer (the statute of limitations was running),Competence & Malpractice,Case
+"Which case: ""I don't think you have a case,"" and the statute of limitations ran?","Togstad v. Vesely, Otto, Miller & Keefe",Competence & Malpractice,Case
+Rule 1.2(c): two requirements to limit the scope of representation?,Limit is reasonable + client gives informed consent,Competence & Malpractice,Rule
+Rule 1.8(h)(1): when may a lawyer prospectively limit malpractice liability?,Only if the client is independently represented in making the agreement,Competence & Malpractice,Rule
+Rule 1.8(h)(2): settling a malpractice claim with an unrepresented client requires what?,Advising the client in writing to seek independent counsel,Competence & Malpractice,Rule
+"Engagement letter caps the lawyer's malpractice liability at $10,000. Client signs without her own lawyer. Valid?","No (Rule 1.8(h)(1)) — A prospective limit needs independent counsel, not just advice to get one.",Competence & Malpractice,Hypo
+Are arbitration clauses for malpractice claims allowed?,Yes,Competence & Malpractice,Rule
+Lerner v. Laufer: may a lawyer exclude services normally expected?,"Yes, with a clear, signed limitation and informed consent",Competence & Malpractice,Case
+Which case: divorce lawyer's letter said he would not advise on the settlement because he hadn't reviewed her finances?,Lerner v. Laufer,Competence & Malpractice,Case
+Strickland prong 1?,Counsel's performance fell below that of a reasonably competent lawyer,Competence & Malpractice,Case
+Strickland prong 2?,Prejudice: a reasonable probability the result would have been different — The hard prong to meet.,Competence & Malpractice,Case
+Ineffective assistance of counsel applies in what kind of case?,Criminal only (Sixth Amendment),Competence & Malpractice,Rule
+"Criminal malpractice: what must the client show beyond Strickland's ""reasonable probability""?","But for the lawyer's failure, the result would have differed",Competence & Malpractice,Rule
+Rule 1.2(a): who decides the objectives of the representation?,The client,Allocating Authority,Rule
+Rule 1.2(a): who decides the means?,"The lawyer, after consulting the client",Allocating Authority,Rule
+"Rule 1.2(a): in a civil case, which decision always belongs to the client?",Whether to settle,Allocating Authority,Rule
+"Rule 1.2(a) criminal decisions for the client: the plea, ___, and whether to testify",Whether to waive a jury trial,Allocating Authority,Rule
+"Rule 1.2(a) criminal decisions for the client: the plea, waiving a jury, and ___",Whether the client will testify,Allocating Authority,Rule
+Florida Bar v. Stopa: lawyer accepts a settlement without the client's consent. Result?,Violates Rule 1.2(a); disbarred,Allocating Authority,Case
+Rule 1.2 cmt. [2]: fundamental disagreement over means. Options?,"Lawyer may withdraw, or client may fire the lawyer",Allocating Authority,Rule
+Rule 1.2 cmt. [3]: client gave advance authorization. May the lawyer rely on it?,"Yes, absent a material change in circumstances",Allocating Authority,Rule
+"Client says ""Don't bring me offers below $50,000."" A $40,000 offer comes in. Must the lawyer relay it?","Not required, but should",Allocating Authority,Hypo
+Rest. § 21 cmt. d: must a lawyer follow an instruction she reasonably believes is unethical?,No,Allocating Authority,Rule
+Rest. § 23 cmt. c: when may a lawyer decide for the client?,When there is no time to consult,Allocating Authority,Rule
+Jones v. Barnes: must appointed appellate counsel raise every nonfrivolous issue the client wants?,No. Issue selection is professional judgment,Allocating Authority,Case
+"Jones v. Barnes dissent (Brennan, Marshall): who should control issue selection, and why?","The client, because the Sixth Amendment makes counsel an assistant",Allocating Authority,Case
+"Boyd v. Brett-Major: is following a client's explicit, informed instruction malpractice?","No, unless the instruction requires crime or fraud",Allocating Authority,Case
+Which case: clients told of an absolute foreclosure defense chose not to raise it to protect a bonding relationship?,Boyd v. Brett-Major,Allocating Authority,Case
+McCoy v. Louisiana: may counsel concede guilt over the defendant's express objection?,No,Allocating Authority,Case
+Florida v. Nixon (vs. McCoy): when may counsel concede guilt?,"When the defendant, after consultation, stays silent",Allocating Authority,Case
+Rule 1.2(d): may a lawyer discuss the legal consequences of a client's proposed crime?,Yes. Only counseling or assisting known crime or fraud is barred,Allocating Authority,Rule
+Client asks whether a tax plan is legal. Lawyer thinks it's a gray area. May she help him figure out what the law allows?,"Yes (Rule 1.2(d)) — A good-faith effort to determine the law's validity, scope, or meaning is allowed.",Allocating Authority,Hypo
+Rule 8.4(b) misconduct?,"Committing a criminal act, including aiding a client's crime",Allocating Authority,Rule
+Rule 8.4(c) misconduct?,"Conduct involving dishonesty, fraud, deceit, or misrepresentation",Allocating Authority,Rule
+"Rule 2.1: besides law, what may a lawyer's advice refer to?","Moral, economic, social, and political factors",Allocating Authority,Rule
+Which case: lawyer told a custody client about a safehouse network and helped liquidate her assets?,People v. Chappell,Allocating Authority,Case
+"People v. Chappell: which three rules, and what sanction?","1.2(d), 8.4(b), 8.4(c); disbarred",Allocating Authority,Case
+Rule 1.14(a): client has diminished capacity. Lawyer's baseline duty?,Maintain a normal relationship as far as reasonably possible,Allocating Authority,Rule
+"Rule 1.14(b): is protective action (e.g., seeking a guardian) required or permitted?","Permitted, not required",Allocating Authority,Rule
+Rule 1.14(b): protective action requires diminished capacity + inability to act in own interest + ___,"Risk of substantial physical, financial, or other harm",Allocating Authority,Rule
+Gilmore v. Utah: may a competent defendant waive appeal of a death sentence?,"Yes, if the waiver is knowing and intelligent",Allocating Authority,Case
+"Gilmore v. Utah: why did his mother's ""next friend"" petition fail?",He was competent and had his own counsel,Allocating Authority,Case
+Class problem 2-21. Answer and principle?,B. Objectives vs. means,Allocating Authority,Hypo
+Rule 7.3(a) solicitation: targeted to a specific person + known need in a particular matter + ___,Offer to provide legal services for that matter,Solicitation & Advertising,Rule
+"Does ""live person-to-person contact"" include texts or chat rooms?","No — Live = in person, live phone, real-time video or audio.",Solicitation & Advertising,Rule
+Rule 7.3(b): live solicitation is banned when a significant motive is ___.,Pecuniary gain,Solicitation & Advertising,Rule
+"Rule 7.3(b) exceptions: (1) another lawyer, (2) ___, (3) routine business user","Family, close personal, or prior business or professional relationship",Solicitation & Advertising,Rule
+"Rule 7.3(b) exceptions: (1) ___, (2) family or prior relationship, (3) routine business user",Another lawyer,Solicitation & Advertising,Rule
+"Rule 7.3(b) exceptions: (1) another lawyer, (2) family or prior relationship, (3) ___",Someone who routinely uses that type of legal service for business,Solicitation & Advertising,Rule
+"Rule 7.3(c): even within an exception, when is solicitation barred?","Target said they don't want it, or it involves coercion, duress, or harassment",Solicitation & Advertising,Rule
+Lawyer calls a stranger she read was in a car crash and offers to take the case. Allowed?,No — Live phone + pecuniary motive + no exception.,Solicitation & Advertising,Hypo
+Lawyer texts a car-crash victim offering representation. Barred by Rule 7.3(b)?,No. Texts aren't live contact — Still subject to Rule 7.1 (no misleading statements).,Solicitation & Advertising,Hypo
+Lawyer phones a former client about a new matter he needs help with. Allowed?,Yes — Prior professional relationship exception.,Solicitation & Advertising,Hypo
+Lawyer visits a hospital to sign up an accident victim; she says she isn't interested. Lawyer comes back the next day. Allowed?,No — Rule 7.3(b) and (c).,Solicitation & Advertising,Hypo
+Rule 7.3(e): may a prepaid legal plan use live contact to enroll members?,"Yes, if targets aren't known to need help in a particular matter",Solicitation & Advertising,Rule
+Ohralik: does a ban on in-person solicitation for pecuniary gain violate the First Amendment?,No,Solicitation & Advertising,Case
+Which case: lawyer signed an accident victim in the hospital to a one-third contingency and secretly recorded her parents?,Ohralik v. Ohio State Bar Ass'n,Solicitation & Advertising,Case
+In re Primus: may a state punish a nonprofit lawyer's solicitation for political or ideological goals?,No. The rule must survive exacting scrutiny,Solicitation & Advertising,Case
+Which case: ACLU lawyer offered free representation to women sterilized as a Medicaid condition?,In re Primus,Solicitation & Advertising,Case
+Ohralik vs. Primus: the key fact that changes the outcome?,Pecuniary gain (Ohralik) vs. nonprofit ideological expression (Primus),Solicitation & Advertising,Case
+Which case: lawyer paid a minister to pray with hospital patients' families and hand out his card?,Florida Bar v. Barrett,Solicitation & Advertising,Case
+Usual sanction for paying a third party to solicit clients?,"Severe discipline, usually disbarment",Solicitation & Advertising,Rule
+Which Supreme Court case first allowed lawyer advertising?,Bates,Solicitation & Advertising,Rule
+Rule 7.1: two ways a communication is misleading?,"A material misstatement of fact or law, or a misleading omission",Solicitation & Advertising,Rule
+A truthful ad about past results is misleading when?,When a reasonable person would expect the same result — A disclaimer can cure it.,Solicitation & Advertising,Rule
+Rule 7.2(c): two requirements to claim you're a certified specialist?,Certified by an approved or ABA-accredited body + that body is clearly named,Solicitation & Advertising,Rule
+Rule 7.2(d): what must every lawyer advertisement include?,Name and contact info of at least one responsible lawyer or firm,Solicitation & Advertising,Rule
+Lawyer pays a TV station for an ad. Paying for a recommendation?,No. Reasonable costs of permitted ads are allowed (Rule 7.2(b)(1)),Solicitation & Advertising,Hypo
+Lawyer pays a friend $200 for each client she refers. Allowed?,No (Rule 7.2(b)),Solicitation & Advertising,Hypo
+"Lawyer sends a referring lawyer a $25 gift card as thanks, not promised in advance. Allowed?",Yes. Nominal gift of appreciation (Rule 7.2(b)(5)),Solicitation & Advertising,Hypo
+Two lawyers agree to refer to each other; clients are told; the deal is non-exclusive. Allowed?,Yes. Reciprocal referral agreement (Rule 7.2(b)(4)),Solicitation & Advertising,Hypo
+May a firm use a trade name?,"Yes, unless it implies a government, public, or charitable legal services connection",Solicitation & Advertising,Rule
+May a firm keep the name of a partner now holding public office?,Not while that lawyer isn't actively practicing with the firm,Solicitation & Advertising,Rule
+Matter of Zang: is misleading lawyer advertising protected commercial speech?,"No, and no actual harm is needed",Solicitation & Advertising,Case
+Which case: ads portrayed inexperienced lawyers as seasoned trial lawyers?,Matter of Zang,Solicitation & Advertising,Case
+Rule 1.5(a): what kind of fee or expense is prohibited?,An unreasonable one,Fees & Client Property,Rule
+Rule 1.5(b): what must be communicated to the client about fees?,Scope of the representation and the basis or rate of the fee and expenses,Fees & Client Property,Rule
+Rule 1.5(b): must the fee basis be in writing?,"Preferably, but not required (contingent fees are the exception)",Fees & Client Property,Rule
+ABA Op. 93-379: may a lawyer bill clients for overhead?,No,Fees & Client Property,Rule
+ABA Op. 93-379: how much may a lawyer charge for third-party disbursements?,"Actual cost, unless she incurs added costs",Fees & Client Property,Rule
+Lawyer spends 4 hours on work that benefits 3 clients equally. How many hours may she bill in total?,4 — Not 12: no double billing.,Fees & Client Property,Hypo
+Matter of Ledingham: when is a fee unreasonable?,When it is grossly out of proportion to the work required,Fees & Client Property,Case
+"Which case: $120,000 fee on a routine ~30-hour matter, including time spent learning Vermont law?",Matter of Ledingham,Fees & Client Property,Case
+Which case: lawyer billed each of 41 malpractice cases for the entire time he was at court?,In re Berg (double billing),Fees & Client Property,Case
+Cincinnati Bar v. Alsfelder: may a lawyer bill for non-legal life advice if the client was told?,No,Fees & Client Property,Case
+"Which case: $30,000 billed for weekly calls about a client's driveway complaints?",Cincinnati Bar Ass'n v. Alsfelder,Fees & Client Property,Case
+Which case: lawyer billed divorce clients for time filling out her time sheets and was disbarred?,Attorney Grievance Comm'n v. Kreamer,Fees & Client Property,Case
+Rule 1.5(c): who must sign a contingent fee agreement?,The client,Fees & Client Property,Rule
+Rule 1.5(c): the agreement must say whether expenses are deducted ___ or ___ the fee is calculated.,Before or after,Fees & Client Property,Rule
+Rule 1.5(c): what must the lawyer give the client at the end of a contingent fee matter?,A written statement of the outcome and the remittance,Fees & Client Property,Rule
+Rule 1.5(d): two matters where contingent fees are banned?,"Divorce, alimony, support, or property settlement; criminal defense",Fees & Client Property,Rule
+Lawyer agrees to represent a criminal defendant for 20% of anything saved on fines. Allowed?,No (Rule 1.5(d)(2)),Fees & Client Property,Hypo
+Lawyer's fee in a divorce is 10% of the alimony award. Allowed?,No (Rule 1.5(d)(1)),Fees & Client Property,Hypo
+"Contingent fee justification: (1) ___, (2) incentive to win and screen weak claims, (3) risk-sharing",Access for clients who can't otherwise afford a lawyer,Fees & Client Property,Rule
+"Contingent fee justification: (1) access, (2) ___, (3) risk-sharing",Incentive to win and screen out weak claims,Fees & Client Property,Rule
+"Contingent fee justification: (1) access, (2) incentive and screening, (3) ___",Client shares risk with a lawyer better able to bear it,Fees & Client Property,Rule
+Can a contingent fee still be unreasonable?,"Yes, if little or no work is involved",Fees & Client Property,Rule
+"Mid-litigation, lawyer asks the client to raise her contingency from 33% to 40%. How will a court view it?",With special scrutiny; generally not allowed (Rest. § 18 cmt. e),Fees & Client Property,Hypo
+Client voids the fee contract. What does the lawyer get?,Fair value of the services (Rest. § 39),Fees & Client Property,Rule
+"Rule 1.5(e) fee split between firms: (1) ___, (2) client agrees in writing to each share, (3) total is reasonable","Split is proportional to work, or each lawyer assumes joint responsibility",Fees & Client Property,Rule
+"Rule 1.5(e) fee split between firms: (1) proportional or joint responsibility, (2) ___, (3) total is reasonable","Client agrees, including each lawyer's share, confirmed in writing",Fees & Client Property,Rule
+"Rule 1.8(a) business deal with client: (1) fair terms disclosed in writing, (2) ___, (3) signed informed consent","Written advice to seek independent counsel, with time to do so",Fees & Client Property,Rule
+"Rule 1.8(a) business deal with client: (1) ___, (2) advice to get independent counsel, (3) signed informed consent","Fair and reasonable terms, fully disclosed in writing",Fees & Client Property,Rule
+May a lawyer accept property as a fee?,"Yes, but it may be a business transaction under Rule 1.8(a)",Fees & Client Property,Rule
+Rule 1.8(d): when may a lawyer get media rights to the client's story?,Only after the representation ends,Fees & Client Property,Rule
+Rule 1.8(f): third party pays the fee. Three conditions?,"Client's informed consent, no interference with the lawyer's judgment, confidentiality protected",Fees & Client Property,Rule
+Rule 1.8(e): may a lawyer advance court costs repayable only if the client wins?,Yes,Fees & Client Property,Rule
+"During a suit, lawyer covers a poor client's rent as a modest gift, not promised or advertised. Allowed?",Yes. Modest pro bono gift for living expenses (Rule 1.8(e)(3)),Fees & Client Property,Hypo
+"Lawyer advertises ""We'll pay your bills while your case is pending."" Allowed?",No (Rule 1.8(e)) — Living-expense gifts can't be promised in advance or advertised.,Fees & Client Property,Hypo
+Rule 1.8(i): two exceptions to the ban on owning part of the lawsuit?,A lien authorized by law; a reasonable contingent fee in a civil case,Fees & Client Property,Rule
+"In a patent case, lawyer takes a 10% ownership interest in the patent as her fee. Allowed?",No. Proprietary interest in the subject of litigation (Rule 1.8(i)),Fees & Client Property,Hypo
+Rule 1.15: how long must trust account records be kept?,5 years,Fees & Client Property,Rule
+Rule 1.15(b): when may a lawyer put her own money in the trust account?,Only to pay bank service charges,Fees & Client Property,Rule
+"Rule 1.15(c): advance fees go where, and until when?","Into the trust account, until earned",Fees & Client Property,Rule
+Rule 1.15(e): what happens to the disputed part of client funds?,It stays separate until the dispute is resolved — Undisputed portions are distributed promptly.,Fees & Client Property,Rule
+Court-awarded fees: what method do courts use?,"The lodestar, presumed sufficient",Fees & Client Property,Rule
+Statutory fee awards belong to whom?,The client,Fees & Client Property,Rule
+Perdue v. Kenny A.: is a great result enough to enhance the lodestar?,No. Only extraordinary circumstances the lodestar doesn't already reflect,Fees & Client Property,Case
+Attorney-client privilege is what kind of rule?,A rule of evidence,Privilege & Confidentiality,Rule
+Work product protection is what kind of rule?,A rule of discovery,Privilege & Confidentiality,Rule
+The duty of confidentiality is what kind of rule?,An ethical rule,Privilege & Confidentiality,Rule
+Does privilege protect the underlying facts?,No. Only the communications,Privilege & Confidentiality,Rule
+Work product protects materials prepared in anticipation of ___.,Litigation,Privilege & Confidentiality,Rule
+Work product: when can a judge order disclosure?,Substantial need + undue hardship,Privilege & Confidentiality,Rule
+Confidentiality vs. privilege: which covers information from third parties?,"Confidentiality (all information relating to the representation, any source)",Privilege & Confidentiality,Rule
+Rule 1.6(a): three ways a lawyer may reveal client information?,"Informed consent, implied authorization, or a 1.6(b) exception",Privilege & Confidentiality,Rule
+Are the Rule 1.6(b) exceptions mandatory or permissive?,"Permissive (""may reveal"")",Privilege & Confidentiality,Rule
+Client tells his lawyer he plans to kill a witness tomorrow. May the lawyer reveal it?,Yes (Rule 1.6(b)(1)) — Reasonably certain death or substantial bodily harm.,Privilege & Confidentiality,Hypo
+Client is using the lawyer's drafting to run an investor fraud. May the lawyer reveal it to stop it?,Yes (Rule 1.6(b)(2)) — Requires substantial financial injury and use of the lawyer's services.,Privilege & Confidentiality,Hypo
+The client's fraud (done using the lawyer's services) is already finished. May the lawyer reveal to mitigate the loss?,Yes (Rule 1.6(b)(3)),Privilege & Confidentiality,Hypo
+Client sues the lawyer for malpractice. May the lawyer use client information in defense?,Yes (Rule 1.6(b)(5)),Privilege & Confidentiality,Hypo
+Lawyer calls an ethics expert for advice on her own duties. May she share client information?,Yes (Rule 1.6(b)(4)),Privilege & Confidentiality,Hypo
+A court orders the lawyer to produce client information. May she comply?,Yes (Rule 1.6(b)(6)),Privilege & Confidentiality,Hypo
+Lawyer moving firms shares limited client information to run a conflicts check. Allowed?,"Yes, if privilege isn't compromised (Rule 1.6(b)(7))",Privilege & Confidentiality,Hypo
+Rule 1.6(c): lawyer's duty to safeguard client information?,Reasonable efforts to prevent inadvertent or unauthorized disclosure or access,Privilege & Confidentiality,Rule
+"Privilege elements: communication (1) between client and counsel, (2) ___, (3) for legal advice",Intended to be and actually kept confidential,Privilege & Confidentiality,Rule
+"Privilege elements: communication (1) between client and counsel, (2) kept confidential, (3) ___",Made to obtain or provide legal advice,Privilege & Confidentiality,Rule
+Client hires a lawyer for work a nonlawyer could do just as well. Privileged?,No. Ask whether the work is primarily legal,Privilege & Confidentiality,Rule
+Kovel: does privilege cover nonlawyers helping the lawyer give legal advice?,"Yes (accountants, assistants, summer associates)",Privilege & Confidentiality,Rule
+Client shares IPO details with the lawyer that will appear in the prospectus. Privileged?,No. Information meant to go public isn't confidential — Discussion of whether to disclose it is privileged.,Privilege & Confidentiality,Hypo
+"Rest. § 72: client consults someone she reasonably believes is a lawyer, but isn't. Privileged?",Yes,Privilege & Confidentiality,Rule
+"Rest. § 70: who are ""privileged persons""?","Client (incl. prospective), lawyer, and agents who facilitate the communication or representation",Privilege & Confidentiality,Rule
+"Rest. § 71: when is a communication ""in confidence""?",When the speaker reasonably believes only privileged persons will learn it,Privilege & Confidentiality,Rule
+FRE 501: which privilege law applies in federal court?,"Federal common law, except state law for civil claims governed by state law",Privilege & Confidentiality,Rule
+In re County of Erie: test for mixed legal and policy advice?,Predominant purpose is legal advice → privileged,Privilege & Confidentiality,Case
+Which case: county lawyer's emails on strip-search policy were held privileged?,In re County of Erie,Privilege & Confidentiality,Case
+Upjohn: whose communications with company lawyers can be privileged?,"Employees at any level, if made to secure legal advice for the company",Privilege & Confidentiality,Case
+Which case: internal investigation of foreign bribes; IRS sought employee questionnaires?,Upjohn Co. v. United States,Privilege & Confidentiality,Case
+People v. Meredith: defense moves physical evidence. Is its original location privileged?,No,Privilege & Confidentiality,Case
+Which case: defense investigator dug up the wallet the client had buried?,"People v. Meredith (""Scott"" in your notes)",Privilege & Confidentiality,Case
+Client tells his lawyer where he hid the gun. Lawyer goes and looks but leaves it there. Is what she saw privileged?,Yes — Observations from a privileged communication are covered unless the defense moves or alters the evidence.,Privilege & Confidentiality,Hypo

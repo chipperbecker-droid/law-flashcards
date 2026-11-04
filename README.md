@@ -28,7 +28,7 @@ On GitHub: open the `decks` folder → **Add file → Upload files** → drop th
 Three columns, no header needed: `front, back, tags`. A header row like `Front,Back,Topic,Type` also works (Part, Topic, Type and Tags columns are recognized).
 
 - The back can contain HTML (`<strong>`, `<em>`, `<ul><li>`…).
-- Tags are space-separated. A tag starting with `Part` becomes a Part filter; `Case`, `Doctrine`, `Test`, `Statute`, `Rule` become Type filters; everything else is a Topic. Use `_` for spaces (`Conflicts_of_interest`).
+- Tags are space-separated. A tag starting with `Part` becomes a Part filter; `Case`, `Doctrine`, `Test`, `Statute`, `Rule`, `List`, `Hypo`, `Why`, `Compare` become card-type filters; everything else is a Topic. Use `_` for spaces (`Conflicts_of_interest`). Anki tags like `BA::Agency` show as `Agency`.
 - An Anki export (**File → Export → Notes in Plain Text**, with "Include HTML" and "Include tags" checked) works as-is.
 
 To add a whole new class, add an entry to `decks/decks.json` and its CSV.

@@ -1,167 +1,448 @@
 #separator:comma
 #html:true
 #columns:Front;Back;Tags
-R3d § 1.01: What are the elements of agency?,"(1) P manifests assent that A will act on P's behalf and subject to P's control, AND (2) A manifests assent or otherwise consents.<br><br>No contract or pay needed; parties need not intend ""agency,"" only consent to the control.",BA Agency Rule
-Gorton v. Doty,Rule: Agency arises when one agrees to act on behalf of and subject to the control of another; a condition on the use of property can supply both consent and control.<br><br>Key: lending the car on the condition only the coach drive it = consent + control → coach was her agent.,BA Agency Case
-"A. Gay Jenson Farms Co. v. Cargill, Inc.","Rule: A creditor that assumes de facto control over its debtor's business becomes liable as a principal.<br><br>Key: no single factor decides it; the compounding of control (veto rights, audits, ""paternal guidance,"" financing everything) made Cargill the principal.<br><br>Avoid it: ex ante covenants, advice only, ex post creditor remedies.",BA Agency Case
-"R2d § 144 / R3d § 6.01: When is P bound on a contract made by A, and is A a party?","P is bound if A acted with actual or apparent authority. With a disclosed principal, P and T are the parties; A is not a party unless A and T agree otherwise.",BA Agency Rule
-Actual vs. apparent authority: what is each based on?,"Actual (R3d § 2.02): P's manifestations TO A, as A reasonably understands them (express + implied/incidental).<br><br>Apparent (R3d §§ 2.03, 3.03): P's manifestations TO T; T reasonably believes A is authorized and the belief is traceable to P.<br><br>Only one type is needed to bind P, but name which one you use.",BA Agency Doctrine
-Apparent authority: two-part test and how it ends,"Test: (1) P held A out or knowingly let A act as authorized, AND (2) T in good faith reasonably believed A had authority.<br><br>Ends when T has notice that A's authority ended, P no longer consents, or A is under a basic error of fact. Notice = told directly, reasonable time after a writing, or publicity reasonably likely to reach T.",BA Agency Doctrine
-Mill Street Church of Christ v. Hogan,Rule: Implied actual authority can arise from a past course of conduct; A may do what A reasonably believes P wants based on prior dealings.<br><br>Key: church had let Bill hire his brother before → implied (and apparent) authority to hire him again.,BA Agency Case
-Ackerman v. Sobol Family Partnership,"Rule: Apparent authority exists where P, by acts or inaction, lets T reasonably believe A is authorized. Merely retaining a lawyer doesn't give authority to settle, but a course of dealing can.<br><br>Key: client sat through long settlement talks without objecting → bound.",BA Agency Case
-R2d § 8A: What is inherent agency power?,"Power derived not from actual authority, apparent authority, or estoppel, but solely from the agency relationship, to protect third parties.<br><br>R3d dropped it → broader apparent authority + estoppel of undisclosed principal (§ 2.06).",BA Agency Rule
-R3d § 2.06: Liability of an undisclosed principal,"(1) Liable to T who justifiably changes position because of A's unauthorized conduct, if P had notice and didn't take reasonable steps to notify T.<br><br>(2) Undisclosed P can't rely on secret limits that cut A's authority below what T would reasonably assume if P were disclosed.",BA Agency Rule
-Watteau v. Fenwick,"Rule: An undisclosed principal is liable for its agent's acts that are usual for that type of business, even if the principal forbade them.<br><br>Key: no actual or apparent authority, but inherent agency power; undisclosed P is best placed to monitor A and avoid the loss.",BA Agency Case
-"Ratification: definition, requirements, and methods","R3d § 4.01: affirmance of a prior act, giving it effect as if done with actual authority.<br><br>P must be fully informed and adopt the whole deal.<br><br>Methods: express; implied (accepting benefits); silence; litigation (suing on the contract).",BA Agency Doctrine
-R3d § 4.02(2): When is ratification NOT effective?,(a) In favor of a person who caused it by misrepresentation/conduct making a contract voidable; (b) in favor of A against P when P ratifies to avoid a loss; (c) to cut off non-parties' rights acquired before ratification.,BA Agency Rule
-Agency by estoppel: elements and how it differs from apparent authority,"Elements: (1) P creates an appearance of authority by intentional or negligent words, acts, or omissions; (2) T reasonably relies in good faith; (3) T changes position.<br><br>Differs: can arise from inaction; belief need not be traceable to P's manifestation. One-way street: P is estopped, T isn't bound.",BA Agency Doctrine
-Hoddeson v. Koos Bros.,Rule: A principal that fails to take reasonable steps to stop an imposter posing as its agent can be estopped from denying liability.<br><br>Key: store was best placed to police its own sales floor.,BA Agency Case
-R3d § 1.04(2): Disclosed vs. undisclosed vs. unidentified principal,Disclosed: T knows A acts for a P and knows who P is.<br><br>Undisclosed: T has no notice A acts for anyone.<br><br>Unidentified (partially disclosed): T knows A acts for a P but not who.,BA Agency Rule
-When is the agent personally liable on a contract?,"When P is undisclosed or unidentified. To escape, A must disclose BOTH (1) A's representative capacity and (2) P's identity. T has no duty to ask.",BA Agency Doctrine
-Atlantic Salmon A/S v. Curran,Rule: An agent acting for an unidentified (partially disclosed) principal is personally liable unless he discloses the principal's identity.<br><br>Key: Curran never named the company he claimed to act for → personally liable; T had no duty to investigate.,BA Agency Case
-Agency costs: what are the three components?,Monitoring (by P) + bonding (by A) + residual loss (unprevented shirking).<br><br>Fiduciary duties fill gaps in incomplete contracts and act as an ex post bond.,BA Agency Doctrine
-Three fiduciary duties of an agent (R3d),"Obedience (§ 8.09: act within actual authority, follow instructions); Care (§ 8.08); Loyalty (§§ 8.01–8.06: don't put own or third party's interest first).<br><br>Three classic loyalty breaches: (1) bribe/kickback from T; (2) secret profit dealing with P; (3) using position to profit from someone unrelated to P (Reading).",BA Agency Doctrine
-R2d § 389: Acting as adverse party,"Unless otherwise agreed, A may not deal with P as an adverse party in a transaction connected with the agency without P's knowledge (e.g., agent hired to sell can't secretly buy).",BA Agency Rule
-R3d §§ 8.04 and 8.05: Competition and use of P's property/info,§ 8.04: no competing or helping competitors during the agency; may prepare to compete after it ends if not otherwise wrongful.<br><br>§ 8.05: no using P's property or confidential info for A's or a third party's purposes. This is what makes departure preparations wrongful.,BA Agency Rule
-Reading v. Regem,"Rule: An agent who uses his position to make a profit must account for it to the principal, even if the principal suffered no loss.<br><br>Key: the money came from the sergeant's position (the uniform), not his own efforts → Crown keeps it.<br><br>Hypo test: did the money come from the agency position or from something the agent did on his own?",BA Agency Case
-"Rash v. J.V. Intermediate, Ltd.",Rule: An agent must disclose what the principal should rightly know; scope of the duty is judged for the specific transaction.<br><br>Key: manager steered subcontracts to a company he secretly owned → breach by nondisclosure.,BA Agency Case
-Town &amp; Country House &amp; Home Service v. Newbery,"Rule: Former employees may not solicit customers from a list the employer built at significant effort and expense, even without a non-compete.<br><br>Key: list came from cold-calling and screening → a confidential asset → unfair competition.",BA Agency Case
-UPA (1914) § 6(1): Partnership defined,"""An association of two or more persons to carry on as co-owners a business for profit.""<br><br>Default form: arises whether or not the parties intend it. Substance over labels.",BA Partnerships Rule
-UPA § 7 / RUPA § 202: Profit sharing and co-ownership,"Co-owning property alone doesn't create a partnership.<br><br>Sharing profits = prima facie evidence of partnership, UNLESS received as debt payments, wages, rent, or an annuity.",BA Partnerships Rule
-Elements of a partnership and the Fenwick factors,"Elements: (1) intent to be partners, (2) co-ownership of the business, (3) profit motive. Co-ownership usually decides close cases.<br><br>Fenwick factors: intent; profit sharing; loss sharing; ownership/control of property; shared administration; language of agreement; conduct toward third parties; rights on dissolution.",BA Partnerships Doctrine
-Fenwick v. Unemployment Compensation Commission,"Rule: Calling someone a partner and sharing profits doesn't make a partnership; without co-ownership (losses, control, capital), the person is an employee.<br><br>Key: receptionist got 20% of profits instead of a raise → employee.",BA Partnerships Case
-Martin v. Peyton,"Rule: A lender becomes a partner only if it carries on the business as a co-owner; protective loan terms (inspection, veto, profit share) don't make it one.<br><br>Key: 40% of profits + veto over speculation = protection for a loan, not control.",BA Partnerships Case
-Southex Exhibitions v. Rhode Island Builders Ass'n,"Rule: Partnership is judged by the totality of circumstances; labels are probative but not dispositive.<br><br>Key: agreement said ""partner"" and split profits, but SEM bore all losses and contracted in its own name → no partnership.",BA Partnerships Case
-Young v. Jones,"Rule: Partnership by estoppel requires that the third party actually relied on the representation of partnership.<br><br>Key: investors never saw PW's ""global partnership"" brochure → no reliance, no estoppel.",BA Partnerships Case
-UPA § 409: Partner fiduciary duties,"Only loyalty and care (no obedience: partners have no principal).<br><br>Loyalty (b): (1) account for benefits from the business, use of partnership property, or partnership opportunities [Meinhard]; (2) no dealing adversely to the partnership; (3) no competing before dissolution.<br><br>Care (c): only gross negligence, recklessness, intentional misconduct, or knowing violation of law.",BA Partnerships Rule
-UPA § 105(d)(1)(A): Contracting around loyalty,"The agreement may specify how a transaction that would otherwise breach loyalty can be authorized or ratified by disinterested, independent persons after full disclosure.<br><br>Law polices conflicts rather than prohibiting them.",BA Partnerships Rule
-Meinhard v. Salmon,"Rule: Joint adventurers owe ""the duty of the finest loyalty""—""not honesty alone, but the punctilio of an honor the most sensitive""—and must disclose opportunities arising through the venture.<br><br>Key: managing partner secretly took a renewal/expanded lease → constructive trust. Economics: a disclosure rule is cheaper than contracting for it.<br><br>Dissent: venture had a fixed end and limited purpose.",BA Partnerships Case
-Sandvick v. LaCrosse,"Rule: Even without a partnership, joint venturers owe fiduciary duties within the scope of the venture; taking a venture opportunity without notice is a breach.<br><br>Framework: (1) partnership? (2) if not, JV? (3) scope of venture → what duties follow.<br><br>JV elements: contribution; proprietary interest + mutual control; agreement to share profits; express or implied contract.",BA Partnerships Case
-"Grabbing and leaving (Graubard): what may a departing partner do, and not do?","May: look for space and affiliations; after telling the firm, tell clients they're leaving and that the client chooses counsel.<br><br>May not: secretly lure clients; mislead clients about their choice; lie to partners about leaving; leave on short notice with clients and files.",BA Partnerships Doctrine
-Meehan v. Shaughnessy,Rule: Departing partners breach their duty by lying to partners about leaving and soliciting clients in a way that denies them a fair choice; preparing to leave is not itself a breach.<br><br>Key: denied leaving when asked and sent one-sided letters to clients. Fact-specific on whose client it is (argue both).,BA Partnerships Case
-RUPA § 601(4) and (5): Expulsion routes,(4) Unanimous vote of the other partners if: unlawful to continue with the partner; partner transferred substantially all of its interest; incorporated partner dissolved; partner-partnership dissolving.<br><br>(5) Judicial expulsion for: wrongful conduct materially harming the business; willful/persistent material breach; conduct making it not reasonably practicable to continue with the partner.,BA Partnerships Rule
-Lawlis v. Kightlinger &amp; Gray,"Rule: A partner may be expelled without cause under a ""guillotine"" clause; no fiduciary breach unless money owed to the expelled partner is wrongfully withheld.<br><br>Key: fiduciary duties work like default rules that the agreement can pare back.",BA Partnerships Case
-"Partnership finance terms: capital, draw, advance, capital account","Capital: what a partner puts in (no return before withdrawal/liquidation). Draw: periodic profit distribution. Advance: loan to the firm, repaid with interest. Capital account: running equity balance (+ profits, − losses and draws).<br><br>Default: no salary for services unless agreed.",BA Partnerships Doctrine
-RUPA § 204: Is it partnership property?,"(1) Acquired in the partnership's name, or by a partner in that capacity with the partnership named → yes.<br><br>(2) Partnership not named but the document shows buyer acting as a partner → yes.<br><br>(3) Bought with partnership funds → presumed partnership property.<br><br>Order: title → capacity → whose money.",BA Partnerships Rule
-RUPA § 401(a): Default economic rights,Each partner gets an equal share of distributions and bears losses in proportion to its share of distributions (except in an LLP). Changeable by agreement.,BA Partnerships Rule
-Order of distribution on winding up: UPA (1914) § 40(b) vs. RUPA § 806,1914: (1) outside creditors → (2) partner loans → (3) capital → (4) profits.<br><br>1997: (1) creditors INCLUDING partner-lenders → (2) capital → (3) profits.,BA Partnerships Rule
-In re Fulton,"Rule: Whether property belongs to the partnership turns on the partners' intent at acquisition; a partner's bankruptcy estate takes only his partnership interest, not partnership property.<br><br>Hypo: $4K sale, $1K creditor → creditor $1K, Carroll $3K toward his capital, Fulton $0. Sweat-equity problem: fix with market salary + market interest on capital.",BA Partnerships Case
-"Partnership management defaults: RUPA §§ 301(1), 401(h), 401(k)",§ 301(1): each partner is an agent; ordinary-course acts bind the firm unless the partner lacked authority AND T knew or had notice.<br><br>§ 401(h): equal management rights.<br><br>§ 401(k): ordinary-course matters by majority; extraordinary acts and amendments need unanimity.,BA Partnerships Rule
-National Biscuit Co. v. Stroud,Rule: One partner can't unilaterally restrict another partner's authority; ending a partner's authority requires a majority.<br><br>Key: 50/50 partnership → Stroud's notice to Nabisco didn't bind Freeman; partnership and Stroud liable for the bread.,BA Partnerships Case
-Summers v. Dooley,"Rule: A partner can't bind the partnership to a new expense over an equal partner's objection, because no majority approved it.<br><br>Contrast with Stroud: same majority rule; whoever tries to change the status quo without a majority loses.",BA Partnerships Case
-Day v. Sidley &amp; Austin,"Rule: Partners may delegate management to an executive committee; not disclosing changes to internal structure is no breach absent self-dealing, profit, or loss to the firm.<br><br>Key: breach requires advantaging yourself at the firm's expense (compare Meehan).",BA Partnerships Case
-Dissociation vs. dissolution; at-will vs. term partnership,"Dissociation = a partner leaves. Dissolution = business ends and winds up. Dissociation doesn't necessarily cause dissolution.<br><br>At-will: any partner can dissolve anytime. Term: set term or undertaking (express or implied).<br><br>NOT dissociation by default: transfer of interest, charging order, adding a partner, disagreement.",BA Partnerships Doctrine
-RUPA § 601: Events causing dissociation,"Notice of withdrawal; agreed event; expulsion (by agreement, unanimous vote, or court); bankruptcy/assignment for creditors; death, guardian, or incapacity.",BA Partnerships Rule
-RUPA § 701: Effect of dissociation (buyout),"Partnership buys out the dissociated partner at what it would get if assets were sold at the greater of liquidation or going-concern value, minus damages for wrongful dissociation; interest from dissociation date; business continues.",BA Partnerships Rule
-RUPA § 801: Events causing dissolution,"At-will: any partner's withdrawal triggers dissolution.<br><br>Term: early dissolution only if (A) after death/bankruptcy/incapacity/wrongful dissociation, at least half the remaining partners vote within 90 days to wind up; (B) all agree; or (C) term expires.<br><br>Also: agreed event; court order on a partner's application; transferee's application if equitable.",BA Partnerships Rule
-RUPA § 802: Winding up and lingering authority,"Partnership continues only to wind up. No actual authority for new business; apparent authority may linger until a § 704 notice is filed (presumptive notice 90 days after filing, § 103(d)).",BA Partnerships Rule
-Giles v. Giles Land Co.,Rule: A court may dissociate a partner whose wrongful conduct materially harms the business or makes it not reasonably practicable to continue with him (§ 601(5)).<br><br>Key: son's hostility brought the family business to a standstill → dissociated on both grounds.,BA Partnerships Case
-Brennan v. Brennan Associates,"Rule: An irreparable breakdown of the partners' relationship is a valid basis to order dissolution, and therefore also the lesser remedy of dissociation.",BA Partnerships Case
-Kovacik v. Reed,"Rule: Where one partner contributes only capital and the other only labor, the labor partner isn't liable for a share of the capital loss: each loses what he put in.<br><br>Key: a judicial gloss on § 401(a); other jurisdictions go the other way.",BA Partnerships Case
-G&amp;S Investments v. Belman,"Rule: Filing a dissolution suit doesn't itself dissolve the partnership; the buy-out agreement governs, and ""capital account"" means the book figure, not market value.",BA Partnerships Case
-Partner liability: 1914 vs. 1997 acts,RUPA § 306(a): all partners jointly and severally liable for all partnership obligations.<br><br>UPA (1914) § 15: jointly and severally for torts; only jointly for other debts.,BA Partnerships Doctrine
-LLP vs. LP vs. LLC,LLP: GP that registers → all partners get limited liability.<br><br>LP: ≥1 GP + ≥1 LP; only GPs manage and are personally liable; a corporation can be the GP.<br><br>LLC: pass-through tax + corporate limited liability; profits split by contribution value by default.,BA Partnerships Doctrine
-Frigidaire Sales Corp. v. Union Properties,Rule: Limited partners who control the business only as officers/directors of the corporate GP keep their limited liability.<br><br>Key: stack entities (corporate GP + LPs + officers) and no human is personally liable.,BA Partnerships Case
-Five critical attributes of the corporation,(1) Legal personality; (2) limited liability; (3) separation of ownership and control; (4) liquidity (except close corps); (5) flexible capital structure.,BA Corporate_Form Doctrine
-MBCA § 8.01(b) / DGCL § 141(a): Board authority,"All corporate powers are exercised by or under the authority of the board; business and affairs managed by or under its direction.<br><br>Individual directors are not agents; the board acts as a body. Boards act, shareholders react.",BA Corporate_Form Rule
-MBCA § 6.22(b): Shareholder limited liability,"SHs aren't personally liable for corporate debts, except as the articles provide or by their own acts or conduct.",BA Corporate_Form Rule
-Articles vs. bylaws; internal affairs doctrine,"Articles: filed with state; amend = board recommends → SHs approve → file. Bylaws: internal, not filed, easier to amend; articles win on conflict.<br><br>Internal affairs doctrine: only the state of incorporation governs relations among the corporation, D&amp;Os, and SHs.",BA Corporate_Form Doctrine
-"DGCL § 109(a)-(b): Who may amend bylaws, and what can they say?","(a) After stock is issued, SHs hold bylaw power; the charter may also give it to the board without taking it from SHs.<br><br>(b) Bylaws may cover anything about the business, its affairs, or constituents' rights, unless inconsistent with law or the charter.",BA Corporate_Form Rule
-Boilermakers Local 154 v. Chevron Corp.,"Rule: A board with charter-granted bylaw power may adopt a forum-selection bylaw without a SH vote; it's facially valid under § 109(b) and binds SHs as part of the corporate contract.<br><br>Key: regulates where, not whether, SHs sue; SHs bought knowing the board could amend bylaws.",BA Corporate_Form Case
-"VantagePoint Venture Partners v. Examen, Inc.","Rule: Under the internal affairs doctrine, the law of the state of incorporation governs relations between a corporation and its SHs.<br><br>Key: Delaware law applied, not California's separate class-vote rule.",BA Corporate_Form Case
-Asset partitioning: affirmative vs. defensive,Affirmative (entity shielding): SHs' personal creditors can't reach firm assets.<br><br>Defensive (limited liability): firm creditors can't reach SHs' personal assets.,BA Corporate_Form Doctrine
-Three theories for reaching past the corporation (Walkovszky),"Enterprise liability: treat sister corps as one (horizontal); recover from all corps, not SHs.<br><br>Agency: corp is the SH's agent; must show SH used it for personal business (weakest).<br><br>Veil piercing: disregard the corp; SHs liable.",BA Corporate_Form Doctrine
-Walkovszky v. Carlton,"Rule: A SH isn't personally liable unless he used the corporation for his own personal business; undercapitalization and minimum insurance alone aren't enough, though enterprise liability may reach sister corps.<br><br>Dissent: deliberately undercapitalized public-service corps should expose SHs.",BA Corporate_Form Case
-Sea-Land Services v. Pepper Source,"Rule: Two prongs to pierce: (a) unity of interest and ownership so separate personalities no longer exist, AND (b) respecting the corporate form would sanction fraud or promote injustice. An unpaid debt alone is never enough.<br><br>Unity factors: no formalities; commingling; undercapitalization; one corp using another's assets.<br><br>Key: prong (a) met by commingling; on remand, tax fraud satisfied (b).",BA Corporate_Form Case
-Three contexts for the corporate-purpose debate,(a) Charitable giving; (b) forced dividends; (c) controller indulging private whims.<br><br>Positions: stakeholder view; managers as SH trustees; Friedman (only duty is profit within the rules of the game).,BA Corporate_Purpose Doctrine
-DGCL § 122(9): Donations,"Every corporation may make donations for the public welfare or charitable, scientific, or educational purposes (and in war/national emergency).<br><br>Grants a power, not a purpose.",BA Corporate_Purpose Rule
-A.P. Smith Mfg. Co. v. Barlow,"Rule: A corporation may make reasonable charitable donations it reasonably believes advance the public interest and its own, even if the charter is silent; a later enabling statute applies to existing corporations.<br><br>Key: modest gift, within statutory limits, aimed at goodwill and a trained workforce → intra vires.",BA Corporate_Purpose Case
-DGCL §§ 170(a) and 174(a): Dividends and director liability,"§ 170(a): dividends from surplus, or if none, from net profits of the current and/or preceding fiscal year (nimble dividends).<br><br>§ 174(a): directors jointly and severally liable for willful or negligent unlawful dividends, for 6 years, with interest. § 172: good-faith reliance on officers/experts protects.",BA Corporate_Purpose Rule
-MBCA § 6.40: Two tests for any distribution,(1) Equity insolvency: corp can still pay debts as they come due; (2) balance sheet: assets exceed liabilities + preferred liquidation preferences.<br><br>§ 8.33(a): director voting for an improper distribution owes the excess; § 8.30(b) good-faith reliance is a defense.,BA Corporate_Purpose Rule
-Dodge v. Ford Motor Co.,"Rule: A corporation is run primarily for SH profit; courts will compel dividends where refusal is arbitrary (abuse of discretion amounting to fraud or bad faith), but won't second-guess genuine business decisions.<br><br>Key: dividends ordered, but the River Rouge expansion not enjoined. The only one of Dodge/Kamin/Shlensky that granted relief.",BA Corporate_Purpose Case
-Shlensky v. Wrigley,"Rule: Absent fraud, illegality, or conflict of interest, courts won't review directors' business decisions.<br><br>Key: no proof night games (lights) would help → BJR, dismissed.",BA Corporate_Purpose Case
-Business judgment rule: what does it protect and what happens if it's rebutted?,"Presumption that directors acted (1) on an informed basis, (2) in good faith, (3) in the honest belief the action served the corporation. Needs a rational business purpose.<br><br>Rebut by showing a breach of good faith, loyalty, or due care (Cede triad) → burden shifts to Ds to prove entire fairness = fair dealing + fair price.<br><br>Care standard ≈ gross negligence.",BA Duty_of_Care_and_BJR Doctrine
-Kamin v. American Express Co.,"Rule: Mere errors of judgment aren't actionable; a care claim needs fraud, bad faith, or self-dealing, not just that another choice was better.<br><br>Key: board knew of the tax consequences and chose anyway → informed decision, dismissed. Result could differ if the board hadn't informed itself.",BA Duty_of_Care_and_BJR Case
-Smith v. Van Gorkom,"Rule: The BJR doesn't protect an uninformed decision; directors must inform themselves of all material information reasonably available, and failing to is gross negligence.<br><br>Key: 20-minute oral presentation, no valuation, no one read the agreement; no § 141(e) protection (no real report); SH vote didn't cure (not fully informed).<br><br>Process roadmap: consult, get valuation, negotiate at arm's length, resist time pressure, get informed.",BA Duty_of_Care_and_BJR Case
-DGCL § 141(e): Reliance on reports,"Directors are fully protected relying in good faith on corporate records and on reports by officers, committees, or experts reasonably believed competent and selected with reasonable care.<br><br>The report must actually exist and be pertinent; bad faith defeats it.",BA Duty_of_Care_and_BJR Rule
-DGCL § 251(b): Merger approval,The board must adopt a resolution approving the merger agreement and declaring its advisability → must make its own informed judgment before sending it to SHs.,BA Duty_of_Care_and_BJR Rule
-DGCL § 102(b)(7): Exculpation,"Charter may eliminate D&amp;O money damages for fiduciary breaches, EXCEPT: loyalty breaches; acts not in good faith, intentional misconduct, or knowing violations of law; § 174 unlawful dividends (directors); improper personal benefit.<br><br>Delaware's response to Van Gorkom. Removes damages, not the duty or injunctive relief.",BA Duty_of_Care_and_BJR Rule
-Francis v. United Jersey Bank,"Rule: A director who abdicates her role breaches the duty of care; ignorance or incapacity is no excuse, and an incapable director should resign.<br><br>Duty to be informed: basic knowledge of the business, read the financials, object to misconduct.",BA Duty_of_Care_and_BJR Case
-Why does § 102(b)(7) exculpate care but not loyalty?,"Loyalty breaches are deliberate (stealing); care breaches are shirking. Loyalty applies to D&amp;Os, direct or indirect conflicts, and sometimes controlling SHs.",BA Duty_of_Loyalty Doctrine
-DGCL § 144(a) (post-SB 21): Interested-transaction safe harbor,"No equitable relief or damages against a D/O because of the conflict if ANY ONE:<br><br>(1) material facts disclosed and a majority of disinterested directors approve in good faith and without gross negligence (committee of ≥2 disinterested directors if most of the board is conflicted);<br><br>(2) informed, uncoerced majority of votes cast by disinterested SHs; or<br><br>(3) the deal is fair to the corporation and SHs.<br><br>Controller deals now go to new § 144(b)/(c).",BA Duty_of_Loyalty Rule
-Bayer v. Beran,"Rule: An interested transaction loses BJR protection, but directors can still win by proving the transaction was fair.<br><br>Key: president's wife sang in the radio ads, at reasonable pay → fair. Losing the BJR ≠ losing the case.",BA Duty_of_Loyalty Case
-"Benihana of Tokyo, Inc. v. Benihana, Inc.",Rule: § 144(a)(1) is satisfied where disinterested directors knew the material facts of a director's conflict; the BJR applies to a financing with a valid business purpose even if it dilutes a controlling holder.<br><br>Key: board knew Abdo represented BFC; real need for capital → dilution was a side effect.,BA Duty_of_Loyalty Case
-Related-party transaction vs. corporate opportunity,"Related transaction: insider deals WITH the corporation.<br><br>Corporate opportunity: insider takes a deal with a third party that belonged to the corporation.<br><br>Applies to officers, directors, and dominant SHs active in management.",BA Duty_of_Loyalty Doctrine
-Broz v. Cellular Information Systems,"Rule (four factors): insider may not take an opportunity if (1) corp is financially able, (2) it's in the corp's line of business, (3) the corp has an interest or expectancy, and (4) taking it creates a conflict. No formal board presentation required.<br><br>Key: CIS couldn't afford it and its CEO/director said they weren't interested → no breach. Run all four; name the gating factor.",BA Duty_of_Loyalty Case
-"In re eBay, Inc. Shareholders Litigation","Rule: IPO allocations given to executives in exchange for corporate business are a corporate opportunity; ""line of business"" read broadly to include investing cash in securities.<br><br>Key: ""spinning"" shares were effectively kickbacks → belonged to eBay.",BA Duty_of_Loyalty Case
-"Controlling shareholders: who is one, and what standard applies?","Controller = majority owner, or minority holder with actual control (of the transaction or the board generally).<br><br>BJR unless self-dealing (controller takes a benefit to the exclusion and detriment of the minority) → intrinsic/entire fairness, D's burden.",BA Duty_of_Loyalty Doctrine
-MFW: how does a controller deal get the BJR?,"Conditioned from the start on BOTH (1) approval of an independent, fully empowered special committee that meets its duty of care, AND (2) an informed, uncoerced majority-of-the-minority vote.<br><br>Only one prong → burden shifts to P, but review stays entire fairness.",BA Duty_of_Loyalty Doctrine
-Fliegler v. Lawrence,Rule: Ratification shifts the burden only if approved by a majority of disinterested SHs; otherwise Ds must prove fairness.<br><br>Key: interested SHs carried the vote → no burden shift; Ds proved fairness and won anyway.,BA Duty_of_Loyalty Case
-"In re Investors Bancorp, Inc. Stockholder Litigation","Rule: SH approval of a general equity plan doesn't ratify specific director awards under it; the ratification defense requires approval of the specific awards.<br><br>Key: directors gave themselves ~10x peer pay under a broad plan → no ratification defense, entire fairness.",BA Duty_of_Loyalty Case
-DGCL § 123: Holding securities of other entities,"A Delaware corporation may acquire, hold, vote, and deal in securities of other corporations → authorizes parent–subsidiary structures.",BA Duty_of_Loyalty Rule
-Where does good faith show up in the DGCL?,"Bad faith defeats: § 141(e) reliance protection, § 102(b)(7) exculpation, and § 145 indemnification.<br><br>Good faith is part of the BJR presumption and the Cede triad (good faith, loyalty, care).",BA Good_Faith_and_Oversight Doctrine
-DGCL § 145(a)-(b): Indemnification,"Corp may indemnify a D/O/employee/agent for expenses, judgments, fines, settlements if the person acted in good faith and reasonably believed the conduct was in or not opposed to the corp's best interests.<br><br>Advancement of defense costs can be owed before the merits are decided (Frank/Javice).",BA Good_Faith_and_Oversight Rule
-In re Walt Disney Co. Derivative Litigation,"Rule: Bad faith = (a) subjective intent to harm, or (c) intentional dereliction / conscious disregard of duty. NOT (b) gross negligence alone (that's care, exculpable).<br><br>Key: directors reasonably informed with a rational business purpose keep the BJR even if the process fell short of best practices. Comp committee could approve Ovitz's deal; package needed to lure him → no waste.",BA Good_Faith_and_Oversight Case
-Executive compensation: standard and best practices,"Comp is inherently conflicted → intrinsic fairness unless properly approved. Fair dealing: independent comp committee, outside consultants. Fair price: peer benchmarks, size, history, limits on discretion.<br><br>Say on pay (Dodd-Frank): advisory SH vote at least every 3 years.",BA Good_Faith_and_Oversight Doctrine
-Evolution of the oversight duty: Graham → Francis → Caremark → Stone,"Graham (1963): no duty to install ""corporate espionage"" absent cause for suspicion; respond to red flags.<br><br>Francis (1981): know the business, review financials.<br><br>Caremark (1996): good-faith effort to ensure a reasonable reporting system exists.<br><br>Stone (2006): adopts Caremark; failure is bad faith → loyalty.",BA Good_Faith_and_Oversight Doctrine
-MBCA § 8.01(c): Public board's oversight areas,Business performance and plans; major risks; senior officer performance and pay; legal/ethical compliance; financial statements; internal controls; information flow to directors; board and committee composition.,BA Good_Faith_and_Oversight Rule
-In re Caremark International Inc. Derivative Litigation,Rule: Directors must attempt in good faith to ensure an adequate information and reporting system exists; only a sustained or systematic failure of oversight (utter failure to try) shows the bad faith needed for liability.<br><br>Key: no board decision → no BJR; settlement approved. The oversight duty was dicta.,BA Good_Faith_and_Oversight Case
-Stone v. Ritter,"Rule: Caremark is Delaware law. Liability requires (1) an utter failure to implement any reporting system, or (2) having one, consciously failing to monitor it. This is bad faith, a breach of LOYALTY, not a free-standing third duty.<br><br>So: not exculpable under § 102(b)(7), no § 145 indemnification.<br><br>Key: KPMG report showed real BSA/AML compliance effort → demand not excused.",BA Good_Faith_and_Oversight Case
-Direct vs. derivative: the Tooley test,"(a) Who suffered the alleged harm, the corporation or the suing SHs individually? (b) Who would receive the benefit of any recovery?<br><br>ALI version: who suffered the most direct injury, and to whom did the duty run?<br><br>Derivative recovery generally goes to the corporation.",BA Derivative_Suits Doctrine
-"In re Medtronic, Inc. Shareholder Litigation","Rule: A claim is direct where SHs suffer the injury and get the recovery; derivative where the corporation is harmed and recovers.<br><br>Key: SHs' capital gains tax and dilution → direct; reimbursing D&amp;O excise taxes → derivative (waste), so demand rules apply.",BA Derivative_Suits Case
-FRCP 23.1: Derivative suit requirements,Complaint verified; P must fairly and adequately represent similarly situated SHs; state with particularity the demand made or why none was made. Settlement/dismissal needs court approval and notice to SHs.,BA Derivative_Suits Rule
-Why do well-advised Delaware plaintiffs almost never make demand?,Making demand concedes demand was required → the board's refusal gets the BJR → P almost always loses (and gets no discovery). The fight is over whether demand is excused.,BA Derivative_Suits Doctrine
-Aronson v. Lewis demand-futility test,"Demand excused if particularized facts create a reasonable doubt that (1) the directors are disinterested and independent, or (2) the challenged transaction was otherwise a valid exercise of business judgment.<br><br>Voting for the deal and being named a D isn't enough; even a 47% holder who picked every director doesn't make the board per se non-independent.",BA Derivative_Suits Doctrine
-Rales v. Blasband: when was it used and what does it ask?,"Asks whether the board considering the demand could impartially exercise independent, disinterested judgment as of filing.<br><br>Used when: (1) a majority of the board was replaced; (2) no board decision is challenged (e.g., oversight); (3) the decision was by a different corporation's board (double derivative).",BA Derivative_Suits Doctrine
-United Food &amp; Commercial Workers Union v. Zuckerberg,"Rule (universal test; use ONLY this on the exam): director by director, (i) material personal benefit? (ii) substantial likelihood of liability? (iii) lacks independence from someone who got a benefit or faces liability? ""Yes"" for at least half the demand board → demand excused.<br><br>Exculpated care claims don't create a substantial likelihood of liability. Business ties, friendship, gratitude weren't enough here → demand not excused.",BA Derivative_Suits Case
-Special litigation committees: authority and the Zapata vs. Auerbach split,"§ 141(c)(2) lets the board delegate full litigation power to a committee of independent directors.<br><br>Demand-required case: board/committee refusal gets the BJR. Demand-excused (DE): Zapata two-step. NY: Auerbach, more deferential.",BA Derivative_Suits Doctrine
-DGCL § 141(c)(2): Board committees,"Board may designate committees with all board powers, EXCEPT approving/recommending matters requiring SH approval or adopting, amending, or repealing bylaws.",BA Derivative_Suits Rule
-Zapata Corp. v. Maldonado,"Rule (demand excused, DE): Step 1, the corporation proves the SLC's independence, good faith, reasonable investigation, and reasonable bases. Step 2, the court may apply its own business judgment on whether to dismiss.<br><br>Key: burden on the corporation limits the advantage of appointing your own committee.",BA Derivative_Suits Case
-Auerbach v. Bennett,Rule (NY): Courts defer under the BJR to an SLC's decision not to sue if the committee was disinterested and independent and its procedures were adequate and in good faith; the substance isn't reviewed.<br><br>Key: SLC of directors who joined after the bribery payments.,BA Derivative_Suits Case
-Disinterested vs. independent director,"Disinterested: no material personal benefit or detriment not shared by SHs generally (""Do I have a stake?"").<br><br>Independent: can decide on the merits, free of ties making the director beholden to an interested person (""Can I judge objectively?"").<br><br>Framework: independent from whom, for what? what ties? strong enough, considered together?",BA Derivative_Suits Doctrine
-Delaware County Employees Retirement Fund v. Sanchez,Rule: Friendship and financial ties must be considered together; a decades-long close friendship plus economic reliance on the interested party's businesses creates reasonable doubt about independence at the pleading stage.<br><br>Key: Chancery erred by analyzing friendship and finances separately. Same social circles alone isn't enough.,BA Derivative_Suits Case
-Exchange listing standards and SB 21 on independence,"NYSE/NASDAQ (post-SOX): majority-independent board; fully independent audit, comp, and nominating committees; bright-line disqualifiers (e.g., employee within 3 years).<br><br>SB 21 § 144: directors the board deems exchange-independent get a stronger, rebuttable presumption of disinterestedness.",BA Derivative_Suits Doctrine
-Securities Act of 1933 vs. Exchange Act of 1934,"'33 Act: primary market (issuer → investors); disclosure, not merit review; § 5 registration.<br><br>'34 Act: secondary market; insider trading and fraud, short-swing profits, proxies, tender offers, periodic disclosure; created the SEC.",BA Securities Doctrine
-"Securities Act § 2(a)(1): Definition of ""security""","List (note, stock, bond, debenture...) + catch-alls (evidence of indebtedness, investment contract, any instrument commonly known as a security), ""unless the context otherwise requires"" → economic substance over labels.",BA Securities Rule
-Howey test for an investment contract,"(i) Investment of money, (ii) in a common enterprise, (iii) with a reasonable expectation of profits, (iv) derived from the efforts of others (""solely"" not read literally).<br><br>Key question for (iv): is the investor unable to exercise meaningful control?",BA Securities Doctrine
-Robinson v. Glynn,"Rule: An LLC interest isn't an investment contract where the investor had meaningful control, and isn't ""stock"" where it lacks stock's name and usual characteristics.<br><br>Key: Robinson was treasurer and vice-chair with approval rights → not passive; lack of technical expertise didn't matter.",BA Securities Case
-§ 5 registration and exemptions,"No offers before filing; no sales before effectiveness; prospectus delivered before sale. IPO = S-1.<br><br>Exempt securities (never need registration) vs. exempt transactions (one-time; resale needs its own exemption), e.g., private placement.",BA Securities Doctrine
-Exchange Act § 10(b) and Rule 10b-5,"§ 10(b): unlawful to use any manipulative or deceptive device in connection with the purchase or sale of any security, in contravention of SEC rules.<br><br>10b-5: bars (a) schemes to defraud, (b) untrue statements of material fact or misleading omissions, (c) acts operating as fraud, in connection with a purchase or sale.",BA Securities Rule
-Elements of a private 10b-5 claim,"(1) Material misrepresentation or omission; (2) scienter; (3) in connection with a purchase or sale; (4) reliance; (5) economic loss; (6) loss causation.<br><br>Scienter: intent or (usually) recklessness, not negligence; PSLRA requires particularized facts giving a strong inference.<br><br>Materiality: a reasonable investor would likely consider it important.",BA Securities Doctrine
-Efficient capital markets hypothesis: three forms,"Weak: prices reflect past prices. Semi-strong: prices reflect all public info quickly (basis of Basic). Strong: all info, public or private.<br><br>Event studies: abnormal return AR = R − E(R) → show price impact and damages.",BA Securities Doctrine
-Halliburton Co. v. Erica P. John Fund,"Rule: The Court kept Basic's fraud-on-the-market presumption of reliance, but defendants may rebut it at class certification with evidence of no price impact.",BA Securities Case
-West v. Prudential Securities,"Rule: Fraud on the market requires public dissemination; a misstatement made privately can't affect the market price, so no presumption of reliance.<br><br>Key: rejects strong-form ECMH (Easterbrook).",BA Securities Case
-Insider trading: elements and bodies of law,"Elements: (1) breach of fiduciary duty (classical) or duty of trust and confidence (misappropriation); (2) use/possession of MNPI in connection with a trade; (3) scienter; (4) in tipping cases, personal benefit.<br><br>Bodies of law: disclose-or-abstain; misappropriation; § 14(e)/Rule 14e-3 (tender offers); § 16(b) short-swing (officers, directors, &gt;10% holders, 6 months); state law.",BA Securities Doctrine
-Classical theory vs. misappropriation theory,"Classical: insiders and temporary insiders (lawyers, accountants, underwriters) owe a duty to the issuer's SHs → disclose or abstain.<br><br>Misappropriation: outsider owes no duty to the issuer's SHs but breaches a duty of trust and confidence to the SOURCE of the info.",BA Securities Doctrine
-"Rule 10b5-1: Trading ""on the basis of"" MNPI","= trading while AWARE of MNPI.<br><br>Affirmative defense: before becoming aware, the person had a binding contract, an instruction to trade, or a written trading plan.",BA Securities Rule
-Rule 10b5-2(b): When does a duty of trust or confidence exist?,"(1) Agreement to keep info confidential; (2) history, pattern, or practice of sharing confidences; (3) info from a spouse, parent, child, or sibling. (Non-exclusive.)",BA Securities Rule
-MNPI: what makes info material and nonpublic?,"Material: a reasonable investor would consider it significant; need only alter the total mix (price movement on release is evidence).<br><br>Nonpublic: not available through public sources, even if a limited group of outsiders knows.",BA Securities Doctrine
-SEC v. Texas Gulf Sulphur Co.,"Rule: Insiders with material inside info must disclose or abstain, and must wait until the news is effectively disseminated; a misleading company press release is ""in connection with"" trading if investors would rely on it.<br><br>Key: an insider who bought minutes after the announcement still violated 10b-5.",BA Securities Case
-Chiarella v. United States,"Rule: Trading on MNPI violates 10b-5 only if the trader has a duty to disclose from a relationship of trust with the counterparties; there's no general duty from mere possession.<br><br>Key: financial printer owed target SHs no duty → conviction reversed; misappropriation theory not reached. Adopts Cady, Roberts (access to info meant for a corporate purpose + unfairness).",BA Securities Case
-Dirks v. SEC,"Rule: A tippee inherits the duty to disclose or abstain only when (i) the insider breached a duty by tipping for a personal benefit and (ii) the tippee knew or should have known of the breach.<br><br>Key: Secrist tipped to expose fraud, not for personal benefit → no tipper breach → no tippee breach.<br><br>Personal benefit: money, reputation, currying favor, a gift.",BA Securities Case
-Classes of stock and splitting votes from money,"Default: one share, one vote. MBCA § 6.01(b): at least one class with unlimited voting and one with the residual claim (can be the same); § 6.01(c) allows nonvoting stock.<br><br>Tools: dual-class; nonvoting stock; class board seats; voting trusts; vote-pooling agreements; irrevocable proxy (needs an interest).",BA Shareholder_Voting Doctrine
-Who can call a special meeting? MBCA § 7.02 vs. DGCL § 211(d),MBCA: the board or holders of 10%.<br><br>DGCL: only the board or persons authorized in the charter or bylaws.,BA Shareholder_Voting Doctrine
-DGCL § 228: Action by written consent,"(a) Unless the charter opts out, SHs may act without a meeting, notice, or vote by written consent of holders with the minimum votes needed at a full meeting.<br><br>(c), (e): consent must be in writing/electronic; non-consenting SHs get prompt notice. Strictly enforced.",BA Shareholder_Voting Rule
-Stroh v. Blackhawk Holding Corp.,"Rule: Stock may carry only voting rights with no economic rights; a ""proprietary interest"" includes the right to participate in control.<br><br>Key: statute lists control OR profits OR assets in the disjunctive → Class B valid. Dissent: no economic interest, no stock.",BA Shareholder_Voting Case
-Espinoza v. Zuckerberg,"Rule: A controlling SH can't ratify an interested board decision informally; ratification must be by a vote at a meeting or a § 228 written consent with notice.<br><br>Key: Zuckerberg's affidavit saying he approved directors' pay wasn't ratification → entire fairness, dismissal denied. Formality protects the minority.",BA Shareholder_Voting Case
-Federal vs. state roles in shareholder voting,"Federal law: procedures, mechanics, disclosure (proxy rules). State law: substance (how many votes, when, on what).<br><br>SHs elect/remove directors (§§ 211, 141(k)); board manages (§ 141(a)); officers are agents (§ 142). SH checks: vote, sue, sell.",BA Shareholder_Voting Doctrine
-Exchange Act § 14(a): Proxy solicitation,Unlawful to solicit proxies for § 12-registered securities in contravention of SEC rules.<br><br>Common violations: soliciting before delivering a proxy statement; using unfiled materials; false or misleading solicitations.,BA Shareholder_Voting Rule
-Rule 14a solicitation exemptions,Public statements of how a SH will vote and why (14a-1(l)(2)(iv)); persons not seeking proxy power and not furnishing a proxy form (14a-2(b)(1)); solicitations of 10 or fewer (14a-2(b)(2)); voting advice from a business advisor (14a-2(b)(3)).,BA Shareholder_Voting Doctrine
-Rosenfeld v. Fairchild Engine &amp; Airplane Corp.,"Rule: In a contest over policy (not purely personal power), directors may spend reasonable and proper corporate funds to persuade SHs; successful insurgents may be reimbursed with SH ratification.<br><br>Incumbents: reimbursed win or lose. Insurgents: only if they win AND SHs ratify.<br><br>Dissent: really a personnel fight.",BA Shareholder_Voting Case
-DGCL § 113: Proxy expense reimbursement bylaws,"Bylaws may provide for reimbursing a SH's proxy expenses in director elections, subject to conditions (number of nominees, prior requests, caps tied to votes received or company spending).<br><br>Delaware's answer to the incumbent advantage.",BA Shareholder_Voting Rule
-J.I. Case Co. v. Borak,"Rule: There is an implied private right of action under § 14(a) for false or misleading proxy materials, available both directly and derivatively.<br><br>Key: SEC can't check thousands of proxies, so private suits are a necessary supplement.",BA Shareholder_Voting Case
-Rule 14a-8: Eligibility and procedure,"Ownership: $2,000 for 3 years, $15,000 for 2 years, or $25,000 for 1 year.<br><br>Submit ≥120 days before the anniversary of last year's proxy release; one proposal per proponent per meeting; 500 words.<br><br>Fixable defects: company notifies within 14 days; proponent has 14 days to cure. Skip the meeting without good cause → excludable for 2 years.",BA Proposals_and_Inspection Rule
-Rule 14a-8 exclusion process and the company's four options,"Options: adopt; negotiate; include with an opposing statement; seek exclusion.<br><br>Process: company files reasons with SEC staff, may seek a no-action letter; staff issues one or is ""unable to concur""; SH can then sue.<br><br>Proposals are usually precatory because binding ones can be improper under state law (i)(1).",BA Proposals_and_Inspection Doctrine
-Rule 14a-8(i): The substantive exclusions,(1) improper under state law; (2) violates law; (3) violates proxy rules; (4) personal grievance; (5) relevance (5% test); (6) no power to implement; (7) ordinary business; (8) director elections; (9) conflicts with company proposal; (10) substantially implemented; (11) duplicative; (12) resubmissions (&lt;5% / 15% / 25%); (13) specific dividend amounts.,BA Proposals_and_Inspection Rule
-Rule 14a-8(i)(5): Relevance exclusion,"Excludable if it relates to operations under 5% of total assets AND under 5% of net earnings and gross sales, AND isn't otherwise significantly related to the business.<br><br>""Otherwise significantly related"" isn't limited to economics (Lovenheim).",BA Proposals_and_Inspection Rule
-Lovenheim v. Iroquois Brands,"Rule: ""Otherwise significantly related"" in the relevance exclusion isn't limited to economic significance; ethical or social significance can be enough.<br><br>Key: foie gras was under 5% economically but ethically significant → couldn't be excluded.",BA Proposals_and_Inspection Case
-Trinity Wall Street v. Wal-Mart Stores,"Rule: Excludable under the ordinary business exclusion (i)(7) unless it raises a significant policy issue that TRANSCENDS the company's day-to-day business.<br><br>Test: (1) what is the subject matter? (2) does it relate to ordinary business? If so, (3) significant policy issue that transcends it?<br><br>Key: gun sales are a significant policy issue, but product selection is a retailer's core business → excludable.",BA Proposals_and_Inspection Case
-"AFSCME v. AIG, Inc.","Rule: A proposal to set up a procedure for including SH director nominees in the company's proxy (proxy access) isn't excludable under the election exclusion; a proposal causing an immediate election contest can be.<br><br>Key: exclusion covers a particular election, not general election procedures.",BA Proposals_and_Inspection Case
-Rule 14a-7: SH list or mailing,A SH who wants to solicit others can make the company either mail its materials (at the SH's cost) or hand over the SH list; management usually prefers to mail.,BA Proposals_and_Inspection Rule
-DGCL § 220: Books-and-records inspection,"SH makes a written demand under oath stating a purpose; may inspect the stock ledger, SH list, and books and records for any PROPER purpose; can sue in Chancery if refused.<br><br>§ 220(c): show (1) SH status, (2) compliance with form and manner, (3) proper purpose.",BA Proposals_and_Inspection Rule
-§ 220: What counts as a proper purpose?,"Reasonably related to the SH's interest as a stockholder. Accepted: valuing shares; evaluating an offer; director independence or suitability; testing disclosures; investigating waste, mismanagement, or self-dealing.<br><br>Not proper: mere disagreement with a business decision; purely political or social aims (Pillsbury).<br><br>Wrongdoing: need a credible basis (preponderance); get only records necessary and essential to the purpose.",BA Proposals_and_Inspection Doctrine
-AmerisourceBergen Corp. v. Lebanon County Employees' Retirement Fund,"Rule: A SH investigating possible wrongdoing need not state how it will use the records (e.g., that it will sue), as long as it shows a credible basis.<br><br>Exception: where an insurmountable procedural bar blocks litigation and litigation is the only stated use, the SH must say what it will do.",BA Proposals_and_Inspection Case
-Crane Co. v. Anaconda Co.,"Rule: A qualified SH may inspect the SH list to communicate directly with fellow SHs about its exchange (tender) offer, unless the purpose is harmful to the corporation or its SHs; the SH chooses how to communicate.<br><br>Key: Anaconda's offer to mail Crane's materials wasn't enough.",BA Proposals_and_Inspection Case
-State ex rel. Pillsbury v. Honeywell Inc.,Rule: Inspection is allowed only for a purpose tied to the SH's economic interest; a purely political or social purpose isn't proper.<br><br>Key: bought shares only to oppose munitions production. A bona fide investor worried about economic effects could qualify.,BA Proposals_and_Inspection Case
-"In re Match Group, Inc. Derivative Litigation","Rule: MFW applies to ANY controller transaction where the controller gets a non-ratable benefit, not just freeze-outs. To get the BJR, the deal must be conditioned from the start on an independent, fully empowered special committee (meeting its duty of care) AND an informed, uncoerced majority-of-the-minority vote.<br><br>Key: EVERY committee member must be independent, not just a majority; one long-time IAC employee on the committee → entire fairness.<br><br>Entire fairness = fair dealing + fair price, considered together.",BA Controlling_SHs_11-5_reading Case
-Zahn v. Transamerica Corp.,Rule: A majority SH acting through the board owes the minority the same fiduciary duties as directors; using control for personal profit at the minority's expense breaches loyalty.<br><br>Key: controller redeemed Class A stock before liquidation so Class B (its own) captured the liquidation value → breach.,BA Controlling_SHs_11-5_reading Case
+What are the 2 elements of agency (R3d § 1.01)?,(1) P manifests assent that A will act on P's behalf and under P's control; (2) A consents.,BA::Agency Rule
+Is a contract or compensation required to form an agency?,No. Only mutual consent to act on P's behalf and under P's control.,BA::Agency Doctrine
+"Must the parties intend to create an ""agency""?",No. They need only consent to the relationship; the label doesn't matter.,BA::Agency Doctrine
+Why is agency an unstable form for running a business?,It is terminable at will by either party.,BA::Agency Doctrine
+Gorton v. Doty: what created the agency?,Lending the car on the condition that only the coach drive it supplied consent and control.,BA::Agency Case
+Which case held that lending a car on condition only the borrower drive it made him the owner's agent?,Gorton v. Doty.,BA::Agency Case
+Cargill: when does a creditor become liable as a principal?,When it takes de facto control over the debtor's business.,BA::Agency Case
+Which case made a lender liable as principal for its debtor's debts because it controlled the business?,A. Gay Jenson Farms v. Cargill.,BA::Agency Case
+Cargill: did any single factor make Cargill the principal?,"No. The many control factors compounded (vetoes, audits, ""paternal guidance,"" financing everything).",BA::Agency Doctrine
+How can a creditor avoid Cargill liability?,"Use ex ante loan covenants, give advice only, and rely on ex post creditor remedies.",BA::Agency Doctrine
+Name 4 of the Cargill control factors.,Any 4: constant recommendations; right of first refusal; veto over mortgages/dividends; audits; criticizing finances; Cargill forms; financing everything; power to cut off financing.,BA::Agency Doctrine
+What are the 5 ways P can be bound to a contract A made?,"Actual authority (express or implied), apparent authority, inherent authority, ratification, estoppel.",BA::Agency Doctrine
+Actual authority is based on P's communications to whom?,To the agent.,BA::Agency Doctrine
+Apparent authority is based on P's manifestations to whom?,To the third party.,BA::Agency Doctrine
+R3d § 2.02: actual authority is measured from whose understanding?,The agent's reasonable understanding of P's manifestations and objectives.,BA::Agency Rule
+What is implied actual authority?,"Authority to take steps necessary or incidental to an express instruction (""paint my house"" → buy paint).",BA::Agency Doctrine
+When can custom create implied authority?,When P grants broad discretion; not when P's instructions are detailed or A knows P doesn't know the custom.,BA::Agency Doctrine
+Is P bound by A's actually authorized act if T didn't know A was acting for anyone?,Yes. Actual authority binds P regardless of T's knowledge.,BA::Agency Doctrine
+What are the 2 parts of the apparent authority test?,(1) P held A out (or knowingly let A act) as authorized; (2) T reasonably and in good faith believed A was authorized.,BA::Agency Doctrine
+R3d § 3.03: can an agent create apparent authority by his own claims?,No. It must be traceable to P's manifestation to T.,BA::Agency Rule
+When does apparent authority end?,When T has notice that A's authority ended or P no longer consents.,BA::Agency Doctrine
+What counts as notice to T that apparent authority ended?,"P tells T directly, a reasonable time passes after a writing is delivered, or publicity reasonably likely to reach T.",BA::Agency Doctrine
+"R3d § 6.01: with a disclosed principal, who are the parties to the contract?",P and T. A is not a party unless A and T agree otherwise.,BA::Agency Rule
+Mill Street Church v. Hogan: what was the source of Bill's authority to hire his brother?,Implied actual authority from past conduct: the church had let him hire Sam before.,BA::Agency Case
+Which case found implied authority to hire a helper because the principal had allowed it on past jobs?,Mill Street Church of Christ v. Hogan.,BA::Agency Case
+Ackerman v. Sobol: does retaining a lawyer give the lawyer authority to settle?,"No, not by itself. But the client's course of dealing can create apparent authority.",BA::Agency Case
+Ackerman v. Sobol: why was the client bound by the settlement?,"She took part in long settlement talks without objecting, creating apparent authority.",BA::Agency Case
+R2d § 8A: what is inherent agency power?,"Power arising solely from the agency relationship, to protect third parties; not from authority or estoppel.",BA::Agency Rule
+What replaced inherent agency power in R3d?,Broader apparent authority plus estoppel of an undisclosed principal (§ 2.06).,BA::Agency Doctrine
+Why does inherent authority put the loss on P?,P is best placed to monitor A and avoid the loss.,BA::Agency Doctrine
+Watteau v. Fenwick: what is the rule?,"An undisclosed principal is liable for the agent's acts usual for that business, even acts P forbade.",BA::Agency Case
+Watteau v. Fenwick: under what theory were the pub owners liable?,Inherent agency power. There was no actual or apparent authority.,BA::Agency Case
+Which case held secret pub owners liable for cigars their manager bought against orders?,Watteau v. Fenwick.,BA::Agency Case
+R3d § 2.06(2): can an undisclosed principal rely on secret limits on A's authority?,"No, not to cut A's authority below what T would assume if P were disclosed.",BA::Agency Rule
+What is ratification (R3d § 4.01)?,"P's after-the-fact affirmance of an act, treated as if done with actual authority.",BA::Agency Rule
+What 2 things must be true of P's ratification?,P must be fully informed and must adopt the entire transaction.,BA::Agency Doctrine
+What are the 4 ways P can ratify?,Expressly; by accepting benefits; by silence; by suing on the contract.,BA::Agency Doctrine
+R3d § 4.02(2): name the 3 situations where ratification is not effective.,(a) Induced by fraud/misrepresentation; (b) in A's favor when P ratifies to avoid a loss; (c) to cut off third parties' prior rights.,BA::Agency Rule
+What are the 3 elements of agency by estoppel?,"(1) P creates an appearance of authority by words, acts, or omissions; (2) T reasonably relies in good faith; (3) T changes position.",BA::Agency Doctrine
+How does estoppel differ from apparent authority?,"It can arise from P's inaction or negligence, and T's belief need not be traceable to P's manifestation.",BA::Agency Doctrine
+Is estoppel a two-way street?,"No. P is estopped from denying authority, but T is not bound.",BA::Agency Doctrine
+Hoddeson v. Koos Bros.: why was the store liable to the customer who paid an imposter?,Estoppel: the store failed to take reasonable steps to stop imposters on its sales floor.,BA::Agency Case
+Which case held a store liable when a fake salesman took a customer's cash on its floor?,Hoddeson v. Koos Bros.,BA::Agency Case
+R3d § 1.04: define an undisclosed principal.,T has no notice that A is acting for a principal.,BA::Agency Rule
+R3d § 1.04: define an unidentified principal.,T knows A acts for a principal but not who it is.,BA::Agency Rule
+When is the agent personally liable on a contract?,When the principal is undisclosed or unidentified.,BA::Agency Doctrine
+What 2 things must A disclose to avoid personal liability on a contract?,(1) That A acts in a representative capacity; (2) P's identity.,BA::Agency Doctrine
+Does T have a duty to ask who the principal is?,No.,BA::Agency Doctrine
+Atlantic Salmon v. Curran: why was Curran personally liable?,"He never disclosed his principal's identity, so the principal was unidentified.",BA::Agency Case
+Which case held an agent personally liable for salmon bought for corporations he never identified?,Atlantic Salmon A/S v. Curran.,BA::Agency Case
+What are the 3 components of agency costs?,"Monitoring (by P), bonding (by A), and residual loss.",BA::Agency Doctrine
+What 2 jobs do fiduciary duties do in agency?,Fill gaps in incomplete contracts and act as an ex post bond making A's promises credible.,BA::Agency Doctrine
+What are the 3 fiduciary duties of an agent?,"Obedience, care, loyalty.",BA::Agency Doctrine
+Which R3d section is the duty of obedience?,"§ 8.09 (act within actual authority, follow instructions).",BA::Agency Rule
+What are the 3 classic breaches of an agent's duty of loyalty?,(1) Bribe or kickback from T; (2) secret profit dealing with P; (3) using the position to profit from someone unrelated to P.,BA::Agency Doctrine
+R2d § 389: may A deal with P as an adverse party?,"Not without P's knowledge (e.g., an agent hired to sell can't secretly buy).",BA::Agency Rule
+R3d § 8.04: may an agent prepare to compete during the agency?,"Yes, if not otherwise wrongful. Actually competing during the agency is barred.",BA::Agency Rule
+R3d § 8.05: what makes departure preparations wrongful?,Using P's property or confidential information.,BA::Agency Rule
+Reading v. Regem: what is the rule?,"An agent who uses his position to make a profit must account for it to P, even if P lost nothing.",BA::Agency Case
+Reading v. Regem: why did the Crown get the sergeant's money?,"He earned it by using his position (the uniform), not his own efforts.",BA::Agency Case
+Which case made a soldier hand over bribes earned escorting smugglers in uniform?,Reading v. Regem.,BA::Agency Case
+Reading hypos: what is the test for whether P gets A's profit?,Did the money come from the agency position or from something A did on his own?,BA::Agency Doctrine
+Reading hypo: may a war hero keep money a restaurant pays him to show up?,"Yes. He is cashing in on honestly earned fame, not misusing a position.",BA::Agency Doctrine
+Rash v. J.V. Intermediate: what did Rash fail to do?,Disclose that he owned the scaffolding company he steered subcontracts to.,BA::Agency Case
+Rash v. J.V. Intermediate: how is the scope of the duty to disclose judged?,For the specific transaction: what P should rightly know.,BA::Agency Case
+"Town &amp; Country v. Newbery: what may former employees not do, even without a non-compete?",Solicit customers from a list the employer built at significant effort and expense.,BA::Agency Case
+Town &amp; Country v. Newbery: why was the customer list protected?,"It was built by cold-calling and screening, so it was a confidential asset.",BA::Agency Case
+Which case held employees can't solicit customers from a list the employer built at great effort?,Town &amp; Country House &amp; Home Service v. Newbery.,BA::Agency Case
+Which case held a manager breached by not disclosing his stake in a subcontractor?,Rash v. J.V. Intermediate.,BA::Agency Case
+Which case bound a client to a settlement after she sat through her lawyer's negotiations?,Ackerman v. Sobol Family Partnership.,BA::Agency Case
+UPA § 6(1): define a partnership.,An association of two or more persons to carry on as co-owners a business for profit.,BA::Partnerships Rule
+Can a partnership form without the parties intending one?,Yes. It is the default form for co-owners of a for-profit business.,BA::Partnerships Doctrine
+What are the 3 elements of a partnership?,(1) Intent to be partners; (2) co-ownership of the business; (3) profit motive.,BA::Partnerships Doctrine
+Which partnership element usually decides close cases?,Co-ownership.,BA::Partnerships Doctrine
+"Under UPA § 7 / RUPA § 202, what does sharing profits create?",A presumption (prima facie evidence) of partnership.,BA::Partnerships Rule
+When does sharing profits NOT create a presumption of partnership?,"When received as debt payments, wages, rent, or an annuity.",BA::Partnerships Rule
+Does co-owning property by itself create a partnership?,"No, even if the co-owners share profits from it.",BA::Partnerships Rule
+Name 4 Fenwick factors for whether a partnership exists.,Any 4: intent; profit sharing; loss sharing; control of property; shared administration; agreement's language; conduct toward third parties; rights on dissolution.,BA::Partnerships Doctrine
+"Fenwick: why was the ""partner"" receptionist really an employee?","No co-ownership: no capital, no control, no share of losses.",BA::Partnerships Case
+"Which case held that calling a receptionist a ""partner"" with 20% of profits didn't make her one?",Fenwick v. Unemployment Compensation Commission.,BA::Partnerships Case
+Martin v. Peyton: what is the rule?,A lender is a partner only if it carries on the business as a co-owner.,BA::Partnerships Case
+"Martin v. Peyton: did inspection rights, a veto, and 40% of profits make the lenders partners?","No. They were protections for a loan, not control.",BA::Partnerships Case
+"Southex v. RIBA: is calling someone a ""partner"" in the agreement dispositive?",No. Labels are probative but not dispositive; look at the totality.,BA::Partnerships Case
+Southex: why was there no partnership despite a 55/45 profit split?,SEM bore all losses and contracted with third parties in its own name.,BA::Partnerships Case
+Young v. Jones: what does partnership by estoppel require?,That the third party actually relied on the representation of partnership.,BA::Partnerships Case
+"Which case rejected partnership by estoppel because investors never saw the ""global partnership"" brochure?",Young v. Jones.,BA::Partnerships Case
+Which 2 duties does UPA § 409 impose on partners?,Loyalty and care.,BA::Partnerships Rule
+Why do partners owe no duty of obedience?,They are co-owners with no principal to obey.,BA::Partnerships Doctrine
+§ 409(b)(1): what must a partner account for?,"Any benefit from the business, from using partnership property, or from taking a partnership opportunity.",BA::Partnerships Rule
+Which subsection of § 409 codifies Meinhard?,§ 409(b)(1)(C): appropriation of a partnership opportunity.,BA::Partnerships Rule
+§ 409(b)(3): when is a partner barred from competing with the partnership?,Before dissolution.,BA::Partnerships Rule
+§ 409(c): what is the partner's standard of care?,"Refrain from gross negligence, recklessness, intentional misconduct, or knowing violation of law.",BA::Partnerships Rule
+Does ordinary negligence breach a partner's duty of care?,No. § 409(c) requires gross negligence or worse.,BA::Partnerships Rule
+§ 105(d): how can partners authorize a deal that would breach loyalty?,"Approval by disinterested, independent persons after full disclosure, per a method in the agreement.",BA::Partnerships Rule
+Meinhard v. Salmon: what standard of loyalty do joint adventurers owe?,"""Not honesty alone, but the punctilio of an honor the most sensitive.""",BA::Partnerships Case
+Meinhard v. Salmon: what did Salmon have to do with the new lease opportunity?,"Disclose it to Meinhard, because it came to him through the venture.",BA::Partnerships Case
+Meinhard v. Salmon: what was the remedy?,A constructive trust for Meinhard.,BA::Partnerships Case
+Meinhard: what was the dissent's argument?,"The venture had a fixed end and limited purpose, so the new lease was outside it.",BA::Partnerships Case
+What is the economic case for the Meinhard disclosure rule?,"Without it, partners would hoard information and squeeze each other out; a default rule is cheaper than contracting.",BA::Partnerships Doctrine
+Sandvick v. LaCrosse: do joint venturers owe fiduciary duties without a partnership?,"Yes, within the scope of the venture.",BA::Partnerships Case
+"Which case held co-investors breached loyalty by secretly buying ""top leases"" on venture land?",Sandvick v. LaCrosse.,BA::Partnerships Case
+What is the 3-step Sandvick framework?,"(1) Partnership? (2) If not, joint venture? (3) What is the scope of the venture, and what duties follow?",BA::Partnerships Doctrine
+What are the 4 elements of a joint venture?,(1) Contribution; (2) proprietary interest and mutual control; (3) agreement to share profits; (4) contract (express or implied).,BA::Partnerships Doctrine
+"Graubard: what may departing partners tell clients, and when?",After telling the firm: that they are leaving and that the client may choose counsel.,BA::Partnerships Doctrine
+Graubard: name 3 things departing partners may not do.,Secretly lure clients; mislead clients about their choice; lie to partners about leaving (or leave abruptly with clients and files).,BA::Partnerships Doctrine
+Meehan v. Shaughnessy: is preparing to leave a breach?,No. Lying about leaving and unfair client solicitation are.,BA::Partnerships Case
+Meehan v. Shaughnessy: what 2 things were breaches?,"Denying they were leaving when asked, and sending clients one-sided letters.",BA::Partnerships Case
+RUPA § 601(4): how can partners expel a partner without a court?,"Unanimous vote of the others, plus one of 4 listed conditions.",BA::Partnerships Rule
+RUPA § 601(5): name the 3 grounds for judicial expulsion.,(1) Wrongful conduct materially harming the business; (2) willful or persistent material breach; (3) conduct making it impracticable to continue with the partner.,BA::Partnerships Rule
+Lawlis v. Kightlinger &amp; Gray: can a partner be expelled without cause?,"Yes, under a ""guillotine"" clause in the agreement.",BA::Partnerships Case
+Lawlis: when would expulsion breach a fiduciary duty?,Only if money owed to the expelled partner were wrongfully withheld.,BA::Partnerships Case
+What does Lawlis say about the nature of partner fiduciary duties?,They work like default rules the agreement can pare back.,BA::Partnerships Doctrine
+Partnership finance: what is a draw?,A periodic distribution of profits.,BA::Partnerships Doctrine
+Partnership finance: what is an advance?,"A partner's loan to the firm, repaid with interest.",BA::Partnerships Doctrine
+"By default, are partners paid a salary for their services?","No. They get distributions only, unless they agree otherwise.",BA::Partnerships Doctrine
+RUPA § 204: what 3 things do you check to see if property belongs to the partnership?,"Title, then capacity (acting as partner), then whose money paid for it.",BA::Partnerships Rule
+RUPA § 204(3): what presumption arises if partnership funds bought the property?,It is presumed partnership property.,BA::Partnerships Rule
+RUPA § 401(a): what is the default split of profits?,Equal shares.,BA::Partnerships Rule
+RUPA § 401(a): what is the default split of losses?,In proportion to each partner's share of profits.,BA::Partnerships Rule
+UPA (1914) § 40(b): what is the 4-tier order of payment on winding up?,Outside creditors → partner loans → capital → profits.,BA::Partnerships Rule
+RUPA § 806: what is the 3-tier order of payment on winding up?,Creditors (including partner-lenders) → capital → profits.,BA::Partnerships Rule
+How did the 1997 act collapse 4 tiers into 3?,It put partners who lent money in the same class as outside creditors.,BA::Partnerships Doctrine
+In re Fulton: what determines whether property belongs to the partnership?,The partners' intent at acquisition.,BA::Partnerships Case
+In re Fulton: what does a partner's bankruptcy estate get?,"Only his partnership interest, not partnership property.",BA::Partnerships Case
+"Fulton hypo: trailer sells for $4K, creditor owed $1K, Carroll contributed $4K. Who gets what?","Creditor $1K, Carroll $3K, Fulton $0.",BA::Partnerships Doctrine
+"What is the ""sweat equity"" problem in returning capital first, and the fix?",The labor partner gets nothing for work; fix with market salary plus market interest on capital.,BA::Partnerships Doctrine
+RUPA § 301(1): when does a partner's ordinary-course act bind the firm?,"Always, unless the partner lacked authority AND T knew or had notice of that.",BA::Partnerships Rule
+RUPA § 401(k): what vote is needed for an ordinary-course matter?,A majority of partners.,BA::Partnerships Rule
+RUPA § 401(k): what vote is needed for an extraordinary act or amendment?,Unanimous consent.,BA::Partnerships Rule
+What did the 1997 act change in § 301(1)?,"The firm escapes if T ""knew or had notice"" of no authority (1914 required actual knowledge).",BA::Partnerships Doctrine
+National Biscuit v. Stroud: can one of two equal partners cut off the other's authority?,No. Restricting a partner's authority takes a majority.,BA::Partnerships Case
+Which case bound a 2-person partnership to a bread order one partner had told the seller he wouldn't pay for?,National Biscuit Co. v. Stroud.,BA::Partnerships Case
+Summers v. Dooley: can one of two equal partners impose a new expense over the other's objection?,No. No majority approved it.,BA::Partnerships Case
+Which case denied a partner reimbursement for hiring a third worker his equal partner refused?,Summers v. Dooley.,BA::Partnerships Case
+How do Stroud and Summers fit together?,Same majority rule: the partner trying to change the status quo without a majority loses.,BA::Partnerships Doctrine
+Day v. Sidley &amp; Austin: may partners delegate management to an executive committee?,Yes.,BA::Partnerships Case
+Day v. Sidley &amp; Austin: what's needed for a fiduciary breach?,"Self-dealing, profit, or loss to the firm, not just nondisclosure of structural changes.",BA::Partnerships Case
+Dissociation vs. dissolution?,Dissociation: a partner leaves. Dissolution: the business ends and winds up.,BA::Partnerships Doctrine
+Does dissociation always cause dissolution?,No.,BA::Partnerships Doctrine
+At-will vs. term partnership?,At-will: any partner can dissolve anytime. Term: has a set term or undertaking.,BA::Partnerships Doctrine
+Name 3 events that are NOT dissociation by default.,Any 3: transferring an interest; a charging order; adding a partner; disagreements.,BA::Partnerships Doctrine
+RUPA § 601: name 4 events that cause dissociation.,Any 4: notice of withdrawal; agreed event; expulsion; bankruptcy; death or incapacity.,BA::Partnerships Rule
+RUPA § 701: at what value is a dissociated partner bought out?,"The greater of liquidation value or going-concern value, minus damages for wrongful dissociation.",BA::Partnerships Rule
+"RUPA § 801: in an at-will partnership, what does a partner's withdrawal trigger?",Dissolution and winding up.,BA::Partnerships Rule
+RUPA § 801: how can a term partnership dissolve early after a partner's death or wrongful dissociation?,If at least half the remaining partners vote to wind up within 90 days.,BA::Partnerships Rule
+"RUPA § 802: after dissolution, does a partner have actual authority for new business?",No. Only authority to wind up.,BA::Partnerships Rule
+How do partners end lingering apparent authority after dissolution?,File a § 704 statement; T is deemed on notice 90 days later.,BA::Partnerships Rule
+Giles v. Giles Land Co.: when can a court dissociate a partner?,When his wrongful conduct materially harms the business or makes continuing with him impracticable.,BA::Partnerships Case
+Which case judicially dissociated a son whose hostility brought the family farm business to a standstill?,Giles v. Giles Land Co.,BA::Partnerships Case
+Brennan v. Brennan Associates: why could the court order dissociation?,"An irreparable breakdown justifies dissolution, so it also justifies the lesser remedy of dissociation.",BA::Partnerships Case
+Kovacik v. Reed: must a labor-only partner share a capital partner's losses?,No. Each loses what he put in.,BA::Partnerships Case
+How does Kovacik relate to RUPA § 401(a)?,"It's a judicial gloss; read literally, § 401(a) would make losses follow the profit share.",BA::Partnerships Doctrine
+G&amp;S Investments v. Belman: does filing a dissolution suit dissolve the partnership?,No.,BA::Partnerships Case
+"G&amp;S Investments: what does ""capital account"" mean in a buy-out clause?","The book figure, not market value.",BA::Partnerships Case
+RUPA § 306(a): how are general partners liable for partnership obligations?,"Jointly and severally, for everything.",BA::Partnerships Rule
+UPA (1914) § 15: how were partners liable?,Jointly and severally for torts; only jointly for other debts.,BA::Partnerships Rule
+LLP: who gets limited liability?,"All partners, once the general partnership registers.",BA::Partnerships Doctrine
+LP: who manages and who is personally liable?,Only the general partners.,BA::Partnerships Doctrine
+LLC: what 2 things does it combine?,Partnership (pass-through) taxation and corporate limited liability.,BA::Partnerships Doctrine
+Frigidaire v. Union Properties: did LPs who ran the corporate GP lose limited liability?,No. They controlled the business only as officers and directors of the corporate GP.,BA::Partnerships Case
+"Which case held a dissolution suit doesn't dissolve the firm and ""capital account"" means book value?",G&amp;S Investments v. Belman.,BA::Partnerships Case
+Which case kept LPs' limited liability though they ran the corporate GP?,Frigidaire Sales v. Union Properties.,BA::Partnerships Case
+Which case held a capital-only partner can't make a labor-only partner share capital losses?,Kovacik v. Reed.,BA::Partnerships Case
+Which case upheld expelling a partner without cause under a guillotine clause?,Lawlis v. Kightlinger &amp; Gray.,BA::Partnerships Case
+Which case held departing partners breached by lying about leaving and sending one-sided client letters?,Meehan v. Shaughnessy.,BA::Partnerships Case
+Which case held lenders with a veto and 40% of profits were not partners?,Martin v. Peyton.,BA::Partnerships Case
+Which case required a joint adventurer to share a lease renewal he took secretly?,Meinhard v. Salmon.,BA::Partnerships Case
+"Which case held a trailer was partnership property, out of a bankrupt partner's estate?",In re Fulton.,BA::Partnerships Case
+Which case allowed delegating firm management to an executive committee without breach?,Day v. Sidley &amp; Austin.,BA::Partnerships Case
+What are the 5 critical attributes of a corporation?,Legal personality; limited liability; separation of ownership and control; liquidity; flexible capital structure.,BA::Corporate_Form Doctrine
+Can an individual director bind the corporation?,No. Directors aren't agents; the board acts as a body.,BA::Corporate_Form Doctrine
+MBCA § 8.01(b) / DGCL § 141(a): who manages the corporation?,"The board, or others under its direction.",BA::Corporate_Form Rule
+Name the 4 things shareholders vote on.,"Directors; charter and bylaw amendments; mergers; odds and ends (e.g., auditors).",BA::Corporate_Form Doctrine
+MBCA § 6.22(b): what are the 2 exceptions to SH limited liability?,(1) The articles provide otherwise; (2) the SH's own acts or conduct.,BA::Corporate_Form Rule
+What are the 3 steps to amend the articles?,Board recommends → SHs approve → file with the state.,BA::Corporate_Form Doctrine
+"If the bylaws conflict with the articles, which wins?",The articles.,BA::Corporate_Form Doctrine
+What is the internal affairs doctrine?,"Only the state of incorporation governs relations among the corporation, its D&amp;Os, and SHs.",BA::Corporate_Form Doctrine
+DGCL § 109(a): who holds the power to amend bylaws by default?,The shareholders.,BA::Corporate_Form Rule
+"DGCL § 109(a): if the charter gives the board bylaw power, do SHs lose it?",No. Both hold it.,BA::Corporate_Form Rule
+DGCL § 109(b): what may bylaws contain?,"Anything about the business, its affairs, or constituents' rights, if consistent with law and the charter.",BA::Corporate_Form Rule
+Boilermakers v. Chevron: can a board adopt a forum-selection bylaw without a SH vote?,"Yes, if the charter gives it bylaw power.",BA::Corporate_Form Case
+Boilermakers v. Chevron: why was the forum bylaw valid?,"It regulates where, not whether, SHs sue, and SHs bought knowing the board could amend bylaws.",BA::Corporate_Form Case
+VantagePoint v. Examen: which state's law governed the class vote on the merger?,"Delaware (state of incorporation), not California.",BA::Corporate_Form Case
+Affirmative asset partitioning means...,SHs' personal creditors can't reach the firm's assets.,BA::Corporate_Form Doctrine
+Defensive asset partitioning means...,The firm's creditors can't reach SHs' personal assets (limited liability).,BA::Corporate_Form Doctrine
+What are the 2 main downsides of limited liability?,Externalities on third parties and excessive risk-taking.,BA::Corporate_Form Doctrine
+What are the 3 theories for reaching past the corporation (Walkovszky)?,"Enterprise liability, agency, veil piercing.",BA::Corporate_Form Doctrine
+Enterprise liability lets the plaintiff recover from whom?,"Sister corporations treated as one, not the shareholders.",BA::Corporate_Form Doctrine
+Which of the 3 Walkovszky theories is weakest?,Agency.,BA::Corporate_Form Doctrine
+Walkovszky v. Carlton: is undercapitalization with minimum insurance enough to pierce?,No.,BA::Corporate_Form Case
+Walkovszky: what must P show to hold the SH personally liable?,That he used the corporation to conduct his own personal business.,BA::Corporate_Form Case
+Walkovszky: what did the dissent argue?,Deliberately undercapitalized public-service corps should expose their SHs.,BA::Corporate_Form Case
+Sea-Land v. Pepper Source: what are the 2 prongs for piercing?,(1) Unity of interest so no separate personalities exist; (2) respecting the form would sanction fraud or promote injustice.,BA::Corporate_Form Case
+Sea-Land: is an unpaid debt enough injustice to pierce?,No. Every piercing case involves one.,BA::Corporate_Form Case
+Name the 4 Sea-Land unity-of-interest factors.,No corporate formalities; commingling; undercapitalization; one corp using another's assets.,BA::Corporate_Form Doctrine
+Sea-Land: what satisfied the injustice prong on remand?,Proof of tax fraud.,BA::Corporate_Form Case
+Which case refused to pierce a taxi fleet split into two-cab corporations?,Walkovszky v. Carlton.,BA::Corporate_Form Case
+Which case set the 2-prong unity-of-interest + injustice test for piercing?,Sea-Land Services v. Pepper Source.,BA::Corporate_Form Case
+Which case upheld a board-adopted forum-selection bylaw?,Boilermakers Local 154 v. Chevron.,BA::Corporate_Form Case
+Which case applied Delaware law to a DE corp's class vote despite California's statute?,VantagePoint Venture Partners v. Examen.,BA::Corporate_Form Case
+What was Friedman's view of corporate social responsibility?,The only one is to increase profits within the rules of the game.,BA::Corporate_Purpose Doctrine
+What are the 3 recurring contexts for corporate-purpose disputes?,Charitable giving; forced dividends; a controller indulging private whims.,BA::Corporate_Purpose Doctrine
+DGCL § 122(9): may a corporation make charitable donations?,Yes. It is an express corporate power.,BA::Corporate_Purpose Rule
+Does § 122(9) grant a power or a purpose?,A power.,BA::Corporate_Purpose Doctrine
+A.P. Smith v. Barlow: when may a corporation make a charitable gift?,When it is reasonable and reasonably believed to advance the public interest and the corporation's own.,BA::Corporate_Purpose Case
+A.P. Smith: why was the gift to Princeton valid?,"It was modest, within statutory limits, and aimed at goodwill and a trained workforce.",BA::Corporate_Purpose Case
+A.P. Smith: does a later-enacted donation statute apply to existing corporations?,Yes.,BA::Corporate_Purpose Case
+DGCL § 170(a): what are the 2 sources for dividends?,"Surplus, or if none, net profits for the current and/or prior fiscal year.",BA::Corporate_Purpose Rule
+"What are ""nimble dividends""?",Dividends paid from current or prior-year net profits when there is no surplus.,BA::Corporate_Purpose Doctrine
+"DGCL § 174(a): who is liable for an unlawful dividend, and for how long?","Directors, jointly and severally, for 6 years.",BA::Corporate_Purpose Rule
+DGCL § 172: what protects a director who approved a dividend?,"Good-faith reliance on officers, counsel, or accountants.",BA::Corporate_Purpose Rule
+MBCA § 6.40: what are the 2 tests for any distribution?,Equity insolvency (can pay debts as due) and balance sheet (assets exceed liabilities + preferences).,BA::Corporate_Purpose Rule
+Dodge v. Ford: for whose benefit is a corporation primarily run?,The shareholders' profit.,BA::Corporate_Purpose Case
+Dodge v. Ford: what did the court order and what did it refuse?,Ordered dividends; refused to enjoin the River Rouge expansion.,BA::Corporate_Purpose Case
+"Of Dodge, Kamin, and Shlensky, which granted relief?",Dodge v. Ford.,BA::Corporate_Purpose Doctrine
+Shlensky v. Wrigley: what 3 things would let a court review a business decision?,"Fraud, illegality, or conflict of interest.",BA::Corporate_Purpose Case
+Which case refused to make the Cubs install lights for night games?,Shlensky v. Wrigley.,BA::Corporate_Purpose Case
+Which case held an informed board's choice to forgo a tax loss was protected by the BJR?,Kamin v. American Express.,BA::Corporate_Purpose Case
+Which case upheld a charitable gift to Princeton?,A.P. Smith Mfg. Co. v. Barlow.,BA::Corporate_Purpose Case
+Which case ordered Ford to pay dividends?,Dodge v. Ford Motor Co.,BA::Corporate_Purpose Case
+What does the BJR presume directors did?,"Acted on an informed basis, in good faith, and in the honest belief it served the corporation.",BA::Duty_of_Care_and_BJR Doctrine
+What does even a BJR-protected decision need?,A rational business purpose.,BA::Duty_of_Care_and_BJR Doctrine
+What standard of negligence breaches the duty of care in practice?,Gross negligence.,BA::Duty_of_Care_and_BJR Doctrine
+"If P rebuts the BJR, what must directors prove?",Entire fairness: fair dealing and fair price.,BA::Duty_of_Care_and_BJR Doctrine
+"Cede v. Technicolor: what is the ""triad"" P can breach to rebut the BJR?","Good faith, loyalty, due care.",BA::Duty_of_Care_and_BJR Doctrine
+Does losing the BJR mean the directors lose the case?,No. They can still prove entire fairness.,BA::Duty_of_Care_and_BJR Doctrine
+Kamin v. American Express: is a poor decision by an informed board actionable?,"No. Mere errors of judgment aren't; need fraud, bad faith, or self-dealing.",BA::Duty_of_Care_and_BJR Case
+Kamin: why was the claim dismissed?,The board knew the tax consequences and chose anyway: an informed decision.,BA::Duty_of_Care_and_BJR Case
+Smith v. Van Gorkom: what is the rule?,The BJR doesn't protect an uninformed decision; failing to get reasonably available information is gross negligence.,BA::Duty_of_Care_and_BJR Case
+Van Gorkom: why didn't § 141(e) reliance protect the board?,"There was no real report to rely on, just a 20-minute oral presentation.",BA::Duty_of_Care_and_BJR Case
+Van Gorkom: why didn't the SH vote cure the problem?,The shareholders weren't fully informed.,BA::Duty_of_Care_and_BJR Case
+Which case held a board grossly negligent for approving a $55/share sale after a 20-minute presentation with no valuation?,Smith v. Van Gorkom.,BA::Duty_of_Care_and_BJR Case
+Van Gorkom process roadmap: name 4 things a board should do.,Any 4: consult management and outside advisors; get a valuation; negotiate at arm's length; resist time pressure; get informed.,BA::Duty_of_Care_and_BJR Doctrine
+DGCL § 141(e): when are directors protected in relying on reports?,"When relying in good faith on officers, committees, or experts reasonably selected and believed competent.",BA::Duty_of_Care_and_BJR Rule
+DGCL § 251(b): what must the board do before sending a merger to SHs?,Approve it and declare it advisable: make its own informed judgment.,BA::Duty_of_Care_and_BJR Rule
+What did Delaware enact in response to Van Gorkom?,DGCL § 102(b)(7) exculpation.,BA::Duty_of_Care_and_BJR Rule
+§ 102(b)(7): what can the charter eliminate?,Personal money damages for D&amp;O breaches of the duty of care.,BA::Duty_of_Care_and_BJR Rule
+§ 102(b)(7): name the 4 things the charter can never exculpate.,Loyalty breaches; bad faith or knowing violations; § 174 unlawful dividends; improper personal benefit.,BA::Duty_of_Care_and_BJR Rule
+Does § 102(b)(7) eliminate injunctive relief for care breaches?,No. Only money damages.,BA::Duty_of_Care_and_BJR Rule
+Francis v. United Jersey Bank: is ignorance or incapacity a defense for a passive director?,No. An incapable director should resign.,BA::Duty_of_Care_and_BJR Case
+Which case held a director liable for never attending meetings while her sons looted the company?,Francis v. United Jersey Bank.,BA::Duty_of_Care_and_BJR Case
+Can a decision not to act get the BJR?,"Yes, if it was informed. Simply doing nothing isn't a business judgment.",BA::Duty_of_Care_and_BJR Doctrine
+Why is loyalty never exculpable but care is?,Loyalty breaches are deliberate (stealing); care breaches are shirking.,BA::Duty_of_Loyalty Doctrine
+What happens to the BJR when a director has a conflict?,It is lost and the burden shifts to the director to prove fairness.,BA::Duty_of_Loyalty Doctrine
+DGCL § 144(a): name the 3 safe-harbor routes for an interested transaction.,(1) Informed disinterested-director approval; (2) informed disinterested-SH approval; (3) fairness.,BA::Duty_of_Loyalty Rule
+How many § 144(a) routes must be satisfied?,Any one.,BA::Duty_of_Loyalty Rule
+SB 21 § 144(a)(1): what standard must the approving directors meet?,Good faith and without gross negligence.,BA::Duty_of_Loyalty Rule
+SB 21 § 144(a)(1): what if most of the board is conflicted?,A committee of 2+ disinterested directors must approve.,BA::Duty_of_Loyalty Rule
+Where did SB 21 move controlling-SH transactions?,New DGCL § 144(b) and (c).,BA::Duty_of_Loyalty Rule
+Bayer v. Beran: how did the directors win despite the conflict?,They proved the transaction was fair.,BA::Duty_of_Loyalty Case
+Which case upheld a company hiring the president's wife to sing in its radio ads because the pay was fair?,Bayer v. Beran.,BA::Duty_of_Loyalty Case
+Benihana: what satisfies § 144(a)(1) for a director's conflict?,Disinterested directors knowing the material facts of it.,BA::Duty_of_Loyalty Case
+Benihana: did diluting the controlling holder defeat the BJR?,No. There was a real need for capital; dilution was a side effect.,BA::Duty_of_Loyalty Case
+Related-party transaction vs. corporate opportunity?,Related: insider deals with the corporation. Opportunity: insider takes a third-party deal belonging to the corporation.,BA::Duty_of_Loyalty Doctrine
+Who is bound by the corporate opportunity doctrine?,"Officers, directors, and dominant SHs active in management.",BA::Duty_of_Loyalty Doctrine
+What are the 4 Broz factors?,(1) Corp financially able; (2) in its line of business; (3) corp has an interest or expectancy; (4) taking it creates a conflict.,BA::Duty_of_Loyalty Case
+Broz: must an insider formally present an opportunity to the board?,No.,BA::Duty_of_Loyalty Case
+Broz: why was there no breach?,CIS couldn't afford the license and its CEO and a director said they weren't interested.,BA::Duty_of_Loyalty Case
+How should you apply Broz on the exam?,Run all 4 factors and name the gating one.,BA::Duty_of_Loyalty Doctrine
+In re eBay: what were the IPO allocations to executives?,A corporate opportunity (effectively kickbacks for eBay's banking business).,BA::Duty_of_Loyalty Case
+"In re eBay: how broadly was ""line of business"" read?",Broadly enough to cover investing cash in securities.,BA::Duty_of_Loyalty Case
+"What makes a SH a ""controller""?","Majority ownership, or a minority stake with actual control of the board or the transaction.",BA::Duty_of_Loyalty Doctrine
+When does a controller deal get entire fairness instead of BJR?,When it's self-dealing: the controller takes a benefit to the exclusion and detriment of the minority.,BA::Duty_of_Loyalty Doctrine
+What are the 2 MFW conditions for BJR on a controller deal?,(1) Independent special committee with power to say no; (2) informed majority-of-the-minority vote.,BA::Duty_of_Loyalty Doctrine
+MFW: what happens if only one of the 2 conditions is met?,"Burden shifts to P, but review stays entire fairness.",BA::Duty_of_Loyalty Doctrine
+Fliegler v. Lawrence: what ratification shifts the burden?,Approval by a majority of disinterested SHs.,BA::Duty_of_Loyalty Case
+Fliegler: why didn't the SH vote shift the burden?,Interested SHs carried the vote.,BA::Duty_of_Loyalty Case
+Investors Bancorp: does approving a general equity plan ratify specific director awards?,No. SHs must approve the specific awards.,BA::Duty_of_Loyalty Case
+DGCL § 123 authorizes what structure?,Parent–subsidiary: a corporation may own and vote other corporations' securities.,BA::Duty_of_Loyalty Rule
+Which case held a CIS director could take a cellular license CIS couldn't afford and didn't want?,Broz v. Cellular Information Systems.,BA::Duty_of_Loyalty Case
+Which case held SH approval of a broad equity plan didn't ratify directors' later self-awards?,In re Investors Bancorp.,BA::Duty_of_Loyalty Case
+Which case held ratification by interested SHs doesn't shift the burden?,Fliegler v. Lawrence.,BA::Duty_of_Loyalty Case
+Which case held IPO shares given to executives for the company's banking business were a corporate opportunity?,In re eBay Shareholders Litigation.,BA::Duty_of_Loyalty Case
+Which case upheld a dilutive preferred-stock deal negotiated by a conflicted director the board knew about?,Benihana of Tokyo v. Benihana.,BA::Duty_of_Loyalty Case
+Name the 3 DGCL protections that bad faith defeats.,"§ 141(e) reliance, § 102(b)(7) exculpation, § 145 indemnification.",BA::Good_Faith_and_Oversight Rule
+DGCL § 145: what is required for indemnification?,Good faith and reasonable belief the conduct was in or not opposed to the corporation's interests.,BA::Good_Faith_and_Oversight Rule
+Can advancement of legal fees be owed before the merits are decided?,"Yes (Frank/Javice), even though indemnification requires good faith.",BA::Good_Faith_and_Oversight Doctrine
+Disney: what are the 2 kinds of conduct that ARE bad faith?,"Subjective intent to harm, and intentional dereliction (conscious disregard) of duty.",BA::Good_Faith_and_Oversight Case
+Disney: is gross negligence alone bad faith?,"No. It's a care problem, exculpable under § 102(b)(7).",BA::Good_Faith_and_Oversight Case
+Disney: does falling short of best practices lose the BJR?,"No, if directors were reasonably informed and had a rational business purpose.",BA::Good_Faith_and_Oversight Case
+Disney: why wasn't Ovitz's package waste?,It had a rational purpose: it was needed to lure him from CAA.,BA::Good_Faith_and_Oversight Case
+"What is ""say on pay""?","Dodd-Frank's advisory SH vote on executive pay, at least every 3 years.",BA::Good_Faith_and_Oversight Doctrine
+What standard applies to executive compensation by default?,"Intrinsic fairness, because pay is inherently conflicted.",BA::Good_Faith_and_Oversight Doctrine
+Graham (1963): must directors install a monitoring system absent suspicion?,"No. No ""corporate system of espionage""; they must respond to red flags.",BA::Good_Faith_and_Oversight Doctrine
+Caremark: what must directors attempt in good faith?,To ensure an adequate information and reporting system exists.,BA::Good_Faith_and_Oversight Case
+Caremark: what level of failure creates oversight liability?,A sustained or systematic failure (an utter failure to try).,BA::Good_Faith_and_Oversight Case
+Caremark: was the oversight duty a holding?,No. It was dicta; the court approved a settlement.,BA::Good_Faith_and_Oversight Case
+Why doesn't the BJR fit oversight cases?,There is no board decision to defer to.,BA::Good_Faith_and_Oversight Doctrine
+Stone v. Ritter: what are the 2 ways to prove oversight liability?,(1) Utter failure to implement any reporting system; (2) conscious failure to monitor an existing one.,BA::Good_Faith_and_Oversight Case
+Stone v. Ritter: which duty does an oversight failure breach?,"Loyalty, via bad faith.",BA::Good_Faith_and_Oversight Case
+Stone v. Ritter: is good faith a third independent duty?,No.,BA::Good_Faith_and_Oversight Case
+Why does it matter that oversight failure is a loyalty breach?,It can't be exculpated under § 102(b)(7) or indemnified under § 145.,BA::Good_Faith_and_Oversight Doctrine
+Stone v. Ritter: why was demand not excused?,A KPMG report showed the board had a real compliance system and ignored no red flags.,BA::Good_Faith_and_Oversight Case
+MBCA § 8.01(c): name 4 oversight areas for a public board.,Any 4: performance; major risks; officer pay; compliance; financial statements; internal controls; information flow; board composition.,BA::Good_Faith_and_Oversight Rule
+Which case first said directors must try in good faith to ensure a reporting system exists?,In re Caremark International Derivative Litigation.,BA::Good_Faith_and_Oversight Case
+Which case adopted Caremark as Delaware law and placed oversight failure under loyalty?,Stone v. Ritter.,BA::Good_Faith_and_Oversight Case
+Which case held the Ovitz hiring and no-fault firing payout was not bad faith or waste?,In re Walt Disney Co. Derivative Litigation.,BA::Good_Faith_and_Oversight Case
+Direct suit vs. derivative suit?,"Direct: injury to the SH, recovery to the SH. Derivative: injury to the corporation, recovery to it.",BA::Derivative_Suits Doctrine
+What are the 2 Tooley questions?,"(1) Who suffered the harm, the corporation or the SHs individually? (2) Who would get the recovery?",BA::Derivative_Suits Doctrine
+Where does derivative recovery usually go?,To the corporation.,BA::Derivative_Suits Doctrine
+In re Medtronic: were the SHs' capital-gains taxes from the inversion direct or derivative?,Direct.,BA::Derivative_Suits Case
+In re Medtronic: was reimbursing D&amp;Os' excise taxes direct or derivative?,Derivative (waste of corporate funds).,BA::Derivative_Suits Case
+Why do derivative suits tend to settle too cheaply?,"P's lawyer is the real party in interest, and Ds want to keep indemnification.",BA::Derivative_Suits Doctrine
+FRCP 23.1: what must the complaint plead with particularity?,"Demand efforts, or why no demand was made.",BA::Derivative_Suits Rule
+FRCP 23.1: what is needed to settle or dismiss a derivative suit?,Court approval and notice to SHs.,BA::Derivative_Suits Rule
+What does the demand requirement really decide?,Who controls the litigation: the SH or the board.,BA::Derivative_Suits Doctrine
+What happens if P makes demand in Delaware?,P concedes demand was required; the board's refusal gets the BJR and P almost always loses.,BA::Derivative_Suits Doctrine
+Aronson: what are the 2 prongs for demand futility?,"Reasonable doubt that (1) directors are disinterested and independent, or (2) the transaction was a valid business judgment.",BA::Derivative_Suits Doctrine
+Aronson: is being named a defendant and voting for the deal enough to excuse demand?,No.,BA::Derivative_Suits Doctrine
+Rales: what does the test ask?,Whether the board as of filing could impartially consider a demand.,BA::Derivative_Suits Doctrine
+Name the 3 situations where Rales applied.,"Majority of board replaced; no board decision challenged (e.g., oversight); decision by a different corporation's board.",BA::Derivative_Suits Doctrine
+Zuckerberg: what are the 3 questions asked director by director?,(i) Material personal benefit? (ii) Substantial likelihood of liability? (iii) Lacks independence from someone who does?,BA::Derivative_Suits Case
+Zuckerberg: how many directors must fail the test to excuse demand?,At least half of the demand board.,BA::Derivative_Suits Case
+Zuckerberg: do exculpated care claims create a substantial likelihood of liability?,No.,BA::Derivative_Suits Case
+"On the exam, which demand-futility test should you apply?",Only the Zuckerberg test.,BA::Derivative_Suits Doctrine
+"Zuckerberg: were business ties, friendship, and gratitude enough to excuse demand?",No.,BA::Derivative_Suits Case
+"Even when demand is excused, how can the corporation still end the suit?",A special litigation committee of independent directors can move to dismiss.,BA::Derivative_Suits Doctrine
+Which DGCL section authorizes an SLC?,§ 141(c)(2).,BA::Derivative_Suits Rule
+DGCL § 141(c)(2): name the 2 things a committee can't do.,Approve matters requiring SH approval; amend bylaws.,BA::Derivative_Suits Rule
+Zapata step 1: what must the corporation prove about the SLC?,"Independence, good faith, a reasonable investigation, and reasonable bases for its conclusions.",BA::Derivative_Suits Case
+Zapata step 2: what may the court do?,Apply its own business judgment on whether to dismiss.,BA::Derivative_Suits Case
+Zapata: who bears the burden at step 1?,The corporation.,BA::Derivative_Suits Case
+Auerbach v. Bennett (NY): what does the court review?,Only the SLC's independence and the adequacy of its procedures; the decision gets the BJR.,BA::Derivative_Suits Case
+Zapata vs. Auerbach: which is more deferential to the SLC?,Auerbach (NY).,BA::Derivative_Suits Doctrine
+Disinterested vs. independent?,Disinterested: no personal stake. Independent: no ties making the director beholden to an interested person.,BA::Derivative_Suits Doctrine
+Sanchez: how must friendship and financial ties be analyzed?,"Together, not separately.",BA::Derivative_Suits Case
+Sanchez: why did director Jackson lack independence?,Decades-long close friendship with the chair plus financial dependence on a Sanchez-affiliated job.,BA::Derivative_Suits Case
+Is moving in the same social circles enough to lose independence?,No (Sanchez).,BA::Derivative_Suits Doctrine
+Aronson: does a 47% holder who picked every director make the board non-independent?,No. P must show the directors are beholden.,BA::Derivative_Suits Doctrine
+SB 21: what presumption do exchange-independent directors get?,"A stronger, rebuttable presumption of disinterestedness.",BA::Derivative_Suits Doctrine
+Which case set the 2-step test for a special litigation committee's motion to dismiss?,Zapata Corp. v. Maldonado.,BA::Derivative_Suits Case
+Which case sets the universal demand-futility test?,United Food &amp; Commercial Workers Union v. Zuckerberg.,BA::Derivative_Suits Case
+Which case split a tax-inversion suit into direct and derivative claims?,In re Medtronic Shareholder Litigation.,BA::Derivative_Suits Case
+Which case held friendship plus financial ties together can defeat a director's independence?,Delaware County Employees Retirement Fund v. Sanchez.,BA::Derivative_Suits Case
+Which act governs the primary market and which the secondary?,'33 Act: primary (issuer sales). '34 Act: secondary (trading).,BA::Securities Doctrine
+Does the SEC review an offering's investment merit?,No. Only disclosure.,BA::Securities Doctrine
+"How are courts' tests for a ""security"" oriented?",Economic substance over form or label.,BA::Securities Doctrine
+What are the 4 Howey prongs?,(i) Investment of money; (ii) common enterprise; (iii) reasonable expectation of profits; (iv) from the efforts of others.,BA::Securities Doctrine
+Howey prong (iv): what's the key question?,Is the investor unable to exercise meaningful control?,BA::Securities Doctrine
+Robinson v. Glynn: why wasn't the LLC interest an investment contract?,Robinson had meaningful control as treasurer and vice-chair.,BA::Securities Case
+"Robinson v. Glynn: why wasn't the LLC interest ""stock""?","It lacked the name and usual traits of stock (not freely negotiable, no shares).",BA::Securities Case
+Securities Act § 5: name the 3 rules.,No offers before filing; no sales before effectiveness; deliver a prospectus before sale.,BA::Securities Rule
+Exempt security vs. exempt transaction?,"Exempt security never needs registration; exempt transaction is one-time, so resale needs its own exemption.",BA::Securities Doctrine
+What are the 6 elements of a 10b-5 claim?,Material misstatement/omission; scienter; connection to a purchase or sale; reliance; economic loss; loss causation.,BA::Securities Doctrine
+Is negligence enough for 10b-5 scienter?,"No. Intent, and usually recklessness, is required.",BA::Securities Doctrine
+"When is a fact ""material""?",A reasonable investor would likely consider it important.,BA::Securities Doctrine
+What did Basic v. Levinson create?,A rebuttable presumption of reliance (fraud on the market).,BA::Securities Doctrine
+Which form of the ECMH underlies Basic?,Semi-strong: prices reflect all public information.,BA::Securities Doctrine
+Halliburton: did the Court overrule Basic?,No.,BA::Securities Case
+Halliburton: what can defendants do at class certification?,Rebut the presumption with evidence of no price impact.,BA::Securities Case
+West v. Prudential: why no fraud-on-the-market presumption?,"The lies were private, so they couldn't affect the market price.",BA::Securities Case
+West v. Prudential: which form of the ECMH did it reject?,Strong form.,BA::Securities Case
+What are the 4 elements of insider trading?,Breach of duty; trading on MNPI; scienter; (for tips) personal benefit.,BA::Securities Doctrine
+"Classical theory: who owes the duty, and to whom?","Insiders and temporary insiders, to the issuer's SHs.",BA::Securities Doctrine
+Misappropriation theory: to whom is the duty owed?,To the source of the information.,BA::Securities Doctrine
+"Who are ""temporary insiders""?","Outside professionals such as lawyers, accountants, underwriters, consultants.",BA::Securities Doctrine
+"Rule 10b5-1: what does trading ""on the basis of"" MNPI mean?",Trading while aware of it.,BA::Securities Rule
+Rule 10b5-1: what is the affirmative defense?,"A binding contract, trading instruction, or written plan adopted before becoming aware.",BA::Securities Rule
+Rule 10b5-2: name the 3 situations that create a duty of trust or confidence.,"Agreement to keep confidential; history of sharing confidences; info from a spouse, parent, child, or sibling.",BA::Securities Rule
+"Is info ""public"" if a limited group of outsiders knows it?",No.,BA::Securities Doctrine
+§ 16(b): who is covered and for what period?,"Officers, directors, &gt;10% holders; profits within 6 months.",BA::Securities Rule
+Texas Gulf Sulphur: what must insiders with MNPI do?,Disclose or abstain.,BA::Securities Case
+TGS: when may insiders trade after an announcement?,Only after the news is effectively disseminated (not minutes later).,BA::Securities Case
+"TGS: when is a company press release ""in connection with"" trading?",When investors would rely on it.,BA::Securities Case
+Chiarella: does possessing MNPI alone create a duty to disclose?,No. The duty comes from a relationship of trust.,BA::Securities Case
+Chiarella: why was the printer's conviction reversed?,"He owed target SHs no duty, and misappropriation wasn't put to the jury.",BA::Securities Case
+"Cady, Roberts: what are the 2 elements of a disclose-or-abstain duty?",(i) Access to inside info meant for a corporate purpose; (ii) unfairness of trading on it.,BA::Securities Doctrine
+Dirks: when does a tippee inherit the duty to abstain?,When the tipper breached by tipping for personal benefit and the tippee knew or should have known.,BA::Securities Case
+Dirks: why was Dirks not liable?,"Secrist tipped to expose fraud, not for personal benefit.",BA::Securities Case
+Name 4 things that count as a tipper's personal benefit.,"Money, reputation, currying favor, a gift.",BA::Securities Doctrine
+Which case allowed defendants to rebut fraud-on-the-market with no-price-impact evidence at class certification?,Halliburton Co. v. Erica P. John Fund.,BA::Securities Case
+Which case denied class certification because a broker's lies were told privately to clients?,West v. Prudential Securities.,BA::Securities Case
+"Which case held an analyst not liable because his tipper sought to expose fraud, not to benefit?",Dirks v. SEC.,BA::Securities Case
+Which case held a financial printer who decoded takeover targets owed no duty to their SHs?,Chiarella v. United States.,BA::Securities Case
+Which case required insiders to disclose or abstain after a secret ore strike?,SEC v. Texas Gulf Sulphur.,BA::Securities Case
+"Which case held an LLC member with management roles held no ""security""?",Robinson v. Glynn.,BA::Securities Case
+What is the default voting rule for stock?,"One share, one vote.",BA::Shareholder_Voting Doctrine
+MBCA § 6.01(b): what 2 rights must exist in some class?,Unlimited voting and the residual claim on assets (can be the same class).,BA::Shareholder_Voting Rule
+Name 3 ways to separate voting from economic rights.,Any 3: dual-class stock; nonvoting stock; voting trusts; vote-pooling agreements; irrevocable proxies.,BA::Shareholder_Voting Doctrine
+When is a proxy irrevocable?,"When coupled with an interest (e.g., employment or a loan); default is revocable.",BA::Shareholder_Voting Doctrine
+MBCA § 7.02 vs. DGCL § 211(d): who can call a special meeting?,MBCA: board or 10% holders. DE: board or those authorized in charter/bylaws.,BA::Shareholder_Voting Doctrine
+DGCL § 228: can SHs act without a meeting?,"Yes, by written consent of holders with the votes needed, unless the charter opts out.",BA::Shareholder_Voting Rule
+DGCL § 228(e): what must be given after action by written consent?,Prompt notice to non-consenting SHs.,BA::Shareholder_Voting Rule
+Stroh v. Blackhawk: can stock carry voting rights with no economic rights?,Yes.,BA::Shareholder_Voting Case
+Stroh: why was the voting-only Class B valid?,The statute lists control OR profits OR assets in the disjunctive.,BA::Shareholder_Voting Case
+"Espinoza v. Zuckerberg: can a controller ratify informally (e.g., by affidavit)?",No. Only by a vote at a meeting or § 228 written consent.,BA::Shareholder_Voting Case
+Espinoza: what standard applied to directors setting their own pay?,Entire fairness.,BA::Shareholder_Voting Case
+Federal vs. state law in SH voting?,"Federal: procedure and disclosure. State: substance (who votes, when, on what).",BA::Shareholder_Voting Doctrine
+Exchange Act § 14(a): what does it regulate?,Proxy solicitations for § 12-registered securities.,BA::Shareholder_Voting Rule
+Name the 3 most common § 14(a) violations.,Soliciting before a proxy statement; using unfiled materials; false or misleading solicitations.,BA::Shareholder_Voting Doctrine
+Rule 14a-2(b)(2): how many people can be solicited without the proxy rules?,10 or fewer.,BA::Shareholder_Voting Rule
+Rosenfeld: when may incumbents spend corporate funds on a proxy fight?,"In a policy contest (not a purely personal power fight), on reasonable and proper expenses.",BA::Shareholder_Voting Case
+Rosenfeld: when are incumbents reimbursed?,Win or lose.,BA::Shareholder_Voting Case
+Rosenfeld: when are insurgents reimbursed?,Only if they win and SHs ratify.,BA::Shareholder_Voting Case
+DGCL § 113: what may bylaws provide?,"Reimbursement of a SH's proxy expenses in director elections, subject to conditions.",BA::Shareholder_Voting Rule
+J.I. Case v. Borak: is there a private right of action under § 14(a)?,"Yes, implied, both direct and derivative.",BA::Shareholder_Voting Case
+Borak: why did the Court imply a private action?,The SEC can't check thousands of proxies; private suits supplement enforcement.,BA::Shareholder_Voting Case
+Which case held informal assent by a controller can't ratify directors' pay?,Espinoza v. Zuckerberg.,BA::Shareholder_Voting Case
+Which case upheld voting-only Class B stock with no dividend or liquidation rights?,Stroh v. Blackhawk Holding Corp.,BA::Shareholder_Voting Case
+Which case allowed reimbursement of proxy-fight costs in a policy contest?,Rosenfeld v. Fairchild Engine &amp; Airplane.,BA::Shareholder_Voting Case
+Which case implied a private right of action under § 14(a)?,J.I. Case Co. v. Borak.,BA::Shareholder_Voting Case
+Rule 14a-8(b): what are the 3 ownership thresholds?,"$2,000 for 3 years; $15,000 for 2 years; $25,000 for 1 year.",BA::Proposals_and_Inspection Rule
+Rule 14a-8: how many proposals per proponent per meeting?,One.,BA::Proposals_and_Inspection Rule
+Rule 14a-8(d): what is the word limit?,500 words.,BA::Proposals_and_Inspection Rule
+Rule 14a-8: what is the submission deadline?,At least 120 days before the anniversary of last year's proxy release.,BA::Proposals_and_Inspection Rule
+Rule 14a-8(f): how long does each side get for a fixable defect?,Company notifies within 14 days; proponent has 14 days to cure.,BA::Proposals_and_Inspection Rule
+Rule 14a-8(h): what if the proponent skips the meeting without good cause?,Company may exclude their proposals for 2 years.,BA::Proposals_and_Inspection Rule
+Why are most SH proposals precatory?,A binding proposal can be improper under state law ((i)(1)).,BA::Proposals_and_Inspection Doctrine
+What does an SEC no-action letter do?,Says staff won't object if the company omits the proposal.,BA::Proposals_and_Inspection Doctrine
+Rule 14a-8(i)(5): when is a proposal excludable as irrelevant?,"&lt;5% of assets, net earnings, and gross sales, and not otherwise significantly related to the business.",BA::Proposals_and_Inspection Rule
+Rule 14a-8(i)(7) excludes proposals about...,Ordinary business operations.,BA::Proposals_and_Inspection Rule
+Rule 14a-8(i)(8) excludes proposals about...,Director elections.,BA::Proposals_and_Inspection Rule
+Rule 14a-8(i)(12): what support thresholds allow excluding resubmissions?,"Under 5% (once), 15% (twice), 25% (three+ times) within 5 years.",BA::Proposals_and_Inspection Rule
+"Lovenheim: can ""otherwise significantly related"" be non-economic?",Yes. Ethical or social significance is enough.,BA::Proposals_and_Inspection Case
+Which case required a company to include a foie gras proposal despite its tiny revenue?,Lovenheim v. Iroquois Brands.,BA::Proposals_and_Inspection Case
+Trinity v. Wal-Mart: when is an ordinary-business proposal NOT excludable?,When it raises a significant policy issue that transcends day-to-day business.,BA::Proposals_and_Inspection Case
+Trinity: why was the gun-sales proposal excludable?,"Product selection is core to a retailer's business, so the policy issue didn't transcend it.",BA::Proposals_and_Inspection Case
+Trinity: matters handled without the board are generally...,Excludable as ordinary business.,BA::Proposals_and_Inspection Case
+AFSCME v. AIG: is a proxy-access procedure proposal excludable under the election exclusion?,No. Only proposals about a particular election are.,BA::Proposals_and_Inspection Case
+Rule 14a-7: what 2 options does the company have when a SH wants to solicit others?,Mail the SH's materials (at SH's cost) or hand over the SH list.,BA::Proposals_and_Inspection Rule
+DGCL § 220(c): what 3 things must a SH show?,SH status; compliance with form and manner; proper purpose.,BA::Proposals_and_Inspection Rule
+"§ 220: what makes a purpose ""proper""?",It is reasonably related to the person's interest as a stockholder.,BA::Proposals_and_Inspection Doctrine
+Name 4 accepted § 220 purposes.,Any 4: valuing shares; evaluating an offer; director independence; testing disclosures; investigating waste or mismanagement.,BA::Proposals_and_Inspection Doctrine
+Is disagreeing with a business decision a proper § 220 purpose?,No.,BA::Proposals_and_Inspection Doctrine
+§ 220: what must a SH show to investigate wrongdoing?,"A credible basis, by a preponderance of the evidence.",BA::Proposals_and_Inspection Doctrine
+§ 220: what scope of records does a SH get?,Only those necessary and essential to the purpose.,BA::Proposals_and_Inspection Doctrine
+AmerisourceBergen: must the SH say how it will use the records?,"No, as long as it shows a credible basis.",BA::Proposals_and_Inspection Case
+AmerisourceBergen: what is the exception?,"If litigation is the only stated use and an insurmountable procedural bar exists, the SH must state its plan.",BA::Proposals_and_Inspection Case
+Crane v. Anaconda: may a tender offeror get the SH list?,"Yes, to communicate directly about its offer, unless the purpose harms the corporation.",BA::Proposals_and_Inspection Case
+Crane: was the company's offer to mail Crane's materials enough?,No. The SH chooses how to communicate.,BA::Proposals_and_Inspection Case
+Pillsbury v. Honeywell: why was the purpose improper?,"It was purely political (opposing the war), not economic.",BA::Proposals_and_Inspection Case
+Pillsbury: what kind of SH could have had a proper purpose?,A bona fide investor worried about munitions' economic effects.,BA::Proposals_and_Inspection Case
+Which case refused SH-list inspection to a SH who bought in to oppose munitions production?,State ex rel. Pillsbury v. Honeywell.,BA::Proposals_and_Inspection Case
+Which case held a tender offeror could get the target's SH list to answer management directly?,Crane Co. v. Anaconda Co.,BA::Proposals_and_Inspection Case
+Which case allowed excluding a gun-sales proposal as ordinary business?,Trinity Wall Street v. Wal-Mart Stores.,BA::Proposals_and_Inspection Case
+Which case held proxy-access procedure proposals aren't excludable under the election exclusion?,AFSCME v. AIG.,BA::Proposals_and_Inspection Case
+Which case held a SH need not say it plans to sue to inspect records about wrongdoing?,AmerisourceBergen v. Lebanon County Employees' Retirement Fund.,BA::Proposals_and_Inspection Case
+In re Match Group: does MFW apply beyond freeze-out mergers?,"Yes, to any controller transaction where the controller gets a non-ratable benefit.",BA::Controlling_SHs_11-5_reading Case
+In re Match Group: how many special committee members must be independent?,"All of them, not just a majority.",BA::Controlling_SHs_11-5_reading Case
+In re Match Group: what are the 2 parts of entire fairness?,"Fair dealing and fair price, considered together.",BA::Controlling_SHs_11-5_reading Case
+Zahn v. Transamerica: what duty does a controlling SH acting through the board owe the minority?,The same fiduciary duty as directors.,BA::Controlling_SHs_11-5_reading Case
+Zahn: what was the breach?,Redeeming Class A stock before liquidation so the controller's Class B captured the value.,BA::Controlling_SHs_11-5_reading Case
+Which NY case gives an SLC's decision full BJR deference after checking its independence and procedures?,Auerbach v. Bennett.,BA::Controlling_SHs_11-5_reading Case
+Which case applied MFW to a non-freeze-out controller deal and required every committee member be independent?,In re Match Group Derivative Litigation.,BA::Controlling_SHs_11-5_reading Case
+Which case held a controller breached by redeeming Class A stock before liquidation?,Zahn v. Transamerica.,BA::Controlling_SHs_11-5_reading Case
