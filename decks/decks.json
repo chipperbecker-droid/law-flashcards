@@ -1,0 +1,20 @@
+[
+  {
+    "id": "admin-law",
+    "name": "Administrative Law",
+    "short": "Admin Law",
+    "file": "admin-law.csv"
+  },
+  {
+    "id": "professional-responsibility",
+    "name": "Professional Responsibility",
+    "short": "PR",
+    "file": "professional-responsibility.csv"
+  },
+  {
+    "id": "business-associations",
+    "name": "Business Associations",
+    "short": "BA",
+    "file": "business-associations.csv"
+  }
+]
