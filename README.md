@@ -5,11 +5,11 @@ It's a plain static site (no build step) hosted on GitHub Pages.
 
 ## Studying
 
-- Pick a class, optionally filter by Part, Type (Case, Doctrine, Test, Statute) or Topic, then hit **Study**.
-- Flip a card with a tap or **Space**. Mark it **Got it** (`2` / →) or **Again** (`1` / ←). "Again" cards come back a few cards later in the same session.
-- "Not yet known" studies everything you haven't marked Got it; "Still learning" studies only cards you've missed.
-- **Browse & search** lists every card with a search box.
-- Progress is saved in your browser (per device), so it'll be separate on your phone and laptop.
+- Pick a class on the home page. Use the dropdown on the class page to narrow to one topic, part or card type.
+- **Flashcards:** tap a card to flip it. Swipe right (or tap **Know it**) if you knew it, swipe left (or **Still learning**) if not. Undo with the round arrow. On a computer: Space flips, → know it, ← still learning, Z undo.
+- **Quiz:** 10 multiple-choice questions, weighted toward cards you haven't mastered.
+- **Review missed:** flashcards for only the cards you marked Still learning.
+- Progress is saved in your browser (per device), so your phone and laptop track separately.
 
 ## Adding a deck
 
@@ -25,7 +25,7 @@ On GitHub: open the `decks` folder → **Add file → Upload files** → drop th
 
 ### CSV format
 
-Three columns, no header needed: `front, back, tags`.
+Three columns, no header needed: `front, back, tags`. A header row like `Front,Back,Topic,Type` also works (Part, Topic, Type and Tags columns are recognized).
 
 - The back can contain HTML (`<strong>`, `<em>`, `<ul><li>`…).
 - Tags are space-separated. A tag starting with `Part` becomes a Part filter; `Case`, `Doctrine`, `Test`, `Statute`, `Rule` become Type filters; everything else is a Topic. Use `_` for spaces (`Conflicts_of_interest`).
