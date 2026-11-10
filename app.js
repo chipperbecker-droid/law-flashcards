@@ -600,3 +600,346 @@
       </div>`;
     app.querySelector("#again").onclick = async () => { spot = buildSpot(deck, await loadDeck(deck), z.topicId); renderSpot(); window.scrollTo(0, 0); };
   }
+
+  /* ---------- Flashcards ---------- */
+  function newSession(deck, data, missedOnly) {
+    const prefs = getPrefs(deck.id);
+    const prog = getProgress(deck.id);
+    let pool = scopedCards(data, prefs);
+    if (missedOnly) pool = pool.filter(c => statusOf(prog, c) === "learning");
+    const q = pool.slice();
+    if (prefs.shuffle) shuffle(q);
+    return { deck, all: data.cards, missedOnly, queue: q, total: q.length, idx: 0, flipped: false, know: 0, learning: 0, history: [], missed: [], enter: false };
+  }
+  async function viewCards(deck, missedOnly) {
+    drill = spot = quiz = null;
+    const data = await loadDeck(deck);
+    if (!data.cards.length) return viewDeck(deck);
+    if (!session || session.deck.id !== deck.id || session.missedOnly !== missedOnly) session = newSession(deck, data, missedOnly);
+    if (!session.total) { location.replace(deckHref(deck)); return; }
+    renderCards();
+  }
+  function renderCards() {
+    const s = session, deck = s.deck;
+    if (s.idx >= s.queue.length) return renderCardsDone();
+    const card = s.queue[s.idx];
+    const prefs = getPrefs(deck.id);
+    const left = s.queue.length - s.idx;
+    const depth = Math.min(2, left - 1);
+    const sub = s.missedOnly ? "Missed cards" : prefs.topic && card.topic ? card.topic.name : prefs.filter ? prettyTag(prefs.filter) : deck.name;
+    const chips = [card.issue ? card.issue.name : topicTagOf(card) ? prettyTag(topicTagOf(card)) : null, typeOf(card) ? prettyTag(typeOf(card)) : null].filter(Boolean);
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>${s.idx + 1} of ${s.total}</b><small>${esc(sub)}</small>`,
+          `<button class="icon-btn ${prefs.shuffle ? "on" : ""}" id="shuf" aria-pressed="${prefs.shuffle}" title="${prefs.shuffle ? "Shuffle is on" : "Shuffle is off"}" aria-label="Shuffle">${ICON.shuffle}</button>`)}
+        <div class="track"><span style="width:${(s.idx / s.total) * 100}%"></span></div>
+        <div class="tally"><span class="t-learning">Still learning <b>${s.learning}</b></span><span class="t-known">Know it <b>${s.know}</b></span></div>
+        <div class="stage" data-depth="${depth}">
+          <span class="under u1" aria-hidden="true"></span>
+          <span class="under u2" aria-hidden="true"></span>
+          <div class="drag ${s.enter && !reduceMotion() ? "enter" : ""}" id="flip" role="button" tabindex="0" aria-label="Flashcard. Press to flip.">
+            <div class="lift">
+              <div class="spin ${s.flipped ? "is-flipped" : ""}">
+                <div class="face blank">
+                  ${chips.length ? `<div class="face-tags">${chips.map(t => `<span>${esc(t)}</span>`).join("")}</div>` : ""}
+                  <div class="face-q"><div class="q-text">${card.front}</div></div>
+                  <div class="face-hint">Tap to flip</div>
+                </div>
+                <div class="face lined" aria-hidden="${!s.flipped}">
+                  <div class="lined-head">${card.front}</div>
+                  <div class="lined-body rich">${card.back}
+                    ${card.issue ? `<details class="lined-rule"><summary>The rule this goes with: ${legalize(card.issue.name)}</summary><p class="rule">${legalize(card.issue.rule)}</p></details>` : ""}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="stamp stamp-learning" aria-hidden="true">Still learning</span>
+            <span class="stamp stamp-known" aria-hidden="true">Know it</span>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="choice-btn learning" id="no">${ICON.close}<span>Still learning</span></button>
+          <button class="icon-btn undo" id="undo" aria-label="Undo last card" title="Undo" ${s.history.length ? "" : "disabled"}>${ICON.undo}</button>
+          <button class="choice-btn known" id="yes">${ICON.check}<span>Know it</span></button>
+        </div>
+        <p class="keys"><kbd>Space</kbd> flip <kbd>←</kbd> still learning <kbd>→</kbd> know it <kbd>Z</kbd> undo</p>
+      </div>`;
+    s.enter = false;
+    const drag = app.querySelector("#flip");
+    attachSwipe(drag, { tap: flipCard, left: () => grade(false), right: () => grade(true) });
+    const ruleDetails = app.querySelector(".lined-rule");
+    if (ruleDetails) ruleDetails.addEventListener("pointerdown", e => e.stopPropagation());
+    app.querySelector("#no").onclick = () => fling(false);
+    app.querySelector("#yes").onclick = () => fling(true);
+    app.querySelector("#undo").onclick = undo;
+    app.querySelector("#shuf").onclick = () => {
+      const p = getPrefs(deck.id); p.shuffle = !p.shuffle; setPrefs(deck.id, p);
+      const rest = s.queue.slice(s.idx);
+      if (p.shuffle) shuffle(rest);
+      else { const order = new Map(s.all.map((c, i) => [c.id, i])); rest.sort((a, b) => order.get(a.id) - order.get(b.id)); }
+      s.queue.splice(s.idx, rest.length, ...rest);
+      s.flipped = false;
+      renderCards();
+    };
+  }
+  function flipCard() {
+    const s = session; if (!s) return;
+    s.flipped = !s.flipped;
+    const spin = app.querySelector(".spin"), lift = app.querySelector(".lift");
+    if (!spin) return;
+    spin.classList.toggle("is-flipped", s.flipped);
+    const lined = app.querySelector(".face.lined"); if (lined) lined.setAttribute("aria-hidden", String(!s.flipped));
+    if (lift && !reduceMotion()) { lift.classList.remove("lifting"); void lift.offsetWidth; lift.classList.add("lifting"); }
+  }
+  let flinging = false;
+  function fling(good) {
+    const el = app.querySelector("#flip");
+    if (!el || flinging) return;
+    if (reduceMotion()) return grade(good);
+    flinging = true;
+    el.classList.add(good ? "fly-right" : "fly-left");
+    setTimeout(() => { flinging = false; grade(good); }, 260);
+  }
+  function grade(good) {
+    const s = session; if (!s) return;
+    const card = s.queue[s.idx]; if (!card) return;
+    const prog = getProgress(s.deck.id);
+    s.history.push({ idx: s.idx, prev: prog[card.id] || null, id: card.id, good });
+    prog[card.id] = { s: good ? "known" : "learning", n: ((prog[card.id] || {}).n || 0) + 1, t: Date.now() };
+    setProgress(s.deck.id, prog);
+    if (good) s.know++; else { s.learning++; s.missed.push(card); }
+    s.idx++; s.flipped = false; s.enter = true;
+    renderCards();
+  }
+  function undo() {
+    const s = session; const h = s && s.history.pop(); if (!h) return;
+    const prog = getProgress(s.deck.id);
+    if (h.prev) prog[h.id] = h.prev; else delete prog[h.id];
+    setProgress(s.deck.id, prog);
+    if (h.good) s.know--; else { s.learning--; s.missed.pop(); }
+    s.idx = h.idx; s.flipped = false; s.enter = true;
+    renderCards();
+  }
+  function renderCardsDone() {
+    const s = session, deck = s.deck;
+    const pct = s.total ? s.know / s.total : 0;
+    const line = pct === 1 ? "You knew every card in this round." : pct >= 0.7 ? "Most of these are sticking." : "Another pass on the missed cards will help.";
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>Round finished</b><small>${esc(deck.name)}</small>`)}
+        <div class="track"><span style="width:100%"></span></div>
+        <div class="result">
+          <p class="result-num">${s.know}<span>of ${s.total}</span></p>
+          <p class="result-line">${line}</p>
+          <div class="result-actions">
+            ${s.missed.length ? `<button class="btn primary big" id="again">Study the ${plural(s.missed.length, "missed card")}</button>` : ""}
+            <button class="btn ${s.missed.length ? "" : "primary big"}" id="restart">Start the round over</button>
+            <a class="btn" href="${deckHref(deck, "quiz")}">Take a quiz</a>
+            <a class="link-btn" href="${deckHref(deck)}">Back to ${esc(deck.name)}</a>
+          </div>
+        </div>
+      </div>`;
+    const again = app.querySelector("#again");
+    if (again) again.onclick = () => {
+      const q = s.missed.slice(); if (getPrefs(deck.id).shuffle) shuffle(q);
+      Object.assign(s, { queue: q, total: q.length, idx: 0, know: 0, learning: 0, history: [], missed: [], flipped: false, enter: true });
+      renderCards();
+    };
+    app.querySelector("#restart").onclick = async () => {
+      session = newSession(deck, await loadDeck(deck), s.missedOnly);
+      if (!session.total) location.hash = deckHref(deck); else renderCards();
+    };
+  }
+  function attachSwipe(el, h) {
+    let x0 = 0, y0 = 0, dx = 0, dragging = false, decided = false, horizontal = false, id = null;
+    const TH = Math.min(110, window.innerWidth * 0.25);
+    el.addEventListener("pointerdown", e => {
+      if (e.button !== 0 || flinging) return;
+      id = e.pointerId; x0 = e.clientX; y0 = e.clientY; dx = 0; dragging = true; decided = false; horizontal = false;
+    });
+    el.addEventListener("pointermove", e => {
+      if (!dragging || e.pointerId !== id) return;
+      const mx = e.clientX - x0, my = e.clientY - y0;
+      if (!decided && (Math.abs(mx) > 8 || Math.abs(my) > 8)) {
+        decided = true; horizontal = Math.abs(mx) > Math.abs(my);
+        if (horizontal) { try { el.setPointerCapture(id); } catch (_) {} el.classList.add("dragging"); }
+      }
+      if (!horizontal) return;
+      dx = mx;
+      el.style.transform = `translateX(${dx}px) rotate(${dx / 24}deg)`;
+      el.style.setProperty("--tint", Math.min(1, Math.abs(dx) / TH).toFixed(2));
+      el.classList.toggle("toward-right", dx > 0);
+      el.classList.toggle("toward-left", dx < 0);
+    });
+    const end = e => {
+      if (!dragging || e.pointerId !== id) return;
+      dragging = false;
+      el.classList.remove("dragging");
+      if (horizontal && Math.abs(dx) > TH) {
+        flinging = true;
+        el.style.removeProperty("transform");
+        el.classList.add(dx > 0 ? "fly-right" : "fly-left");
+        setTimeout(() => { flinging = false; dx > 0 ? h.right() : h.left(); }, 220);
+        return;
+      }
+      el.style.transform = ""; el.style.removeProperty("--tint");
+      el.classList.remove("toward-right", "toward-left");
+      if (!decided && e.type === "pointerup" && !String(getSelection())) h.tap();
+    };
+    el.addEventListener("pointerup", end);
+    el.addEventListener("pointercancel", end);
+    el.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); h.tap(); } });
+  }
+
+  /* ---------- Quiz (multiple choice over cards) ---------- */
+  const preview = (html, n) => { const t = stripHtml(html.replace(/<br\s*\/?>/gi, " ").replace(/<\/(p|li)>/gi, " ")).replace(/\s+/g, " ").trim(); return t.length > n ? t.slice(0, n - 1).trimEnd() + "…" : t; };
+  function buildQuiz(deck, data) {
+    const prefs = getPrefs(deck.id);
+    const prog = getProgress(deck.id);
+    const pool = scopedCards(data, prefs);
+    const cards = data.cards;
+    const rank = c => ({ learning: 0, new: 1, known: 2 }[statusOf(prog, c)]) + Math.random() * 1.5;
+    const picked = pool.slice().sort((a, b) => rank(a) - rank(b)).slice(0, Math.min(10, pool.length));
+    shuffle(picked);
+    const qs = picked.map(card => {
+      const others = cards.filter(c => c.id !== card.id && preview(c.back, 400) !== preview(card.back, 400));
+      const score = c => (typeOf(c) && typeOf(c) === typeOf(card) ? 2 : 0) + (c.topic && c.topic === card.topic ? 1 : 0) + Math.random();
+      const choices = shuffle([card, ...others.sort((a, b) => score(b) - score(a)).slice(0, 3)]);
+      return { card, choices, answer: choices.indexOf(card), picked: null };
+    });
+    return { deck, qs, i: 0, score: 0 };
+  }
+  async function viewQuiz(deck) {
+    session = drill = spot = null;
+    const data = await loadDeck(deck);
+    const pool = scopedCards(data, getPrefs(deck.id));
+    if (pool.length < 4 || data.cards.length < 4) { location.replace(deckHref(deck)); return; }
+    if (!quiz || quiz.deck.id !== deck.id) quiz = buildQuiz(deck, data);
+    renderQuiz();
+  }
+  function renderQuiz() {
+    const z = quiz, deck = z.deck;
+    if (z.i >= z.qs.length) return renderQuizDone();
+    const q = z.qs[z.i];
+    const answered = q.picked !== null;
+    const right = answered && q.picked === q.answer;
+    const chips = [q.card.issue ? q.card.issue.name : topicTagOf(q.card) ? prettyTag(topicTagOf(q.card)) : null].filter(Boolean);
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>Question ${z.i + 1} of ${z.qs.length}</b><small>${z.score} right so far</small>`)}
+        <div class="track"><span style="width:${(z.i / z.qs.length) * 100}%"></span></div>
+        <div class="q-card">
+          ${chips.length ? `<div class="face-tags">${chips.map(t => `<span>${esc(t)}</span>`).join("")}</div>` : ""}
+          <div class="q-text">${q.card.front}</div>
+        </div>
+        <p class="q-prompt ${answered ? (right ? "t-known" : "t-learning") : "muted"}" aria-live="polite">${answered ? (right ? "Correct." : "Not this one. The right answer is marked.") : "Pick the answer that matches."}</p>
+        <div class="options">
+          ${q.choices.map((c, i) => {
+            let cls = "";
+            if (answered) cls = i === q.answer ? "is-right" : i === q.picked ? "is-wrong" : "is-dim";
+            return `<button class="option ${cls}" data-i="${i}" ${answered ? "disabled" : ""}><span class="opt-key">${LETTERS[i]}</span><span>${esc(preview(c.back, 260))}</span></button>`;
+          }).join("")}
+        </div>
+        ${answered ? `
+          <details class="full"><summary>Show the full card</summary><div class="rich">${q.card.back}</div></details>
+          <button class="btn primary big wide" id="next" style="margin-top:14px">${z.i + 1 < z.qs.length ? "Next question" : "See results"}</button>` : ""}
+        <p class="keys"><kbd>A</kbd>–<kbd>D</kbd> answer <kbd>Enter</kbd> next</p>
+      </div>`;
+    app.querySelectorAll(".option").forEach(b => b.onclick = () => answerQuiz(+b.dataset.i));
+    const next = app.querySelector("#next");
+    if (next) { next.onclick = nextQuiz; next.focus({ preventScroll: true }); }
+  }
+  function answerQuiz(i) {
+    const z = quiz, q = z.qs[z.i];
+    if (!q || q.picked !== null) return;
+    q.picked = i;
+    const good = i === q.answer;
+    if (good) z.score++;
+    const prog = getProgress(z.deck.id);
+    prog[q.card.id] = { s: good ? "known" : "learning", n: ((prog[q.card.id] || {}).n || 0) + 1, t: Date.now() };
+    setProgress(z.deck.id, prog);
+    renderQuiz();
+  }
+  function nextQuiz() { if (!quiz) return; quiz.i++; renderQuiz(); window.scrollTo(0, 0); }
+  function renderQuizDone() {
+    const z = quiz, deck = z.deck;
+    const missed = z.qs.filter(q => q.picked !== q.answer);
+    const pct = z.score / z.qs.length;
+    const line = pct === 1 ? "A perfect quiz." : pct >= 0.7 ? "Solid. The ones you missed are below." : "The ones you missed are below and in Review missed.";
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>Quiz results</b><small>${esc(deck.name)}</small>`)}
+        <div class="track"><span style="width:100%"></span></div>
+        <div class="result">
+          <p class="result-num">${z.score}<span>of ${z.qs.length}</span></p>
+          <p class="result-line">${line}</p>
+          <div class="result-actions">
+            <button class="btn primary big" id="newquiz">Take another quiz</button>
+            ${missed.length ? `<a class="btn" href="${deckHref(deck, "missed")}">Study missed cards</a>` : ""}
+            <a class="link-btn" href="${deckHref(deck)}">Back to ${esc(deck.name)}</a>
+          </div>
+        </div>
+        ${missed.length ? `<h2 class="list-title">Cards you missed</h2><ol class="rows">${missed.map(q => `
+          <li class="row"><div class="row-front"><span class="dot learning"></span><span>${q.card.front}</span></div><div class="row-back rich">${q.card.back}</div></li>`).join("")}</ol>` : ""}
+      </div>`;
+    app.querySelector("#newquiz").onclick = async () => { quiz = buildQuiz(deck, await loadDeck(deck)); renderQuiz(); window.scrollTo(0, 0); };
+  }
+
+  /* ---------- keyboard ---------- */
+  document.addEventListener("keydown", e => {
+    if (e.target.matches("input, textarea, select") || e.metaKey || e.ctrlKey || e.altKey) return;
+    const route = location.hash;
+    if (session && /\/(cards|missed)$/.test(route) && session.idx < session.queue.length) {
+      if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); flipCard(); }
+      else if (e.key === "ArrowRight") fling(true);
+      else if (e.key === "ArrowLeft") fling(false);
+      else if (e.key.toLowerCase() === "z" || e.key === "Backspace") undo();
+    } else if (drill && /\/drill(\/|$)/.test(route) && drill.idx < drill.queue.length) {
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); if (!drill.shown) revealDrill(); }
+      else if (drill.shown && /^[1-3]$/.test(e.key)) gradeDrill(["blank", "shaky", "solid"][+e.key - 1]);
+    } else if (spot && /\/spot(\/|$)/.test(route) && spot.i < spot.qs.length) {
+      const q = spot.qs[spot.i];
+      const k = e.key.toUpperCase();
+      const idx = LETTERS.indexOf(k) >= 0 ? LETTERS.indexOf(k) : /^[1-4]$/.test(e.key) ? +e.key - 1 : -1;
+      if (q.picked === null && idx >= 0 && idx < q.choices.length) answerSpot(idx);
+      else if (q.picked !== null && (e.key === "Enter" || e.key === " " || e.key === "ArrowRight")) { e.preventDefault(); nextSpot(); }
+    } else if (quiz && /\/quiz$/.test(route) && quiz.i < quiz.qs.length) {
+      const q = quiz.qs[quiz.i];
+      const k = e.key.toUpperCase();
+      const idx = LETTERS.indexOf(k) >= 0 ? LETTERS.indexOf(k) : /^[1-4]$/.test(e.key) ? +e.key - 1 : -1;
+      if (q.picked === null && idx >= 0 && idx < q.choices.length) answerQuiz(idx);
+      else if (q.picked !== null && (e.key === "Enter" || e.key === " " || e.key === "ArrowRight")) { e.preventDefault(); nextQuiz(); }
+    }
+  });
+
+  /* ---------- router ---------- */
+  async function route() {
+    const parts = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
+    window.scrollTo(0, 0);
+    const inPlayer = parts[0] === "deck" && ["cards", "missed", "quiz", "drill", "spot"].includes(parts[2]);
+    document.body.classList.toggle("in-player", inPlayer);
+    if (parts[0] === "deck") {
+      const deck = deckList.find(d => d.id === parts[1]);
+      if (!deck) return viewHome();
+      if (parts[2] === "cards") return viewCards(deck, false);
+      if (parts[2] === "missed") return viewCards(deck, true);
+      if (parts[2] === "quiz") return viewQuiz(deck);
+      if (parts[2] === "drill") return viewDrill(deck, parts[3] || "");
+      if (parts[2] === "spot") return viewSpot(deck, parts[3] || "");
+      return viewDeck(deck, parts[2]);
+    }
+    return viewHome();
+  }
+
+  (async function init() {
+    try {
+      const res = await fetch(DECKS_URL, { cache: "no-cache" });
+      deckList = await res.json();
+    } catch (e) {
+      app.innerHTML = `<p>The class list didn't load. If you opened index.html straight from your computer, start a local server instead (see the README).</p>`;
+      return;
+    }
+    window.addEventListener("hashchange", route);
+    route();
+  })();
+})();
