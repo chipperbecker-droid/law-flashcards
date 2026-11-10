@@ -163,10 +163,17 @@
     const byTag = new Map();
     topics.forEach(t => (t.tags || []).forEach(tag => byTag.set(tag.toLowerCase(), t)));
     const words = s => stripHtml(s).toLowerCase().replace(/[^a-z0-9§ ]+/g, " ").split(/\s+/).filter(w => w.length > 3);
+    // Keywords per issue: its name counts double, its authorities once; words every issue in the
+    // topic shares (e.g. a case cited by all of them) are dropped so they don't decide the match.
     issues.forEach(is => {
-      const keys = new Set();
-      [is.name, ...(is.authorities || [])].forEach(a => words(a).forEach(w => keys.add(w)));
-      is.keys = keys;
+      is.keys = new Map();
+      words(is.name).forEach(w => is.keys.set(w, 2));
+      (is.authorities || []).forEach(a => words(a).forEach(w => { if (!is.keys.has(w)) is.keys.set(w, 1); }));
+    });
+    topics.forEach(t => {
+      if (t.issues.length < 2) return;
+      const shared = [...t.issues[0].keys.keys()].filter(w => t.issues.every(is => is.keys.has(w)));
+      shared.forEach(w => t.issues.forEach(is => is.keys.delete(w)));
     });
     cards.forEach(c => {
       const tt = c.tags.map(t => t.toLowerCase());
@@ -178,7 +185,7 @@
       const cw = new Set(words(c.front + " " + c.back));
       let best = null, bestScore = 0;
       topic.issues.forEach(is => {
-        let s = 0; is.keys.forEach(k => { if (cw.has(k)) s++; });
+        let s = 0; is.keys.forEach((wt, k) => { if (cw.has(k)) s += wt; });
         if (s > bestScore) { bestScore = s; best = is; }
       });
       c.issue = best || topic.issues[0];
