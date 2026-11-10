@@ -288,3 +288,315 @@
         </ol>
       </section>`;
   }
+
+  /* ---------- Class page: attack outline + cards ---------- */
+  async function viewDeck(deck, tab) {
+    session = drill = spot = quiz = null;
+    const data = await loadDeck(deck);
+    const prefs = getPrefs(deck.id);
+    if (prefs.topic && !data.topics.some(t => t.id === prefs.topic)) prefs.topic = "";
+    if (prefs.filter && !data.cards.some(c => c.tags.includes(prefs.filter))) prefs.filter = "";
+    tab = tab === "cards" ? "cards" : "outline";
+    let query = "";
+
+    if (!data.cards.length && !data.issues.length) {
+      app.innerHTML = `
+        <a class="back" href="#/">${ICON.back}All classes</a>
+        <h1 class="class-title">${esc(deck.name)}</h1>
+        <div class="empty">
+          <p class="empty-lead">This class has nothing to study yet.</p>
+          <p class="muted">Upload a CSV named <code>${esc(deck.file)}</code> to the <code>decks</code> folder on GitHub. Columns are front, back, and optional tags.</p>
+        </div>`;
+      return;
+    }
+
+    function render() {
+      const ip = getIssueProg(deck.id);
+      const prog = getProgress(deck.id);
+      const scopeTopic = prefs.topic ? data.topics.find(t => t.id === prefs.topic) : null;
+      const issues = scopedIssues(data, prefs.topic);
+      const cards = scopedCards(data, prefs);
+      const ic = issueCounts(issues, ip);
+      const cc = counts(cards, prog);
+      const sub = scopeTopic ? scopeTopic.id : "";
+      const sfx = sub ? "/" + encodeURIComponent(sub) : "";
+      app.innerHTML = `
+        <a class="back" href="#/">${ICON.back}All classes</a>
+        <h1 class="class-title">${esc(deck.name)}</h1>
+        ${data.intro ? `<p class="class-sub">${esc(data.intro)}</p>` : ""}
+        <div class="study-bar">
+          ${issues.length ? `<a class="btn primary" href="${deckHref(deck, "drill")}${sfx}">Drill rules</a>` : ""}
+          ${issues.length >= 4 || data.issues.length >= 4 ? `<a class="btn" href="${deckHref(deck, "spot")}${sfx}">Spot issues</a>` : ""}
+          ${cards.length ? `<a class="btn" href="${deckHref(deck, "cards")}">Flashcards</a>` : ""}
+          ${cards.length >= 4 ? `<a class="btn" href="${deckHref(deck, "quiz")}">Quiz</a>` : ""}
+          <span class="spacer"></span>
+          <span class="scope">${scopeTopic ? `<b>${esc(scopeTopic.name)}</b> <button id="clearScope">All topics</button>` : `All topics`}</span>
+        </div>
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" data-tab="outline" aria-selected="${tab === "outline"}">Attack outline</button>
+          <button class="tab" role="tab" data-tab="cards" aria-selected="${tab === "cards"}">Cards <span class="muted">${cards.length}</span></button>
+        </div>
+        <div id="panel"></div>`;
+
+      const panel = app.querySelector("#panel");
+      if (tab === "outline") renderOutline(panel, issues, ic, ip);
+      else renderCardsList(panel, cards, cc, prog);
+
+      app.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
+      const clear = app.querySelector("#clearScope");
+      if (clear) clear.onclick = () => { prefs.topic = ""; setPrefs(deck.id, prefs); render(); };
+    }
+
+    function renderOutline(panel, issues, ic, ip) {
+      const topics = prefs.topic ? data.topics.filter(t => t.id === prefs.topic) : data.topics;
+      if (!issues.length) { panel.innerHTML = `<p class="muted">No issue map for this class yet.</p>`; return; }
+      panel.innerHTML = `
+        <div class="outline-tools">
+          <span>${ic.solid} of ${issues.length} solid${ic.shaky ? `, ${ic.shaky} shaky` : ""}${ic.blank ? `, ${ic.blank} blank` : ""}</span>
+          <label><input type="checkbox" id="selfTest" ${prefs.selfTest ? "checked" : ""}> Hide rules until tapped</label>
+          <button class="link-btn" id="expandAll">Expand all</button>
+          <button class="link-btn" id="printBtn">Print</button>
+        </div>
+        <div class="${prefs.selfTest ? "self-test" : ""}" id="outline">
+          ${topics.map(t => {
+            const tc = issueCounts(t.issues, ip);
+            return `<section class="topic">
+              <div class="topic-head">
+                <h2>${esc(t.name)}</h2>
+                ${t.part ? `<span class="part">${esc(t.part)}</span>` : ""}
+                ${!prefs.topic && data.topics.length > 1 ? `<button class="focus" data-topic="${esc(t.id)}">Study only this topic</button>` : ""}
+                ${issueMeter(tc, t.issues.length)}
+              </div>
+              ${t.issues.map(is => `
+                <details class="issue" data-issue="${esc(is.id)}">
+                  <summary>
+                    <span class="status ${issueStatus(ip, is)}" title="${issueStatus(ip, is)}"></span>
+                    <span class="issue-name">${legalize(is.name)}</span>
+                    ${triggerLine(is)}
+                  </summary>
+                  <div class="issue-body">${issueBody(is, { shown: !prefs.selfTest })}</div>
+                </details>`).join("")}
+            </section>`;
+          }).join("")}
+        </div>`;
+      panel.querySelector("#selfTest").onchange = e => { prefs.selfTest = e.target.checked; setPrefs(deck.id, prefs); render(); };
+      panel.querySelector("#expandAll").onclick = () => {
+        const all = [...panel.querySelectorAll("details.issue")];
+        const open = all.some(d => !d.open);
+        all.forEach(d => d.open = open);
+      };
+      panel.querySelector("#printBtn").onclick = () => { panel.querySelectorAll("details.issue").forEach(d => d.open = true); window.print(); };
+      panel.querySelectorAll(".focus").forEach(b => b.onclick = () => { prefs.topic = b.dataset.topic; setPrefs(deck.id, prefs); render(); window.scrollTo(0, 0); });
+      panel.querySelectorAll(".reveal-wrap").forEach(w => w.addEventListener("click", () => w.classList.add("shown")));
+    }
+
+    function renderCardsList(panel, cards, cc, prog) {
+      const groups = { Part: new Map(), Type: new Map(), Topic: new Map() };
+      const base = prefs.topic ? (data.topics.find(t => t.id === prefs.topic) || {}).cards || data.cards : data.cards;
+      base.forEach(c => c.tags.forEach(t => { const g = groups[c.gmap[t] || groupFor(t)]; g.set(t, (g.get(t) || 0) + 1); }));
+      panel.innerHTML = `
+        <div class="list-head">
+          <span class="select"><select id="filter" aria-label="Narrow the cards">
+            <option value="">All cards (${base.length})</option>
+            ${["Part", "Topic", "Type"].filter(g => groups[g].size).map(g => `<optgroup label="${g === "Type" ? "Card type" : g}">
+              ${[...groups[g]].map(([t, n]) => `<option value="${esc(t)}" ${prefs.filter === t ? "selected" : ""}>${esc(prettyTag(t))} (${n})</option>`).join("")}
+            </optgroup>`).join("")}
+          </select></span>
+          <label class="search">${ICON.search}<input id="q" type="search" placeholder="Search cards" autocomplete="off" aria-label="Search cards"></label>
+        </div>
+        <p class="muted" style="margin:4px 0 10px">${cc.known} of ${cards.length} known${cc.learning ? `, ${cc.learning} still learning` : ""}. ${cc.learning ? `<a href="${deckHref(deck, "missed")}">Review the missed ones.</a>` : ""}</p>
+        <ol class="rows" id="rows"></ol>
+        <button class="link-btn" id="reset">Reset progress for this class</button>`;
+      const rowsEl = panel.querySelector("#rows");
+      function drawRows() {
+        const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+        const hits = cards.filter(c => terms.every(t => c.text.includes(t) || c.tags.some(x => x.toLowerCase().includes(t))));
+        rowsEl.innerHTML = hits.length ? hits.map(card => {
+          const st = statusOf(prog, card);
+          return `<li class="row"><div class="row-front"><span class="dot ${st}" title="${st === "known" ? "Known" : st === "learning" ? "Still learning" : "Not studied yet"}"></span><span>${card.front}</span></div><div class="row-back rich">${card.back}</div></li>`;
+        }).join("") : `<li class="row muted">No cards match “${esc(query)}”.</li>`;
+      }
+      drawRows();
+      panel.querySelector("#filter").onchange = e => { prefs.filter = e.target.value; setPrefs(deck.id, prefs); render(); };
+      const q = panel.querySelector("#q"); q.value = query;
+      q.oninput = () => { query = q.value; drawRows(); };
+      panel.querySelector("#reset").onclick = () => {
+        if (confirm(`Reset progress for ${deck.name}? Every card and issue goes back to not studied.`)) { store.del(progressKey(deck.id)); store.del(issueKey(deck.id)); render(); }
+      };
+    }
+    render();
+  }
+
+  function playerTop(deck, title, right) {
+    return `<div class="player-top">
+      <a class="icon-btn" href="${deckHref(deck)}" aria-label="Close and go back to ${esc(deck.name)}">${ICON.close}</a>
+      <div class="player-title">${title}</div>
+      ${right || '<span class="icon-spacer"></span>'}
+    </div>`;
+  }
+
+  /* ---------- Rule drill ---------- */
+  // Order: blank and shaky issues first, then new, then solid; light randomness so repeats vary.
+  function drillOrder(issues, ip) {
+    const rank = { blank: 0, shaky: 1, new: 2, solid: 3 };
+    return issues.slice().sort((a, b) => (rank[issueStatus(ip, a)] + Math.random() * 1.2) - (rank[issueStatus(ip, b)] + Math.random() * 1.2));
+  }
+  async function viewDrill(deck, topicId) {
+    session = spot = quiz = null;
+    const data = await loadDeck(deck);
+    const issues = scopedIssues(data, topicId);
+    if (!issues.length) { location.replace(deckHref(deck)); return; }
+    if (!drill || drill.deck.id !== deck.id || drill.topicId !== topicId) {
+      drill = { deck, topicId, queue: drillOrder(issues, getIssueProg(deck.id)), idx: 0, shown: false, results: [], all: issues };
+    }
+    renderDrill();
+  }
+  function renderDrill() {
+    const d = drill, deck = d.deck;
+    if (d.idx >= d.queue.length) return renderDrillDone();
+    const is = d.queue[d.idx];
+    const scope = d.topicId ? is.topic.name : deck.name;
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>${d.idx + 1} of ${d.queue.length}</b><small>Rule drill · ${esc(scope)}</small>`)}
+        <div class="track"><span style="width:${(d.idx / d.queue.length) * 100}%"></span></div>
+        <div class="sheet">
+          <p class="crumb">${esc(is.topic.name)}</p>
+          <h2>${legalize(is.name)}</h2>
+          ${triggerLine(is)}
+          ${d.shown ? `<div class="answer">${issueBody(is, { shown: true })}</div>
+            <div class="grade">
+              <button class="btn g-blank" id="g0">Blank<small>Couldn't state it</small></button>
+              <button class="btn g-shaky" id="g1">Shaky<small>Missed elements</small></button>
+              <button class="btn g-solid" id="g2">Solid<small>Rule and elements</small></button>
+            </div>`
+          : `<p class="prompt">Say the rule out loud, with its elements and the main exception. Then check.</p>
+             <button class="btn primary big wide reveal-btn" id="reveal">Show the rule</button>`}
+        </div>
+        <p class="keys"><kbd>Space</kbd> show rule <kbd>1</kbd> blank <kbd>2</kbd> shaky <kbd>3</kbd> solid</p>
+      </div>`;
+    const r = app.querySelector("#reveal");
+    if (r) r.onclick = revealDrill;
+    ["g0", "g1", "g2"].forEach((id, i) => { const b = app.querySelector("#" + id); if (b) b.onclick = () => gradeDrill(["blank", "shaky", "solid"][i]); });
+  }
+  function revealDrill() { if (!drill || drill.shown) return; drill.shown = true; renderDrill(); }
+  function gradeDrill(s) {
+    const d = drill; if (!d || !d.shown) return;
+    const is = d.queue[d.idx];
+    markIssue(d.deck.id, is, s);
+    d.results.push({ is, s });
+    d.idx++; d.shown = false;
+    renderDrill(); window.scrollTo(0, 0);
+  }
+  function renderDrillDone() {
+    const d = drill, deck = d.deck;
+    const solid = d.results.filter(r => r.s === "solid").length;
+    const weak = d.results.filter(r => r.s !== "solid");
+    const line = !weak.length ? "Every rule came out clean." : weak.length <= 2 ? "Nearly there. Run the weak ones again." : "Good. The weak ones are listed below; drill them again before moving on.";
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>Drill finished</b><small>${esc(deck.name)}</small>`)}
+        <div class="track"><span style="width:100%"></span></div>
+        <div class="result">
+          <p class="result-num">${solid}<span>of ${d.results.length} solid</span></p>
+          <p class="result-line">${line}</p>
+          <div class="result-actions">
+            ${weak.length ? `<button class="btn primary big" id="again">Drill the ${plural(weak.length, "weak issue")} again</button>` : ""}
+            <button class="btn ${weak.length ? "" : "primary big"}" id="restart">Start the drill over</button>
+            <a class="btn" href="${deckHref(deck, "spot")}${d.topicId ? "/" + encodeURIComponent(d.topicId) : ""}">Spot issues instead</a>
+            <a class="link-btn" href="${deckHref(deck)}">Back to the outline</a>
+          </div>
+        </div>
+        ${weak.length ? `<h2 class="list-title">Weak issues</h2><ul class="result-list">${weak.map(r => `<li><span class="status ${r.s}"></span><span>${legalize(r.is.name)} <span class="muted">· ${esc(r.is.topic.name)}</span></span></li>`).join("")}</ul>` : ""}
+      </div>`;
+    const again = app.querySelector("#again");
+    if (again) again.onclick = () => { Object.assign(d, { queue: shuffle(weak.map(r => r.is)), idx: 0, shown: false, results: [] }); renderDrill(); };
+    app.querySelector("#restart").onclick = () => { Object.assign(d, { queue: drillOrder(d.all, getIssueProg(deck.id)), idx: 0, shown: false, results: [] }); renderDrill(); };
+  }
+
+  /* ---------- Issue spotting ---------- */
+  const LETTERS = ["A", "B", "C", "D"];
+  function buildSpot(deck, data, topicId) {
+    const ip = getIssueProg(deck.id);
+    const pool = scopedIssues(data, topicId);
+    const picked = drillOrder(pool, ip).slice(0, Math.min(10, pool.length));
+    const qs = picked.map(is => {
+      const same = data.issues.filter(x => x !== is && x.topic === is.topic);
+      const other = data.issues.filter(x => x !== is && x.topic !== is.topic);
+      const distractors = shuffle(same).slice(0, 3);
+      if (distractors.length < 3) distractors.push(...shuffle(other).slice(0, 3 - distractors.length));
+      const choices = shuffle([is, ...distractors]);
+      return { is, choices, answer: choices.indexOf(is), picked: null };
+    });
+    return { deck, topicId, qs, i: 0, score: 0 };
+  }
+  async function viewSpot(deck, topicId) {
+    session = drill = quiz = null;
+    const data = await loadDeck(deck);
+    if (data.issues.length < 4) { location.replace(deckHref(deck)); return; }
+    if (!spot || spot.deck.id !== deck.id || spot.topicId !== topicId) spot = buildSpot(deck, data, topicId);
+    renderSpot();
+  }
+  function renderSpot() {
+    const z = spot, deck = z.deck;
+    if (z.i >= z.qs.length) return renderSpotDone();
+    const q = z.qs[z.i];
+    const answered = q.picked !== null;
+    const right = answered && q.picked === q.answer;
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>${z.i + 1} of ${z.qs.length}</b><small>Spot the issue · ${z.score} right so far</small>`)}
+        <div class="track"><span style="width:${(z.i / z.qs.length) * 100}%"></span></div>
+        <div class="sheet">
+          <p class="crumb">The facts</p>
+          <p class="issue-trigger" style="font-size:1.2rem"><mark>${esc(q.is.trigger)}</mark></p>
+          <p class="prompt">Which issue do these facts raise?</p>
+          <div class="options">
+            ${q.choices.map((c, i) => {
+              let cls = "";
+              if (answered) cls = i === q.answer ? "is-right" : i === q.picked ? "is-wrong" : "is-dim";
+              return `<button class="option ${cls}" data-i="${i}" ${answered ? "disabled" : ""}><span class="opt-key">${LETTERS[i]}</span><span>${legalize(c.name)}</span></button>`;
+            }).join("")}
+          </div>
+          <p class="q-prompt ${answered ? (right ? "t-known" : "t-learning") : "muted"}" aria-live="polite">${answered ? (right ? "Right." : "Not that one. The right issue is marked.") : ""}</p>
+          ${answered ? `<div class="answer">${issueBody(q.is, { shown: true, noTip: true })}</div>
+            <button class="btn primary big wide" id="next" style="margin-top:16px">${z.i + 1 < z.qs.length ? "Next facts" : "See results"}</button>` : ""}
+        </div>
+        <p class="keys"><kbd>A</kbd>–<kbd>D</kbd> answer <kbd>Enter</kbd> next</p>
+      </div>`;
+    app.querySelectorAll(".option").forEach(b => b.onclick = () => answerSpot(+b.dataset.i));
+    const next = app.querySelector("#next");
+    if (next) { next.onclick = nextSpot; }
+  }
+  function answerSpot(i) {
+    const z = spot, q = z.qs[z.i];
+    if (!q || q.picked !== null) return;
+    q.picked = i;
+    const good = i === q.answer;
+    if (good) z.score++;
+    else { const ip = getIssueProg(z.deck.id); if (issueStatus(ip, q.is) !== "blank") markIssue(z.deck.id, q.is, "shaky"); }
+    renderSpot();
+  }
+  function nextSpot() { if (!spot) return; spot.i++; renderSpot(); window.scrollTo(0, 0); }
+  function renderSpotDone() {
+    const z = spot, deck = z.deck;
+    const missed = z.qs.filter(q => q.picked !== q.answer);
+    const pct = z.score / z.qs.length;
+    const line = pct === 1 ? "You saw every issue." : pct >= 0.7 ? "Solid. The ones you missed are below." : "The missed issues are below and marked shaky in the outline.";
+    app.innerHTML = `
+      <div class="player">
+        ${playerTop(deck, `<b>Results</b><small>${esc(deck.name)}</small>`)}
+        <div class="track"><span style="width:100%"></span></div>
+        <div class="result">
+          <p class="result-num">${z.score}<span>of ${z.qs.length}</span></p>
+          <p class="result-line">${line}</p>
+          <div class="result-actions">
+            <button class="btn primary big" id="again">Spot another set</button>
+            <a class="btn" href="${deckHref(deck, "drill")}${z.topicId ? "/" + encodeURIComponent(z.topicId) : ""}">Drill the rules</a>
+            <a class="link-btn" href="${deckHref(deck)}">Back to the outline</a>
+          </div>
+        </div>
+        ${missed.length ? `<h2 class="list-title">Issues you missed</h2><ul class="result-list">${missed.map(q => `<li><span class="status shaky"></span><span>${legalize(q.is.name)} <span class="muted">· ${esc(q.is.topic.name)}</span></span></li>`).join("")}</ul>` : ""}
+      </div>`;
+    app.querySelector("#again").onclick = async () => { spot = buildSpot(deck, await loadDeck(deck), z.topicId); renderSpot(); window.scrollTo(0, 0); };
+  }
