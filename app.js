@@ -162,7 +162,8 @@
     });
     const byTag = new Map();
     topics.forEach(t => (t.tags || []).forEach(tag => byTag.set(tag.toLowerCase(), t)));
-    const words = s => stripHtml(s).toLowerCase().replace(/[^a-z0-9§ ]+/g, " ").split(/\s+/).filter(w => w.length > 3);
+    const STOP = new Set(["the", "and", "for", "its", "own", "not", "who", "what", "when", "does", "under", "with", "from", "that", "this", "than", "into", "rule", "case", "law", "act", "test", "of", "or"]);
+    const words = s => stripHtml(s).toLowerCase().replace(/[^a-z0-9§ ]+/g, " ").split(/\s+/).filter(w => w.length > 2 && !STOP.has(w));
     // Keywords per issue: its name counts double, its authorities once; words every issue in the
     // topic shares (e.g. a case cited by all of them) are dropped so they don't decide the match.
     issues.forEach(is => {
