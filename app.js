@@ -47,12 +47,14 @@
   function prettyTag(t) { return t.replace(/_/g, " ").replace(/^Part(?=[A-Z])/, "Part ").replace(/\bArt (I+)\b/, "Art. $1").replace(/ 11-5 reading$/, ""); }
   const deckHref = (deck, sub) => "#/deck/" + encodeURIComponent(deck.id) + (sub ? "/" + sub : "");
 
-  // Italicize case names ("A v. B", "In re X", "Matter of X") and § references in plain text.
+  // Italicize case names ("A v. B", "In re X", "Matter of X") in plain text. Escapes & < > first.
   function legalize(text) {
-    let s = esc(text);
-    s = s.replace(/((?:[A-Z][\w.'&\-]*\s){0,5}[A-Z][\w.'&\-]*(?:,? (?:Inc|Co|Corp|LLC|Ass'n|Dep't|Bros)\.?)?\s+v\.\s+(?:[A-Z][\w.'&\-]*(?:\s(?:of|the|&|and|for|de)\s)?\s?){1,5})/g, '<i>$1</i>');
-    s = s.replace(/\b(In re [A-Z][\w.'&\-]*(?: [A-Z][\w.'&\-]*){0,3}|Matter of [A-Z][\w.'&\-]*(?: [A-Z][\w.'&\-]*){0,2})/g, '<i>$1</i>');
-    s = s.replace(/<\/i>(\s*)<i>/g, "$1");
+    let s = String(text).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+    const tok = "(?:[A-Z][\\w.'\\-]*(?:&amp;[\\w.'\\-]*)?|&amp;)";
+    const party = `${tok}(?:\\s(?:of|the|and|for|de|&amp;)\\s${tok}|\\s${tok}){0,5}`;
+    s = s.replace(new RegExp(`\\b(${party}\\s+v\\.\\s+${party})`, "g"), "<i>$1</i>");
+    s = s.replace(/\b(In re [A-Z][\w.'\-]*(?: [A-Z][\w.'\-]*){0,3}|Matter of [A-Z][\w.'\-]*(?: [A-Z][\w.'\-]*){0,2})/g, "<i>$1</i>");
+    s = s.replace(/<i>(<i>)+/g, "<i>").replace(/(<\/i>)+/g, "</i>");
     return s;
   }
 
@@ -250,7 +252,7 @@
       ${els}${exc}${auth}
     </div>${tip}`;
   }
-  const triggerLine = is => `<p class="issue-trigger"><span class="lbl">Watch for</span><mark>${esc(is.trigger)}</mark></p>`;
+  const triggerLine = (is, marked) => `<p class="issue-trigger"><span class="lbl">Watch for</span>${marked ? `<mark>${esc(is.trigger)}</mark>` : esc(is.trigger)}</p>`;
 
   /* ---------- Home ---------- */
   async function viewHome() {
@@ -463,7 +465,7 @@
         <div class="sheet">
           <p class="crumb">${esc(is.topic.name)}</p>
           <h2>${legalize(is.name)}</h2>
-          ${triggerLine(is)}
+          ${triggerLine(is, true)}
           ${d.shown ? `<div class="answer">${issueBody(is, { shown: true })}</div>
             <div class="grade">
               <button class="btn g-blank" id="g0">Blank<small>Couldn't state it</small></button>

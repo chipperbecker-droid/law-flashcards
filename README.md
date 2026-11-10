@@ -1,15 +1,20 @@
-# Law Flashcards
+# Issue Spotter
 
-Flashcard study site for Administrative Law, Professional Responsibility, and Business Associations.
+Exam-prep site for Administrative Law, Professional Responsibility, and Business Associations, built around how issue-spotter exams are graded: spot the issue from the facts, state the rule with its elements, apply, and cover the exceptions.
 It's a plain static site (no build step) hosted on GitHub Pages.
 
 ## Studying
 
-- Pick a class on the home page. Use the dropdown on the class page to narrow to one topic, part or card type.
-- **Flashcards:** tap a card to flip it. Swipe right (or tap **Know it**) if you knew it, swipe left (or **Still learning**) if not. Undo with the round arrow. On a computer: Space flips, → know it, ← still learning, Z undo.
-- **Quiz:** 10 multiple-choice questions, weighted toward cards you haven't mastered.
-- **Review missed:** flashcards for only the cards you marked Still learning.
+- Each class opens on its **attack outline**: topics in course order, each issue with the facts that trigger it, the rule, numbered elements, exceptions and limits, the authorities, and an exam tip. Tick **Hide rules until tapped** to self-test, or **Print** for a paper copy. **Study only this topic** scopes every mode below to that topic.
+- **Drill rules:** you see the issue and its triggering facts; say the rule and elements out loud, reveal, and grade yourself Blank / Shaky / Solid. Weak issues come first next time. Keys: Space reveal, 1–3 grade.
+- **Spot issues:** you see only the facts and pick which issue they raise from four choices, then the rule appears. Missed issues are marked shaky in the outline.
+- **Flashcards:** the original decks. Tap to flip, swipe right (**Know it**) or left (**Still learning**), undo with the arrow. The back of each card links to the rule it belongs to. Keys: Space flip, → know it, ← still learning, Z undo.
+- **Quiz:** 10 multiple-choice questions over the cards, weighted toward ones you haven't mastered. **Review missed** replays the cards you marked Still learning.
 - Progress is saved in your browser (per device), so your phone and laptop track separately.
+
+## Issue maps
+
+Each class has an issue map at `decks/<class>.issues.json`: `topics[]`, each with `name`, optional `part`, `tags` (the card tags that belong to the topic), and `issues[]`. An issue has `id`, `name`, `trigger`, `rule`, `elements[]`, `exceptions[]`, `authorities[]`, and `tip`. Edit the JSON to change a rule or add an issue; cards are linked to issues automatically by their topic tag and the case names they mention.
 
 ## Adding a deck
 
