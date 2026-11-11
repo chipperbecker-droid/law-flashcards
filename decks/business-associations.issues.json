@@ -1,0 +1,403 @@
+{
+  "class": "business-associations",
+  "intro": "BA fact patterns usually chain: first, what kind of entity or relationship exists (agency, partnership, corporation); second, who is bound or liable to outsiders; third, what fiduciary duty applies inside and which standard of review a court will use; fourth, who may sue and how (direct, derivative, demand, SLC); fifth, any securities or voting overlay.",
+  "topics": [
+    {
+      "id": "agency",
+      "name": "Agency",
+      "tags": ["Agency"],
+      "issues": [
+        {
+          "id": "agency-formation",
+          "name": "Was an agency formed?",
+          "trigger": "Someone acts for another informally: borrows a car on conditions, runs errands, a lender starts directing a debtor's business.",
+          "rule": "Agency is the fiduciary relationship that arises when a principal manifests assent that an agent act on the principal's behalf and subject to the principal's control, and the agent consents (R3d § 1.01). No contract, compensation, or intent to create an \"agency\" is required.",
+          "elements": ["Principal manifests assent", "Agent acts on the principal's behalf", "Subject to the principal's control", "Agent consents"],
+          "exceptions": ["A creditor becomes a principal when it takes de facto control over the debtor's business (Cargill): vetoes, audits, forms, financing everything, power to cut off credit; no single factor controls", "Creditors avoid Cargill by using ex ante covenants, giving advice only, and relying on ex post remedies"],
+          "authorities": ["R3d § 1.01", "Gorton v. Doty", "A. Gay Jenson Farms v. Cargill"],
+          "tip": "Gorton: lending the car on condition that only the coach drive was enough. Argue control hard both ways."
+        },
+        {
+          "id": "authority-contract",
+          "name": "Is the principal bound by the agent's contract?",
+          "trigger": "An agent signs, buys, hires, or settles; the principal says the agent exceeded instructions; the third party relied on appearances.",
+          "rule": "A principal is bound by an agent's contract through actual authority (express or implied), apparent authority, inherent agency power, ratification, or estoppel. Actual authority runs from the principal's manifestations to the agent, measured by the agent's reasonable understanding (R3d § 2.02); apparent authority runs from the principal's manifestations to the third party and the third party's reasonable, good-faith belief (§ 3.03).",
+          "elements": ["Actual express: the instruction itself", "Actual implied: steps necessary or incidental, or custom when the principal grants broad discretion (Mill Street Church: past practice of hiring a helper)", "Apparent: principal held the agent out (or knowingly let the agent act) and the third party reasonably believed in good faith (Ackerman v. Sobol: client sat through settlement talks)", "Inherent (R2d § 8A): undisclosed principal liable for acts usual in the business even if forbidden (Watteau v. Fenwick); replaced in R3d by broader apparent authority and § 2.06 estoppel", "Ratification (§ 4.01): fully informed affirmance of the entire transaction, expressly, by accepting benefits, by silence, or by suing on the contract", "Estoppel: principal's words, acts, or omissions create an appearance; third party reasonably relies and changes position (Hoddeson v. Koos Bros.)"],
+          "exceptions": ["An agent cannot create apparent authority by his own claims (§ 3.03)", "Apparent authority ends when the third party has notice", "Actual authority binds even if the third party did not know the agent acted for anyone", "Ratification fails if induced by fraud, used by the principal to avoid a loss, or would cut off third parties' prior rights (§ 4.02(2))", "Estoppel is one-way: the principal is bound, the third party is not", "Retaining a lawyer does not by itself give authority to settle (Ackerman)"],
+          "authorities": ["R3d §§ 2.01–2.06, 3.03, 4.01–4.02", "Mill Street Church v. Hogan", "Ackerman v. Sobol", "Watteau v. Fenwick", "Hoddeson v. Koos Bros."],
+          "tip": "Run all five theories in order even when actual authority is obvious; the points are in the ones that fail and why."
+        },
+        {
+          "id": "agent-liability",
+          "name": "Agent's own liability on the contract",
+          "trigger": "An agent signs without naming the company, or the third party does not know there is a principal.",
+          "rule": "With a disclosed principal, the principal and third party are the parties and the agent is not (R3d § 6.01). An agent is personally liable when the principal is undisclosed (third party has no notice of any principal) or unidentified (third party knows of a principal but not who), unless the agent disclosed both the representative capacity and the principal's identity (§ 1.04).",
+          "elements": ["Disclosed, unidentified, or undisclosed?", "Did the agent reveal both that she acted for a principal and who it was?"],
+          "exceptions": ["The third party has no duty to ask who the principal is", "An undisclosed principal cannot rely on secret limits to cut the agent's authority below what the third party would assume (§ 2.06(2))"],
+          "authorities": ["R3d §§ 1.04, 6.01–6.03", "Atlantic Salmon v. Curran"],
+          "tip": "Curran never named the corporations he bought salmon for, so he paid."
+        },
+        {
+          "id": "agent-duties",
+          "name": "Agent's fiduciary duties",
+          "trigger": "An agent takes a kickback, secretly profits, steers business to his own company, competes, or walks off with a customer list.",
+          "rule": "An agent owes duties of obedience (§ 8.09), care, and loyalty. The loyalty duty bars taking a bribe or kickback from a third party, secretly profiting in dealings with the principal, and using the position to profit from anyone else; an agent must account for any profit made through the position even if the principal lost nothing (Reading v. Regem). An agent may prepare to compete during the agency but may not actually compete (§ 8.04) or use the principal's property or confidential information (§ 8.05).",
+          "elements": ["Did the profit come from the agency position or from the agent's own efforts?", "Adverse dealing without the principal's knowledge (R2d § 389)", "Nondisclosure of a stake judged transaction by transaction (Rash)", "Preparation vs. actual competition; use of confidential assets"],
+          "exceptions": ["A war hero paid to appear at a restaurant keeps the money: honestly earned fame, not misuse of position", "Preparing to leave is lawful if nothing else is wrongful", "A customer list built at significant effort and expense is a protected confidential asset even without a non-compete (Town & Country v. Newbery)"],
+          "authorities": ["R3d §§ 8.01–8.09", "Reading v. Regem", "Rash v. J.V. Intermediate", "Town & Country v. Newbery"],
+          "tip": "Fiduciary duties fill gaps in incomplete contracts and bond the agent's promises; say that once if asked why. Agency costs: monitoring, bonding, residual loss."
+        }
+      ]
+    },
+    {
+      "id": "partnerships",
+      "name": "Partnerships",
+      "tags": ["Partnerships"],
+      "issues": [
+        {
+          "id": "partnership-formation",
+          "name": "Is there a partnership?",
+          "trigger": "Two people share profits from a business but never signed anything; a lender takes a profit share and controls; an employee is called a \"partner.\"",
+          "rule": "A partnership is an association of two or more persons to carry on as co-owners a business for profit (UPA § 6(1), RUPA § 202), whether or not they intend one. Sharing profits raises a presumption of partnership unless received as debt payments, wages, rent, or an annuity; co-ownership is the element that decides close cases.",
+          "elements": ["Intent to associate (not intent to be called partners)", "Co-ownership: control, sharing of losses, capital contribution", "Business for profit", "Fenwick factors: intent, profit sharing, loss sharing, control of property, shared administration, agreement language, conduct toward third parties, rights on dissolution"],
+          "exceptions": ["Profit share as wages (Fenwick receptionist), as loan protection (Martin v. Peyton: inspection, veto, 40% of profits were protections for a loan), or where the other bears all losses and contracts in its own name (Southex)", "Co-owning property alone creates no partnership", "Partnership by estoppel requires actual reliance on the representation (Young v. Jones)"],
+          "authorities": ["UPA § 6, § 7", "RUPA § 202", "Fenwick v. Unemployment Comp. Comm'n", "Martin v. Peyton", "Southex v. RIBA", "Young v. Jones"],
+          "tip": "Labels are probative, not dispositive. Walk the Fenwick factors and land on co-ownership."
+        },
+        {
+          "id": "partner-duties",
+          "name": "Partners' fiduciary duties",
+          "trigger": "A partner takes a business opportunity, competes, secretly buys adjoining assets, or departing partners grab clients.",
+          "rule": "Partners owe loyalty and care (RUPA § 409), not obedience. Loyalty requires accounting for any benefit from the business, from partnership property, or from a partnership opportunity (§ 409(b)(1), codifying Meinhard), and bars competing before dissolution (§ 409(b)(3)). Care is breached only by gross negligence, recklessness, intentional misconduct, or knowing violation of law (§ 409(c)). Joint adventurers owe each other \"not honesty alone, but the punctilio of an honor the most sensitive\" (Meinhard).",
+          "elements": ["Did the opportunity come through the venture? Disclose it (Meinhard, Sandvick)", "Scope of the venture defines the scope of the duty (Sandvick three steps: partnership? joint venture? scope?)", "Gross negligence or worse for care", "Authorization: disinterested, independent approval after full disclosure by a method in the agreement (§ 105(d))"],
+          "exceptions": ["Ordinary negligence is not a breach", "Departing partners may tell clients they are leaving and that the client may choose counsel, after telling the firm (Graubard); they may not secretly lure clients, mislead them, or lie to partners about leaving (Meehan v. Shaughnessy)", "Delegating management to an executive committee is not a breach absent self-dealing, profit, or loss (Day v. Sidley & Austin)", "Duties act as default rules the agreement can pare back (Lawlis)"],
+          "authorities": ["RUPA § 409", "RUPA § 105(d)", "Meinhard v. Salmon", "Sandvick v. LaCrosse", "Meehan v. Shaughnessy", "Day v. Sidley & Austin"],
+          "tip": "Quote Cardozo, then give the economic reason: without disclosure partners hoard information and squeeze each other out. Remedy in Meinhard: constructive trust."
+        },
+        {
+          "id": "partner-authority",
+          "name": "Binding the partnership and voting",
+          "trigger": "One partner makes a deal the other objected to; two equal partners deadlock; a partner hires help the other refused.",
+          "rule": "A partner's act in the ordinary course binds the partnership unless the partner lacked authority and the third party knew or had notice (RUPA § 301(1)). Ordinary-course matters are decided by a majority of partners; extraordinary acts and amendments require unanimous consent (§ 401(k)). The partner trying to change the status quo without a majority loses (Stroud, Summers).",
+          "elements": ["Ordinary course of business?", "Did the third party know or have notice of the lack of authority?", "Majority for ordinary matters; unanimity for extraordinary"],
+          "exceptions": ["One of two equal partners cannot cut off the other's ordinary-course authority (National Biscuit v. Stroud)", "Nor impose a new expense over the other's objection (Summers v. Dooley)", "1914 UPA required actual knowledge; 1997 adds \"had notice\""],
+          "authorities": ["RUPA §§ 301, 401(k)", "National Biscuit v. Stroud", "Summers v. Dooley"],
+          "tip": "Stroud and Summers look opposite but apply the same majority rule."
+        },
+        {
+          "id": "partnership-property-finance",
+          "name": "Partnership property, profits, and losses",
+          "trigger": "A partner goes bankrupt and creditors want the truck; partners dispute who paid for an asset; a labor-only partner is asked to share losses.",
+          "rule": "Property is partnership property by title, then capacity (acquired as a partner), then whose funds paid; property bought with partnership funds is presumed partnership property (RUPA § 204). Profits are shared equally by default and losses follow profit shares (§ 401(a)). Partners receive distributions, not salary, unless agreed. A partner's bankruptcy estate gets only the partnership interest, not partnership property (In re Fulton).",
+          "elements": ["Title, capacity, funds (§ 204)", "Intent at acquisition (Fulton)", "Default profit and loss split", "Draw (periodic profit distribution) vs. advance (loan repaid with interest)"],
+          "exceptions": ["Kovacik v. Reed: a labor-only partner need not share a capital partner's losses; each loses what he put in (a judicial gloss on § 401(a))", "Sweat-equity fix: market salary plus market interest on capital"],
+          "authorities": ["RUPA §§ 204, 401", "In re Fulton", "Kovacik v. Reed"],
+          "tip": "Fulton hypo: trailer sells for $4K, creditor owed $1K, Carroll contributed $4K: creditor $1K, Carroll $3K, Fulton $0."
+        },
+        {
+          "id": "dissociation-dissolution",
+          "name": "Dissociation, dissolution, and winding up",
+          "trigger": "A partner leaves, dies, is expelled, or sues to dissolve; the others want to keep going; a buyout price is disputed.",
+          "rule": "Dissociation (a partner leaves) is distinct from dissolution (the business ends and winds up) and does not always cause it. Dissociation events include notice of withdrawal, an agreed event, expulsion, bankruptcy, and death or incapacity (§ 601). In an at-will partnership a partner's withdrawal triggers dissolution and winding up (§ 801); a term partnership dissolves early after death or wrongful dissociation only if at least half the remaining partners vote to wind up within 90 days. A dissociated partner is bought out at the greater of liquidation or going-concern value, less damages for wrongful dissociation (§ 701).",
+          "elements": ["At-will or term?", "Dissociation event?", "Does it trigger dissolution?", "Buyout value (§ 701) or winding up order of payment (§ 806: creditors including partner-lenders, then capital, then profits; 1914 UPA § 40(b) had four tiers)", "After dissolution, authority only to wind up (§ 802); file a § 704 statement to end apparent authority after 90 days"],
+          "exceptions": ["Expulsion without court: unanimous vote of the others plus a listed condition (§ 601(4)); or under a guillotine clause in the agreement (Lawlis), breach only if money owed is withheld", "Judicial expulsion (§ 601(5)) for wrongful conduct materially harming the business, willful or persistent material breach, or conduct making it impracticable to continue (Giles; Brennan: breakdown justifying dissolution also justifies the lesser remedy)", "Filing a dissolution suit does not itself dissolve; \"capital account\" in a buyout clause means book value (G&S Investments v. Belman)", "Transferring an interest, a charging order, adding a partner, or disagreements are not dissociation"],
+          "authorities": ["RUPA §§ 601, 701, 704, 801, 802, 806", "Lawlis v. Kightlinger & Gray", "Giles v. Giles Land Co.", "Brennan v. Brennan Associates", "G&S Investments v. Belman"],
+          "tip": "Vocabulary is half the points: dissociation vs. dissolution, at-will vs. term, draw vs. advance."
+        },
+        {
+          "id": "liability-and-forms",
+          "name": "Partner liability and limited-liability forms",
+          "trigger": "A partnership creditor goes after a partner personally; limited partners run the business through a corporate general partner; an LLC or LLP is chosen.",
+          "rule": "General partners are jointly and severally liable for all partnership obligations (RUPA § 306(a); the 1914 UPA § 15 made partners jointly and severally liable for torts but only jointly for other debts). In an LLP all partners get limited liability once the general partnership registers. In an LP only general partners manage and are personally liable. An LLC combines pass-through taxation with corporate limited liability.",
+          "elements": ["Which form?", "Who manages?", "Who is personally liable?"],
+          "exceptions": ["Limited partners who controlled the business only as officers and directors of the corporate general partner kept limited liability (Frigidaire v. Union Properties)"],
+          "authorities": ["RUPA § 306", "UPA (1914) § 15", "Frigidaire Sales v. Union Properties"],
+          "tip": "Agency is unstable because it is terminable at will; partnership is the default for co-owners; the limited forms are elections."
+        }
+      ]
+    },
+    {
+      "id": "corporate-form",
+      "name": "The corporate form",
+      "tags": ["Corporate_Form"],
+      "issues": [
+        {
+          "id": "corporate-structure",
+          "name": "Who acts for the corporation; charter vs. bylaws",
+          "trigger": "A single director signs a deal; shareholders try to amend bylaws or the charter; a bylaw conflicts with the articles; a board adopts a forum-selection bylaw.",
+          "rule": "The corporation has legal personality, limited liability, separation of ownership and control, liquidity, and a flexible capital structure. The board manages (MBCA § 8.01(b), DGCL § 141(a)); an individual director is not an agent and cannot bind the corporation. Shareholders vote on directors, charter and bylaw amendments, mergers, and odds and ends. Charter amendments go board recommendation, shareholder approval, filing. Shareholders hold bylaw power by default and keep it even when the charter also gives it to the board (DGCL § 109(a)); bylaws may address anything about the business, its affairs, or constituents' rights consistent with law and the charter (§ 109(b)); the articles win over conflicting bylaws.",
+          "elements": ["Board acts as a body", "Shareholder voting matters", "Charter amendment steps", "Bylaw power: shareholders by default, board if the charter says so, both coexist"],
+          "exceptions": ["A board may adopt a forum-selection bylaw without a shareholder vote if the charter gives it bylaw power; it regulates where, not whether, shareholders sue (Boilermakers v. Chevron)", "Internal affairs doctrine: only the state of incorporation governs relations among the corporation, its directors and officers, and shareholders (VantagePoint v. Examen)"],
+          "authorities": ["DGCL §§ 109, 141(a)", "MBCA § 8.01(b)", "Boilermakers v. Chevron", "VantagePoint v. Examen"],
+          "tip": "Spot the actor first: director alone, board, or shareholders. Then ask which document controls."
+        },
+        {
+          "id": "veil-piercing",
+          "name": "Limited liability and veil piercing",
+          "trigger": "A thinly capitalized corporation (or a fleet of them) cannot pay a tort or contract creditor who wants the owner's assets.",
+          "rule": "Shareholders are not liable for corporate obligations except as the articles provide or through their own acts (MBCA § 6.22(b)). Three theories reach past the entity: enterprise liability (sister corporations treated as one; recovery from the enterprise, not shareholders), agency (weakest), and veil piercing. Piercing requires (1) such unity of interest and ownership that separate personalities no longer exist and (2) that respecting the form would sanction a fraud or promote injustice (Sea-Land).",
+          "elements": ["Unity of interest factors: failure to observe formalities, commingling, undercapitalization, one corporation using another's assets", "Injustice beyond an unpaid debt (tax fraud satisfied it on remand in Sea-Land)", "Shareholder used the corporation to conduct personal business (Walkovszky)"],
+          "exceptions": ["Undercapitalization with minimum statutory insurance is not enough to pierce (Walkovszky v. Carlton); dissent would expose shareholders of deliberately undercapitalized public-service corporations", "An unpaid debt alone never satisfies the injustice prong"],
+          "authorities": ["MBCA § 6.22", "Walkovszky v. Carlton", "Sea-Land Services v. Pepper Source"],
+          "tip": "Mention affirmative and defensive asset partitioning and the two costs of limited liability (externalities, excess risk) as the policy frame."
+        }
+      ]
+    },
+    {
+      "id": "corporate-purpose",
+      "name": "Corporate purpose and dividends",
+      "tags": ["Corporate_Purpose"],
+      "issues": [
+        {
+          "id": "corporate-purpose",
+          "name": "Corporate purpose and charitable giving",
+          "trigger": "A board gives to charity, refuses dividends to pursue a social goal, or a controller indulges personal preferences (no night baseball).",
+          "rule": "A corporation is run primarily for the shareholders' profit (Dodge v. Ford), but directors' business judgment is reviewed only for fraud, illegality, or conflict of interest (Shlensky v. Wrigley). Charitable donations are an express corporate power (DGCL § 122(9)) and are valid when reasonable and reasonably believed to advance the public interest and the corporation's own (A.P. Smith v. Barlow).",
+          "elements": ["Is there a rational business purpose (goodwill, trained workforce, long-run value)?", "Fraud, illegality, or conflict of interest?", "Reasonableness and statutory limits for gifts"],
+          "exceptions": ["Dodge ordered dividends but refused to enjoin the River Rouge expansion; of Dodge, Kamin, and Shlensky only Dodge granted relief", "§ 122(9) grants a power, not a purpose", "Friedman: the only social responsibility is to increase profits within the rules"],
+          "authorities": ["DGCL § 122(9)", "A.P. Smith v. Barlow", "Dodge v. Ford", "Shlensky v. Wrigley", "Kamin v. American Express"],
+          "tip": "Three recurring contexts: charitable giving, forced dividends, a controller's private whims. Name which one you are in."
+        },
+        {
+          "id": "dividends",
+          "name": "Legal limits on dividends",
+          "trigger": "Directors declare a dividend from a struggling company, or shareholders demand one.",
+          "rule": "Delaware dividends may come from surplus or, if none, from net profits for the current and/or prior fiscal year (\"nimble dividends,\" DGCL § 170(a)). Directors who approve an unlawful dividend are jointly and severally liable for 6 years (§ 174(a)) unless they relied in good faith on officers, counsel, or accountants (§ 172). Under MBCA § 6.40 a distribution must pass both the equity insolvency test and the balance sheet test.",
+          "elements": ["Source: surplus or nimble dividends", "Equity insolvency: can pay debts as they come due", "Balance sheet: assets exceed liabilities plus preferences", "Director liability and the reliance defense"],
+          "exceptions": ["Declaring dividends is a business judgment courts rarely force (Kamin, Shlensky)"],
+          "authorities": ["DGCL §§ 170, 172, 174", "MBCA § 6.40"],
+          "tip": "Separate the \"may they\" (legal limits) from the \"must they\" (business judgment) questions."
+        }
+      ]
+    },
+    {
+      "id": "duty-of-care",
+      "name": "Duty of care and the business judgment rule",
+      "tags": ["Duty_of_Care_and_BJR"],
+      "issues": [
+        {
+          "id": "bjr",
+          "name": "Business judgment rule and the duty of care",
+          "trigger": "A board approves a merger after a short meeting, makes a bad bet, forgoes a tax benefit, or a director never shows up.",
+          "rule": "The business judgment rule presumes directors acted on an informed basis, in good faith, and in the honest belief the action served the corporation; a protected decision needs only a rational business purpose. The plaintiff rebuts the presumption by showing a breach of the triad (good faith, loyalty, due care, Cede v. Technicolor); care is breached by gross negligence, which includes failing to inform oneself of reasonably available information (Van Gorkom). If rebutted, directors must prove entire fairness: fair dealing and fair price.",
+          "elements": ["Was there a decision? Doing nothing is not a business judgment; an informed decision not to act is", "Informed: process, advisors, valuation, time (Van Gorkom roadmap)", "Good faith and no conflict", "Rational business purpose", "If rebutted: entire fairness"],
+          "exceptions": ["Mere errors of judgment by an informed board are not actionable (Kamin)", "§ 141(e) reliance on reports protects only good-faith reliance on real reports from reasonably selected experts; a 20-minute oral pitch is not one (Van Gorkom)", "A shareholder vote cures only if the shareholders were fully informed", "A passive director cannot plead ignorance or incapacity; she should resign (Francis v. United Jersey Bank)", "§ 251(b): the board must itself approve a merger and declare it advisable"],
+          "authorities": ["Smith v. Van Gorkom", "Kamin v. American Express", "Cede v. Technicolor", "Francis v. United Jersey Bank", "DGCL §§ 141(e), 251(b)"],
+          "tip": "Losing the BJR does not mean losing the case; directors can still prove entire fairness. Say so."
+        },
+        {
+          "id": "exculpation",
+          "name": "Exculpation under § 102(b)(7)",
+          "trigger": "The charter has an exculpation clause and the plaintiff seeks money damages for a care breach.",
+          "rule": "A Delaware charter may eliminate directors' (and now officers') personal liability for money damages for breach of the duty of care (DGCL § 102(b)(7), enacted after Van Gorkom), but never for breaches of loyalty, acts not in good faith or involving intentional misconduct or knowing violation of law, § 174 unlawful dividends, or transactions yielding an improper personal benefit.",
+          "elements": ["Is there a § 102(b)(7) clause?", "Is the claim a pure care claim?", "Is only money damages sought?"],
+          "exceptions": ["Injunctive relief for care breaches survives", "Loyalty and bad faith are never exculpable, which is why plaintiffs plead them (Disney, Stone)"],
+          "authorities": ["DGCL § 102(b)(7)", "In re Walt Disney", "Stone v. Ritter"],
+          "tip": "Exculpated care claims do not create a substantial likelihood of liability for demand futility (Zuckerberg); connect the two."
+        }
+      ]
+    },
+    {
+      "id": "duty-of-loyalty",
+      "name": "Duty of loyalty",
+      "tags": ["Duty_of_Loyalty", "Controlling_Shareholders", "Controlling_SHs_11-5_reading"],
+      "issues": [
+        {
+          "id": "interested-transactions",
+          "name": "Interested director transactions",
+          "trigger": "The corporation hires a director's spouse, buys from a director's company, or issues stock to an insider.",
+          "rule": "A director's conflict strips the BJR and shifts the burden to the director to prove fairness, unless the transaction is cleansed under DGCL § 144(a): informed approval by disinterested directors (acting in good faith and without gross negligence; a committee of two or more disinterested directors if most of the board is conflicted), informed approval by disinterested shareholders, or proof the transaction is fair. Any one route suffices.",
+          "elements": ["Is the director interested?", "Disinterested-director approval with knowledge of the material facts (Benihana)", "Disinterested-shareholder approval", "Fairness (Bayer v. Beran: the president's wife sang in the ads at a fair price)"],
+          "exceptions": ["Ratification by a vote carried by interested shareholders does not shift the burden (Fliegler v. Lawrence)", "Shareholder approval of a general equity plan does not ratify specific later self-awards (Investors Bancorp)", "Dilution of a controller as a side effect of a real capital need does not defeat the BJR (Benihana)", "SB 21 moved controlling-shareholder transactions to § 144(b) and (c)"],
+          "authorities": ["DGCL § 144 (as amended by SB 21)", "Bayer v. Beran", "Benihana of Tokyo v. Benihana", "Fliegler v. Lawrence", "In re Investors Bancorp"],
+          "tip": "Why loyalty is never exculpable but care is: loyalty breaches are deliberate taking; care breaches are shirking."
+        },
+        {
+          "id": "corporate-opportunity",
+          "name": "Corporate opportunity",
+          "trigger": "A director or officer takes a deal, license, investment, or IPO allocation for himself that the corporation might have wanted.",
+          "rule": "Officers, directors, and dominant shareholders active in management may not take an opportunity belonging to the corporation. Under Broz, ask whether (1) the corporation is financially able to take it, (2) it is in the corporation's line of business, (3) the corporation has an interest or expectancy in it, and (4) taking it creates a conflict between the fiduciary's self-interest and the corporation's. No formal presentation to the board is required.",
+          "elements": ["Financial ability", "Line of business (read broadly: even investing cash in securities, eBay)", "Interest or expectancy", "Conflict created"],
+          "exceptions": ["Broz: CIS could not afford the license and its CEO and a director disclaimed interest, so no breach", "IPO allocations steered to executives for the company's banking business were a corporate opportunity (In re eBay)", "Related-party transaction vs. corporate opportunity: dealing with the corporation vs. taking a third-party deal"],
+          "authorities": ["Broz v. Cellular Information Systems", "In re eBay Shareholders Litigation"],
+          "tip": "Run all four Broz factors and name the gating one for these facts."
+        },
+        {
+          "id": "controlling-shareholders",
+          "name": "Controlling shareholder transactions",
+          "trigger": "A majority (or de facto controlling) holder squeezes out the minority, takes a non-ratable benefit, redeems a class before liquidation, or sets its own terms.",
+          "rule": "A controller (majority owner, or a minority holder with actual control of the board or the transaction) owes the minority the same fiduciary duty as directors when it acts through the board (Zahn v. Transamerica). A controller's self-dealing transaction, one that gives it a benefit to the exclusion and detriment of the minority, is reviewed for entire fairness (fair dealing and fair price, considered together) unless both MFW conditions are met from the outset: an independent special committee with power to say no and an informed, uncoerced majority-of-the-minority vote. Then the BJR applies.",
+          "elements": ["Is there a controller?", "Is the transaction self-dealing or non-ratable?", "MFW: independent committee (every member independent, Match Group) with real power to refuse", "MFW: informed majority-of-the-minority vote", "If only one condition: burden shifts to the plaintiff but entire fairness remains"],
+          "exceptions": ["MFW applies to any controller transaction with a non-ratable benefit, not just freeze-out mergers (In re Match Group)", "A controller cannot ratify informally, e.g., by affidavit; only a meeting vote or § 228 written consent counts (Espinoza v. Zuckerberg)", "A parent may own and vote a subsidiary's shares (DGCL § 123); the question is how it uses that power"],
+          "authorities": ["Kahn v. M&F Worldwide (MFW)", "In re Match Group", "Zahn v. Transamerica", "Espinoza v. Zuckerberg", "DGCL § 144(b)–(c) (SB 21)"],
+          "tip": "Entire fairness is a standard of review, not a verdict. Say what each MFW condition does to the burden and the standard."
+        }
+      ]
+    },
+    {
+      "id": "good-faith-oversight",
+      "name": "Good faith, oversight, and compensation",
+      "tags": ["Good_Faith_and_Oversight"],
+      "issues": [
+        {
+          "id": "good-faith",
+          "name": "Bad faith and the Disney standard",
+          "trigger": "A board approves a lavish pay package or severance, skips best practices, or consciously ignores a known duty.",
+          "rule": "Bad faith is a subjective intent to harm the corporation or an intentional dereliction of duty, a conscious disregard of one's responsibilities (Disney). Gross negligence alone is a care problem, exculpable under § 102(b)(7), not bad faith. Good faith is not a third independent duty but a condition of loyalty (Stone v. Ritter). Bad faith defeats § 141(e) reliance, § 102(b)(7) exculpation, and § 145 indemnification.",
+          "elements": ["Subjective intent to harm, or", "Conscious disregard of a known duty", "Not mere gross negligence or failure to follow best practices"],
+          "exceptions": ["A decision with a rational business purpose is not waste (Ovitz's package was needed to lure him from CAA)", "Executive compensation defaults to intrinsic fairness review because pay is inherently conflicted; say on pay is Dodd-Frank's advisory vote at least every 3 years", "Indemnification (§ 145) requires good faith and reasonable belief the conduct was in or not opposed to the corporation's interest; advancement of fees can be owed before the merits (Frank/Javice)"],
+          "authorities": ["In re Walt Disney Derivative Litigation", "Stone v. Ritter", "DGCL §§ 102(b)(7), 141(e), 145"],
+          "tip": "Plaintiffs plead bad faith to get around exculpation. Test the facts against the two Disney formulations and conclude it is probably only care."
+        },
+        {
+          "id": "oversight",
+          "name": "Oversight (Caremark) liability",
+          "trigger": "A company suffers a compliance disaster (bribes, money laundering, safety failures) and shareholders sue the board for not catching it.",
+          "rule": "Directors must attempt in good faith to ensure an adequate corporate information and reporting system exists (Caremark); liability arises only from a sustained or systematic failure. Under Stone v. Ritter the plaintiff must show (1) the directors utterly failed to implement any reporting system or (2) having implemented one, consciously failed to monitor it. Oversight failure breaches the duty of loyalty through bad faith, so it is neither exculpable nor indemnifiable.",
+          "elements": ["Utter failure to implement any system, or", "Conscious failure to monitor or oversee an existing system (ignored red flags)", "Scienter: the failure must be knowing"],
+          "exceptions": ["No duty to install a system of espionage absent suspicion (Graham 1963); directors must respond to red flags", "The BJR does not fit because there is no decision to defer to", "Stone: a KPMG report showed a real compliance system and no ignored red flags, so demand was not excused", "Caremark itself was dicta approving a settlement"],
+          "authorities": ["In re Caremark", "Stone v. Ritter", "Graham v. Allis-Chalmers", "MBCA § 8.01(c)"],
+          "tip": "Plead the red flags. Without them, this claim fails at the demand stage."
+        }
+      ]
+    },
+    {
+      "id": "derivative-suits",
+      "name": "Derivative suits",
+      "tags": ["Derivative_Suits"],
+      "issues": [
+        {
+          "id": "direct-vs-derivative",
+          "name": "Direct or derivative?",
+          "trigger": "Shareholders sue over a merger, a tax hit, dilution, or waste, and the question is who the real plaintiff is.",
+          "rule": "A claim is direct when the shareholder suffered the harm and would receive the recovery, and derivative when the corporation suffered the harm and would receive the recovery (Tooley). Derivative recovery goes to the corporation.",
+          "elements": ["Who suffered the harm?", "Who would get the recovery?"],
+          "exceptions": ["Medtronic: shareholders' capital-gains taxes from the inversion were direct; reimbursing officers' excise taxes was derivative waste"],
+          "authorities": ["Tooley v. Donaldson, Lufkin & Jenrette", "In re Medtronic Shareholder Litigation"],
+          "tip": "Classify first; it decides whether demand, FRCP 23.1, and the SLC even come into play. Derivative suits settle cheaply because the plaintiff's lawyer is the real party in interest and defendants want to keep indemnification."
+        },
+        {
+          "id": "demand-futility",
+          "name": "Demand and demand futility",
+          "trigger": "A shareholder files a derivative suit without first asking the board to sue, or asks and is refused.",
+          "rule": "The complaint must plead with particularity the demand made or the reasons demand was not made (FRCP 23.1); settlement or dismissal needs court approval and notice. Making demand concedes it was required and the board's refusal gets the BJR. Under Zuckerberg, demand is excused if at least half the demand board (i) received a material personal benefit, (ii) faces a substantial likelihood of liability, or (iii) lacks independence from someone who does.",
+          "elements": ["Director by director: material personal benefit?", "Substantial likelihood of liability (exculpated care claims do not count)?", "Lacks independence from an interested director?", "At least half the board fails"],
+          "exceptions": ["Being named a defendant and voting for the deal is not enough (Aronson)", "Business ties, friendship, and gratitude alone were not enough in Zuckerberg", "A 47% holder who picked every director does not alone make them beholden (Aronson)", "History: Aronson (reasonable doubt about disinterest and independence, or about the decision as a valid business judgment) and Rales (board as of filing, used when the board turned over, no decision is challenged, or another board decided) are folded into Zuckerberg", "SB 21 gives exchange-independent directors a stronger rebuttable presumption of disinterestedness"],
+          "authorities": ["FRCP 23.1", "UFCW Union v. Zuckerberg", "Aronson v. Lewis", "Rales v. Blasband"],
+          "tip": "On the exam apply only Zuckerberg, but cite Aronson and Rales as its sources. The demand requirement really decides who controls the litigation."
+        },
+        {
+          "id": "slc",
+          "name": "Special litigation committee",
+          "trigger": "After demand is excused, the board forms a committee of independent directors that moves to dismiss the suit.",
+          "rule": "A committee authorized under DGCL § 141(c)(2) may move to dismiss. Under Zapata the corporation bears the burden of proving the committee's independence, good faith, reasonable investigation, and reasonable bases for its conclusions (step 1), and the court may then apply its own business judgment on whether dismissal serves the corporation (step 2). New York (Auerbach) reviews only independence and procedures and gives the decision BJR deference.",
+          "elements": ["Independence of members", "Good faith and reasonable investigation", "Reasonable bases", "Court's own judgment (Delaware only)"],
+          "exceptions": ["A committee may not approve matters requiring shareholder approval or amend bylaws (§ 141(c)(2))", "Auerbach is more deferential than Zapata"],
+          "authorities": ["DGCL § 141(c)(2)", "Zapata Corp. v. Maldonado", "Auerbach v. Bennett"],
+          "tip": "Flag the Delaware/New York split in one sentence; it is a cheap point."
+        },
+        {
+          "id": "independence",
+          "name": "Disinterested vs. independent",
+          "trigger": "A director is the CEO's old friend, has a job at an affiliated company, or sits on the board because the controller put her there.",
+          "rule": "Disinterested means no personal financial stake in the transaction; independent means not beholden to an interested person through personal or financial ties. Friendship and financial ties are weighed together, not separately (Sanchez); a decades-long close friendship plus financial dependence defeated independence there.",
+          "elements": ["Personal stake?", "Personal ties plus financial ties, considered together", "Beholden such that the director cannot say no"],
+          "exceptions": ["Moving in the same social circles is not enough (Sanchez)", "Appointment by a controller alone does not show beholdenness (Aronson)"],
+          "authorities": ["Delaware County Employees Retirement Fund v. Sanchez", "Aronson v. Lewis"],
+          "tip": "This analysis feeds three places: § 144 cleansing, demand futility, and SLC review. Do it once and cross-reference."
+        }
+      ]
+    },
+    {
+      "id": "securities",
+      "name": "Securities regulation",
+      "tags": ["Securities"],
+      "issues": [
+        {
+          "id": "what-is-a-security",
+          "name": "Is it a security?",
+          "trigger": "Interests in an LLC, orange groves, a scheme, or a token are sold to investors who do no work.",
+          "rule": "Courts look to economic substance over form. An investment contract is (1) an investment of money (2) in a common enterprise (3) with a reasonable expectation of profits (4) derived from the efforts of others (Howey); the fourth prong asks whether the investor lacks meaningful control. The '33 Act governs the primary market and the '34 Act the secondary market; the SEC reviews disclosure, not merit.",
+          "elements": ["Investment of money", "Common enterprise", "Expectation of profits", "From the efforts of others: no meaningful control"],
+          "exceptions": ["An LLC member who was treasurer and vice-chair had meaningful control, and the interest was not \"stock\" because it lacked the name and usual traits (Robinson v. Glynn)", "Exempt security vs. exempt transaction: a security exemption lasts; a transaction exemption is one-time so resale needs its own"],
+          "authorities": ["SEC v. W.J. Howey Co.", "Robinson v. Glynn", "Securities Act § 5 (no offers before filing, no sales before effectiveness, prospectus delivery)"],
+          "tip": "Most points are in prong four: describe exactly what control the investor actually had."
+        },
+        {
+          "id": "10b-5",
+          "name": "Rule 10b-5 fraud",
+          "trigger": "A company or broker misstates or omits a fact and investors who traded lose money.",
+          "rule": "A private 10b-5 claim requires (1) a material misstatement or omission, (2) scienter (intent or recklessness, not negligence), (3) in connection with a purchase or sale, (4) reliance, (5) economic loss, and (6) loss causation. A fact is material if a reasonable investor would likely consider it important. Reliance is presumed for public misstatements in an efficient market (fraud on the market, Basic v. Levinson, resting on the semi-strong ECMH).",
+          "elements": ["Material misstatement or omission", "Scienter", "In connection with purchase or sale", "Reliance (Basic presumption)", "Economic loss", "Loss causation"],
+          "exceptions": ["Defendants may rebut the presumption at class certification with evidence of no price impact (Halliburton II); Basic was not overruled", "Private lies to clients cannot affect market price, so no presumption (West v. Prudential, rejecting the strong form of the ECMH)"],
+          "authorities": ["Rule 10b-5", "Basic v. Levinson", "Halliburton v. Erica P. John Fund", "West v. Prudential Securities"],
+          "tip": "Walk all six elements; reliance is where the market-efficiency discussion lives."
+        },
+        {
+          "id": "insider-trading",
+          "name": "Insider trading",
+          "trigger": "An insider, a lawyer, a printer, a relative, or a tippee trades before news breaks, or trades minutes after a press release.",
+          "rule": "Insider trading requires (1) breach of a duty of trust or confidence, (2) trading on material nonpublic information, (3) scienter, and for tipping (4) a personal benefit to the tipper. Under the classical theory insiders and temporary insiders (lawyers, accountants, underwriters) owe the duty to the issuer's shareholders and must disclose or abstain (Texas Gulf Sulphur); under the misappropriation theory the duty runs to the source of the information. Mere possession of information creates no duty (Chiarella). A tippee inherits the duty when the tipper breached for personal benefit and the tippee knew or should have known (Dirks).",
+          "elements": ["Duty: classical (insider or temporary insider) or misappropriation (source)", "Material nonpublic information: not public if only a limited group of outsiders knows", "Trading \"on the basis of\" means while aware (Rule 10b5-1)", "Scienter", "Tipper personal benefit: money, reputation, currying favor, a gift"],
+          "exceptions": ["Affirmative defense: a binding contract, instruction, or written plan adopted before becoming aware (10b5-1)", "Duty of trust or confidence arises from an agreement to keep confidence, a history of sharing confidences, or information from a spouse, parent, child, or sibling (10b5-2)", "Dirks: tipping to expose fraud was not for personal benefit", "Insiders may trade only after news is effectively disseminated, not minutes later (TGS)", "§ 16(b): officers, directors, and 10% holders disgorge short-swing profits within 6 months, no fault needed"],
+          "authorities": ["SEC v. Texas Gulf Sulphur", "Chiarella v. United States", "Dirks v. SEC", "Cady, Roberts", "Rules 10b5-1, 10b5-2", "Exchange Act § 16(b)"],
+          "tip": "Start with the source of the duty; without one there is no case (Chiarella). Then run the elements for each trader and each tippee separately."
+        }
+      ]
+    },
+    {
+      "id": "shareholder-voting",
+      "name": "Shareholder voting and proxies",
+      "tags": ["Shareholder_Voting"],
+      "issues": [
+        {
+          "id": "voting-rights",
+          "name": "Voting rights, meetings, and written consent",
+          "trigger": "Dual-class stock, voting-only shares, a proxy someone tries to revoke, a special meeting call, or action by written consent.",
+          "rule": "The default is one share, one vote; some class must hold unlimited voting rights and some class the residual claim, which may be the same class (MBCA § 6.01(b)). Voting and economic rights may be separated by dual-class stock, nonvoting stock, voting trusts, vote-pooling agreements, and irrevocable proxies (a proxy is irrevocable only when coupled with an interest). Shareholders may act without a meeting by written consent of holders with the votes needed unless the charter opts out, with prompt notice to non-consenting holders (DGCL § 228).",
+          "elements": ["Who can vote and how much", "Special meetings: MBCA board or 10% holders; Delaware board or those authorized in the charter or bylaws", "Written consent requirements", "Federal law governs procedure and disclosure; state law governs substance"],
+          "exceptions": ["Stock may carry voting rights with no economic rights because the statute is disjunctive (Stroh v. Blackhawk)", "A controller cannot ratify informally; directors setting their own pay face entire fairness (Espinoza v. Zuckerberg)"],
+          "authorities": ["MBCA §§ 6.01, 7.02", "DGCL §§ 211, 228", "Stroh v. Blackhawk Holding", "Espinoza v. Zuckerberg"],
+          "tip": "Always ask whether the action was taken at a meeting or by proper written consent; informal assent counts for nothing."
+        },
+        {
+          "id": "proxy-regulation",
+          "name": "Proxy solicitation and proxy fights",
+          "trigger": "Management or an insurgent solicits proxies, spends corporate money on the fight, or misstates something in the proxy statement.",
+          "rule": "Exchange Act § 14(a) regulates proxy solicitations for § 12-registered securities; common violations are soliciting before a proxy statement, using unfiled materials, and false or misleading solicitations. Solicitations of 10 or fewer people are exempt (Rule 14a-2(b)(2)). A private right of action, direct and derivative, is implied (J.I. Case v. Borak). Incumbents may spend corporate funds on reasonable expenses in a policy contest and are reimbursed win or lose; insurgents only if they win and shareholders ratify (Rosenfeld).",
+          "elements": ["Is it a solicitation of a registered security?", "Filed proxy statement first", "Truthful and complete", "Expense reimbursement: policy vs. personal contest; incumbents vs. insurgents"],
+          "exceptions": ["Bylaws may provide reimbursement of a shareholder's proxy expenses in director elections subject to conditions (DGCL § 113)", "Borak's rationale: the SEC cannot check thousands of proxies"],
+          "authorities": ["Exchange Act § 14(a)", "Rule 14a-2", "J.I. Case v. Borak", "Rosenfeld v. Fairchild Engine", "DGCL § 113"],
+          "tip": "Rosenfeld is three rules: when funds may be spent, when incumbents are reimbursed, when insurgents are."
+        }
+      ]
+    },
+    {
+      "id": "proposals-inspection",
+      "name": "Shareholder proposals and inspection",
+      "tags": ["Proposals_and_Inspection"],
+      "issues": [
+        {
+          "id": "rule-14a-8",
+          "name": "Shareholder proposals under Rule 14a-8",
+          "trigger": "A shareholder wants a social, governance, or election-related proposal in the company's proxy; the company seeks to exclude it.",
+          "rule": "A shareholder who has held $2,000 for 3 years, $15,000 for 2 years, or $25,000 for 1 year may submit one proposal of up to 500 words at least 120 days before the anniversary of last year's proxy release. The company may exclude it on an enumerated ground, including irrelevance (under 5% of assets, earnings, and sales and not otherwise significantly related), ordinary business operations (i)(7), director elections (i)(8), and failed resubmissions (under 5%, 15%, 25% support within 5 years).",
+          "elements": ["Ownership threshold and holding period", "One proposal, 500 words, 120-day deadline", "Procedural defect: company notifies within 14 days; proponent has 14 days to cure", "Substantive exclusion ground?"],
+          "exceptions": ["\"Otherwise significantly related\" can be ethical or social, not just economic (Lovenheim foie gras)", "Ordinary business is not excludable when the proposal raises a significant policy issue that transcends day-to-day business, but product selection is core to a retailer so a gun-sales proposal was excludable (Trinity v. Wal-Mart)", "Proxy-access procedure proposals are not excludable under the election exclusion; only proposals about a particular election are (AFSCME v. AIG)", "Most proposals are precatory because binding ones may be improper under state law ((i)(1))", "Skipping the meeting without good cause allows exclusion for 2 years; a no-action letter means staff will not object to omission"],
+          "authorities": ["Rule 14a-8", "Lovenheim v. Iroquois Brands", "Trinity Wall Street v. Wal-Mart", "AFSCME v. AIG"],
+          "tip": "Procedure first (eligibility, deadline, length), then each exclusion the company could invoke."
+        },
+        {
+          "id": "inspection",
+          "name": "Inspection rights",
+          "trigger": "A shareholder demands the stockholder list or books and records to investigate wrongdoing, value shares, communicate about a tender offer, or push a political cause.",
+          "rule": "Under DGCL § 220(c) a shareholder must show stockholder status, compliance with form and manner, and a proper purpose reasonably related to the person's interest as a stockholder. To investigate wrongdoing the shareholder must show a credible basis by a preponderance of the evidence and receives only records necessary and essential to the purpose.",
+          "elements": ["Stockholder status", "Form and manner", "Proper purpose: valuing shares, evaluating an offer, director independence, testing disclosures, investigating waste or mismanagement", "Credible basis for wrongdoing", "Scope: necessary and essential"],
+          "exceptions": ["Disagreeing with a business decision is not a proper purpose", "A purely political purpose is improper, though a bona fide investor worried about economic effects could have a proper one (Pillsbury v. Honeywell)", "A tender offeror may get the list to communicate directly; the company's offer to mail its materials is not enough (Crane v. Anaconda)", "The shareholder need not say how it will use the records unless litigation is the only stated use and an insurmountable procedural bar exists (AmerisourceBergen)", "Rule 14a-7: the company may mail the shareholder's materials at the shareholder's cost or hand over the list"],
+          "authorities": ["DGCL § 220", "Rule 14a-7", "Pillsbury v. Honeywell", "Crane v. Anaconda", "AmerisourceBergen v. Lebanon County"],
+          "tip": "Distinguish the stockholder list (easier) from books and records (credible basis required)."
+        }
+      ]
+    }
+  ]
+}

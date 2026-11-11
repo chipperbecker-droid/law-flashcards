@@ -3,18 +3,21 @@
     "id": "admin-law",
     "name": "Administrative Law",
     "short": "Admin Law",
-    "file": "admin-law.csv"
+    "file": "admin-law.csv",
+    "issues": "admin-law.issues.json"
   },
   {
     "id": "professional-responsibility",
     "name": "Professional Responsibility",
     "short": "PR",
-    "file": "professional-responsibility.csv"
+    "file": "professional-responsibility.csv",
+    "issues": "professional-responsibility.issues.json"
   },
   {
     "id": "business-associations",
     "name": "Business Associations",
     "short": "BA",
-    "file": "business-associations.csv"
+    "file": "business-associations.csv",
+    "issues": "business-associations.issues.json"
   }
 ]

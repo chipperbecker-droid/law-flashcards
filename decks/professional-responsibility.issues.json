@@ -1,0 +1,295 @@
+{
+  "class": "professional-responsibility",
+  "intro": "PR issue spotters bury four or five rule violations in one lawyer's week. For each, name the Model Rule by number, state its elements, check the exceptions, and separate the three consequences: discipline (no harm needed), malpractice (needs harm), and disqualification or fee forfeiture.",
+  "topics": [
+    {
+      "id": "regulating",
+      "name": "Regulating the practice of law",
+      "tags": ["Regulating the Practice of Law"],
+      "issues": [
+        {
+          "id": "discipline-vs-malpractice",
+          "name": "Discipline vs. malpractice",
+          "trigger": "A lawyer's misconduct hurt nobody, or a client was hurt by sloppy work and the question asks what follows.",
+          "rule": "Discipline enforces the Rules and requires no harm to a client; malpractice is a civil claim that requires duty, breach, causation, and injury. Sanctions run from probation, private reprimand (misconduct published without the name), public reprimand, suspension, to disbarment; a disbarred lawyer may seek reinstatement after 5 years by proving rehabilitation and compliance with all conditions by clear and convincing evidence.",
+          "elements": ["Discipline: a Rule violation, no harm required", "Malpractice: duty, breach, causation, injury (Rest. § 48)", "Sanction ladder: probation, private reprimand, public reprimand, suspension, disbarment"],
+          "exceptions": ["A firm is vicariously liable for malpractice (except NY and NJ, Rest. § 58) but never for discipline", "Violating a Rule does not by itself create a malpractice claim (Rest. § 52)"],
+          "authorities": ["Rest. §§ 48, 52, 58", "ABA Model Rules preamble"],
+          "tip": "End every PR issue with a consequences sentence: discipline yes or no, malpractice yes or no."
+        },
+        {
+          "id": "upl",
+          "name": "Unauthorized practice of law",
+          "trigger": "A nonlawyer prepares documents or gives advice; a lawyer licensed elsewhere advises a client in this state; legal software.",
+          "rule": "Only licensed lawyers may practice law; the purpose is to protect the public from unqualified providers, not lawyers' business (Rule 5.5 cmt. [2]). A nonlawyer may sell forms, procedure booklets, and typing services but may not give individualized legal advice (Brumbaugh). An out-of-state lawyer practices law in a state through sufficient contact with it even without physical presence (Birbrower), and the remedy can include an unenforceable fee agreement.",
+          "elements": ["Is it the practice of law? Applying law to one person's situation is advice", "Is the person licensed here, admitted pro hac vice, or within a 5.5 safe harbor?", "Consequence: UPL discipline, and fees for the unauthorized work unrecoverable (Birbrower)"],
+          "exceptions": ["Anyone may represent themselves", "Pro hac vice admission for litigation", "Nonlawyer forms and typing services are allowed (Brumbaugh)", "Legal software is generally permitted; how far it can go is open", "Arbitration was later exempted by statute after Birbrower"],
+          "authorities": ["Rule 5.5", "Florida Bar v. Brumbaugh", "Birbrower v. Superior Court"],
+          "tip": "Brumbaugh hypos turn on one fact: did the nonlawyer tailor anything to the customer's situation?"
+        },
+        {
+          "id": "nonlawyer-partnership",
+          "name": "Fee sharing and partnerships with nonlawyers",
+          "trigger": "A lawyer splits fees with, forms a business with, or works in a firm owned by a nonlawyer (accountant, marketer, investor), even with client consent.",
+          "rule": "A lawyer may not share legal fees with a nonlawyer (5.4(a)), form a partnership with a nonlawyer if any of its activities consist of the practice of law (5.4(b)), or practice in a for-profit firm in which a nonlawyer owns an interest (5.4(d)). Client consent does not cure it.",
+          "elements": ["Fee sharing with a nonlawyer?", "Partnership whose activities include practicing law?", "Nonlawyer ownership of a for-profit law firm?"],
+          "exceptions": ["DC, Utah, and Arizona permit fee splitting with nonlawyers", "Reasonable costs of permitted advertising and nominal thank-you gifts are not fee sharing (7.2(b))", "Lawyers must supervise nonlawyer assistants (5.3) and the Rules apply to law-related services (5.7)"],
+          "authorities": ["Rule 5.4", "Rule 5.3", "Rule 5.7"],
+          "tip": "The lawyer-accountant 50/50 LLC hypo is the classic trap: written consent is irrelevant."
+        },
+        {
+          "id": "admission",
+          "name": "Character and fitness",
+          "trigger": "An applicant with a criminal record, a lawsuit, unpaid obligations, or an incomplete disclosure seeks bar admission.",
+          "rule": "The applicant bears the burden of proving good character; the state's supreme court has the final word. Disclosure of past bad acts is necessary but not sufficient (Chapman); lack of candor and responsibility sinks an application even after a sentence is served (Hamm).",
+          "elements": ["Burden on the applicant", "Full disclosure", "Candor, acceptance of responsibility, rehabilitation"],
+          "exceptions": [],
+          "authorities": ["In re Application of Chapman", "In re Hamm"],
+          "tip": "Hamm: the killing was not the problem; the excuses, the unpaid child support, and the plagiarized brief were."
+        }
+      ]
+    },
+    {
+      "id": "forming-ending",
+      "name": "Forming and ending the relationship",
+      "tags": ["Forming & Ending Representation"],
+      "issues": [
+        {
+          "id": "formation",
+          "name": "Was a lawyer-client relationship formed?",
+          "trigger": "Casual advice at a party, a friend helping a friend, a consultation that goes nowhere, an officer who thinks the company's lawyer is her lawyer.",
+          "rule": "A relationship forms when a person manifests intent that the lawyer provide legal services and the lawyer manifests consent, or fails to object when the lawyer knows or should know the person reasonably relies on the lawyer, or a tribunal appoints the lawyer (Rest. § 14). No writing or fee is required (Robbins). The client's reasonable subjective belief controls (Morris v. Margulis).",
+          "elements": ["Client manifests intent to obtain legal services", "Lawyer consents, or stays silent knowing of reasonable reliance", "Or appointment by a tribunal"],
+          "exceptions": ["An organization's lawyer represents the entity, not its officers or employees (1.13(a))", "Advice to a prospective client can create malpractice liability even if the lawyer declines the case (Togstad)"],
+          "authorities": ["Rest. § 14", "In re Robbins", "Morris v. Margulis", "Rule 1.13(a)", "Togstad"],
+          "tip": "Formation is the gateway: once formed, confidentiality, competence, loyalty, and malpractice exposure all attach."
+        },
+        {
+          "id": "declining-appointment",
+          "name": "Declining an appointment",
+          "trigger": "A court appoints a lawyer who objects on moral, religious, or financial grounds or believes the client is guilty.",
+          "rule": "A lawyer may not seek to avoid a court appointment except for good cause: the representation is likely to violate the Rules or other law, it imposes an unreasonable financial burden, or the client or cause is so repugnant it is likely to impair the relationship or the lawyer's ability to represent (Rule 6.2).",
+          "elements": ["Likely Rule or law violation", "Unreasonable financial burden", "Repugnance likely to impair the representation"],
+          "exceptions": ["A moral or religious objection alone, or belief in guilt, is not good cause (Tennessee Board)", "Nonpayment alone is not an unreasonable financial burden", "A lawyer may not refuse a client solely because of a protected characteristic; a law office is a place of public accommodation (Nathanson v. MCAD)"],
+          "authorities": ["Rule 6.2", "Tennessee Board of Professional Responsibility", "Nathanson v. MCAD"],
+          "tip": "The practical answer is always: raise the objection with the court and let it decide."
+        },
+        {
+          "id": "withdrawal",
+          "name": "Withdrawal",
+          "trigger": "A lawyer wants out: the client is lying, not paying, pushing frivolous arguments, or trial is weeks away; or the court orders the lawyer to stay.",
+          "rule": "Withdrawal is mandatory when continuing would violate the Rules or law, the lawyer's physical or mental condition materially impairs the representation, or the lawyer is discharged (1.16(a)); it is permitted for the 1.16(b) reasons even if it materially harms the client. A court order to continue overrides even a mandatory reason (1.16(c)), and on withdrawal the lawyer must take reasonably practicable steps to protect the client (1.16(d)). The standard rises as trial approaches.",
+          "elements": ["Mandatory: Rule or law violation, impairment, discharge, client persists in using the lawyer's services for crime or fraud", "Permissive (1.16(b)): no material adverse effect, or client persists in crime or fraud, used services for past crime or fraud, repugnant or imprudent action, unreasonable financial burden, other good cause", "Court permission when required (1.16(c))", "Protect the client on the way out (1.16(d))"],
+          "exceptions": ["Court may deny withdrawal even with good cause when trial is close (Rusinow v. Kamara)", "Withdrawal on the eve of trial allowed where the lawyer was trapped between a malpractice threat and frivolous arguments (Whiting v. Lacara)", "Rule 3.1: a non-frivolous basis in law and fact is required; a good-faith argument to change the law qualifies"],
+          "authorities": ["Rule 1.16", "Rule 3.1", "Whiting v. Lacara", "Rusinow v. Kamara"],
+          "tip": "Classify mandatory vs. permissive first, then timing, then the court's power. Class problems 2-10 and 2-11 are this issue."
+        }
+      ]
+    },
+    {
+      "id": "competence",
+      "name": "Competence and malpractice",
+      "tags": ["Competence & Malpractice"],
+      "issues": [
+        {
+          "id": "competence-supervision",
+          "name": "Competence and supervisory responsibility",
+          "trigger": "A lawyer takes a matter outside her expertise, ignores mail, misses deadlines, or a subordinate or paralegal commits a violation.",
+          "rule": "Competent representation requires the legal knowledge, skill, thoroughness, and preparation reasonably necessary (Rule 1.1). A lawyer is responsible for another lawyer's violation if she orders or knowingly ratifies it, or as a supervisor knew of it in time to prevent or mitigate it and failed to take reasonable remedial action (5.1(c)); the same tests apply to nonlawyer assistants (5.3(c)).",
+          "elements": ["Knowledge, skill, thoroughness, preparation", "Ordered or knowingly ratified the conduct", "Supervisor knew in time and failed to act"],
+          "exceptions": ["A lawyer may become competent through study or association with a competent lawyer", "A client bound by the lawyer's neglect as principal must sue the lawyer (Bailey v. Algonquin Gas)"],
+          "authorities": ["Rule 1.1", "Rule 5.1", "Rule 5.3", "Bailey v. Algonquin Gas"],
+          "tip": "Separate the subordinate's own violation from the supervisor's derivative one."
+        },
+        {
+          "id": "malpractice",
+          "name": "Malpractice elements and standard of care",
+          "trigger": "A client (or prospective client) lost a case, a deadline, or money because of a lawyer's advice or inaction and now sues.",
+          "rule": "Professional negligence requires duty, breach, causation, and injury (Rest. § 48). The standard of care is the competence and diligence normally exercised by lawyers in similar circumstances (§ 52), higher for a claimed specialist. In criminal malpractice the client must show the result would have differed but for the lawyer's failure, stricter than Strickland's reasonable probability.",
+          "elements": ["Duty (a relationship or prospective-client advice: Togstad)", "Breach of the standard of care", "Causation (case within a case)", "Injury"],
+          "exceptions": ["Violating a Rule is not itself malpractice (§ 52)", "Ineffective assistance (Strickland: deficient performance plus prejudice) applies only in criminal cases under the Sixth Amendment", "Firms are vicariously liable except in NY and NJ (§ 58)"],
+          "authorities": ["Rest. §§ 48, 52, 58", "Togstad v. Vesely, Otto, Miller & Keefe", "Strickland v. Washington"],
+          "tip": "Togstad is the duty hook: \"I don't think you have a case\" plus silence about the statute of limitations created liability."
+        },
+        {
+          "id": "limiting-liability",
+          "name": "Limiting scope and liability",
+          "trigger": "An engagement letter caps damages, excludes services, requires arbitration, or settles a malpractice claim with the client.",
+          "rule": "A lawyer may limit the scope of representation if the limit is reasonable and the client gives informed consent (1.2(c); Lerner v. Laufer). A lawyer may not prospectively limit malpractice liability unless the client is independently represented in making the agreement (1.8(h)(1)), and may not settle a malpractice claim with an unrepresented client without advising in writing to seek independent counsel (1.8(h)(2)).",
+          "elements": ["Scope limit: reasonable plus informed consent", "Prospective liability cap: client independently represented", "Settlement: written advice to seek independent counsel"],
+          "exceptions": ["Arbitration clauses for malpractice claims are allowed", "Advice to get a lawyer is not enough for a prospective cap; the client must actually have one"],
+          "authorities": ["Rule 1.2(c)", "Rule 1.8(h)", "Lerner v. Laufer"],
+          "tip": "The $10,000 cap signed without counsel is invalid even if the letter urged the client to consult one."
+        }
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "Allocating authority",
+      "tags": ["Allocating Authority"],
+      "issues": [
+        {
+          "id": "objectives-means",
+          "name": "Objectives vs. means",
+          "trigger": "Lawyer and client disagree about settling, which issues to raise, trial strategy, testifying, or conceding guilt.",
+          "rule": "The client decides the objectives of the representation and the lawyer decides the means after consulting the client (Rule 1.2(a)). The client always decides whether to settle a civil matter and, in a criminal case, the plea, whether to waive a jury, and whether to testify. A lawyer may rely on advance authorization absent a material change (cmt. [3]), need not follow an instruction she reasonably believes is unethical (Rest. § 21), and may decide for the client when there is no time to consult (Rest. § 23).",
+          "elements": ["Objective (client's) or means (lawyer's)?", "Reserved client decisions: settlement; plea, jury waiver, testimony", "Consultation on means", "Fundamental disagreement: lawyer may withdraw or client may fire the lawyer (cmt. [2])"],
+          "exceptions": ["Appellate counsel need not raise every nonfrivolous issue the client wants (Jones v. Barnes)", "Counsel may not concede guilt over the defendant's express objection (McCoy v. Louisiana) but may when the defendant, after consultation, stays silent (Florida v. Nixon)", "Following a client's informed instruction is not malpractice unless it requires crime or fraud (Boyd v. Brett-Major)", "Accepting a settlement without consent violates 1.2(a) (Florida Bar v. Stopa, disbarred)"],
+          "authorities": ["Rule 1.2(a)", "Jones v. Barnes", "McCoy v. Louisiana", "Florida v. Nixon", "Boyd v. Brett-Major", "Florida Bar v. Stopa"],
+          "tip": "Name the category first (objective or means), then apply the reserved-decision list. Class problem 2-21 is this issue."
+        },
+        {
+          "id": "crime-fraud-counseling",
+          "name": "Counseling or assisting crime or fraud",
+          "trigger": "A client asks whether a scheme is legal, asks for help structuring it, or the lawyer helps a client disappear, hide assets, or lie.",
+          "rule": "A lawyer may not counsel or assist a client in conduct the lawyer knows is criminal or fraudulent, but may discuss the legal consequences of any proposed course of conduct and help determine the validity, scope, or meaning of the law (Rule 1.2(d)). It is misconduct to commit a criminal act (8.4(b)) or engage in dishonesty, fraud, deceit, or misrepresentation (8.4(c)). Advice may refer to moral, economic, social, and political factors (2.1).",
+          "elements": ["Does the lawyer know the conduct is criminal or fraudulent?", "Is the lawyer counseling or assisting, or merely explaining consequences?", "Good-faith effort to determine what the law allows is permitted"],
+          "exceptions": ["Gray-area tax planning: helping figure out what the law allows is fine (1.2(d))", "People v. Chappell: safehouse network plus liquidating assets violated 1.2(d), 8.4(b), 8.4(c); disbarred"],
+          "authorities": ["Rule 1.2(d)", "Rule 8.4(b), (c)", "Rule 2.1", "People v. Chappell"],
+          "tip": "The line is knowledge plus assistance. Explaining consequences never crosses it."
+        },
+        {
+          "id": "diminished-capacity",
+          "name": "Client with diminished capacity",
+          "trigger": "An elderly, mentally ill, or very young client, or a competent defendant who wants to waive appeal of a death sentence.",
+          "rule": "A lawyer must maintain a normal client-lawyer relationship as far as reasonably possible (1.14(a)). Protective action, including seeking a guardian, is permitted but not required when the client has diminished capacity, cannot act in her own interest, and is at risk of substantial physical, financial, or other harm (1.14(b)).",
+          "elements": ["Diminished capacity", "Inability to act adequately in own interest", "Risk of substantial harm", "Protective action is discretionary"],
+          "exceptions": ["A competent defendant may knowingly and intelligently waive appeal; a next-friend petition fails when the client is competent and has counsel (Gilmore v. Utah)"],
+          "authorities": ["Rule 1.14", "Gilmore v. Utah"],
+          "tip": "\"Permitted, not required\" is the graded phrase."
+        }
+      ]
+    },
+    {
+      "id": "solicitation-advertising",
+      "name": "Solicitation and advertising",
+      "tags": ["Solicitation & Advertising"],
+      "issues": [
+        {
+          "id": "solicitation",
+          "name": "Solicitation",
+          "trigger": "A lawyer contacts an accident victim, a stranger in the news, a former client, or hires someone to recruit clients.",
+          "rule": "A solicitation is a communication targeted to a specific person known to need legal services in a particular matter that offers to provide them (7.3(a)). A lawyer may not solicit by live person-to-person contact when a significant motive is pecuniary gain (7.3(b)), unless the target is a lawyer, has a family, close personal, or prior business or professional relationship with the lawyer, or routinely uses that type of legal service for business. Even then, no solicitation if the target said no or it involves coercion, duress, or harassment (7.3(c)).",
+          "elements": ["Targeted to a specific person with a known need in a particular matter", "Live person-to-person contact: in person, live phone, real-time video or audio (not texts, email, or chat rooms)", "Significant pecuniary motive", "No exception applies", "Not after a refusal; no coercion, duress, or harassment"],
+          "exceptions": ["Texts and letters are not live contact but remain subject to 7.1", "Prior professional relationship (calling a former client)", "Prepaid legal plans may use live contact if targets are not known to need help in a particular matter (7.3(e))", "Nonprofit ideological solicitation is protected speech (In re Primus) while pecuniary in-person solicitation is not (Ohralik)", "Paying a third party to solicit (Florida Bar v. Barrett) usually means disbarment"],
+          "authorities": ["Rule 7.3", "Ohralik v. Ohio State Bar", "In re Primus", "Florida Bar v. Barrett"],
+          "tip": "Run the elements as a checklist: live? pecuniary? exception? refusal or coercion? Then Ohralik vs. Primus if the First Amendment is raised."
+        },
+        {
+          "id": "advertising",
+          "name": "Advertising and paying for referrals",
+          "trigger": "Ads claiming results or specialties, trade names, paying for leads, referral deals, gifts to referring lawyers.",
+          "rule": "A lawyer may not make a false or misleading communication about herself or her services; a communication is misleading by a material misstatement of fact or law or a misleading omission (7.1). Lawyers may advertise (Bates) but may not give anything of value for a recommendation (7.2(b)), may claim certification only by an approved or ABA-accredited body that is clearly named (7.2(c)), and every ad must include the name and contact information of a responsible lawyer or firm (7.2(d)).",
+          "elements": ["False or misleading? Material misstatement or misleading omission", "Truthful results claims are misleading when a reasonable person would expect the same result; a disclaimer can cure", "Payment for a recommendation?", "Certification and contact-information requirements"],
+          "exceptions": ["Reasonable costs of permitted ads (7.2(b)(1))", "Usual charges of a qualified lawyer referral service", "Reciprocal referral agreements that are non-exclusive and disclosed to clients (7.2(b)(4))", "Nominal gifts of appreciation not promised in advance (7.2(b)(5))", "Trade names allowed unless they imply a government, public, or charitable legal services connection; a partner in public office may not stay in the firm name while not practicing", "Misleading ads are unprotected commercial speech and no actual harm is needed (Matter of Zang)"],
+          "authorities": ["Rule 7.1", "Rule 7.2", "Bates v. State Bar of Arizona", "Matter of Zang"],
+          "tip": "Paying $200 per referral is barred; a $25 thank-you gift card is fine. The difference is promised-in-advance and amount."
+        }
+      ]
+    },
+    {
+      "id": "fees",
+      "name": "Fees and client property",
+      "tags": ["Fees & Client Property"],
+      "issues": [
+        {
+          "id": "reasonable-fees",
+          "name": "Reasonable fees and billing",
+          "trigger": "A huge bill for a routine matter, billing time to learn the law, billing overhead, double billing, billing for non-legal chats.",
+          "rule": "A lawyer may not charge an unreasonable fee or expense (1.5(a)) and must communicate the scope of the representation and the basis or rate of the fee and expenses, preferably in writing (1.5(b)). Lawyers may not bill overhead, may charge only actual cost for third-party disbursements (ABA Op. 93-379), and may not bill two clients for the same hour. A fee is unreasonable when grossly out of proportion to the work required (Ledingham).",
+          "elements": ["Reasonableness factors: time, difficulty, skill, customary fee, result, experience", "Basis or rate communicated", "No overhead, no markup on disbursements, no double billing"],
+          "exceptions": ["Writing is only preferred for ordinary fees; required for contingent fees", "A client who voids the contract still owes the fair value of services (Rest. § 39)"],
+          "authorities": ["Rule 1.5(a), (b)", "ABA Formal Op. 93-379", "Matter of Ledingham", "In re Berg", "Cincinnati Bar v. Alsfelder", "Attorney Grievance Comm'n v. Kreamer"],
+          "tip": "Four hours of work benefiting three clients is four billable hours, not twelve."
+        },
+        {
+          "id": "contingent-fees",
+          "name": "Contingent fees",
+          "trigger": "A percentage fee in a divorce or criminal case, an unsigned contingency agreement, a mid-case increase, no closing statement.",
+          "rule": "A contingent fee must be in a writing signed by the client stating the method of calculation and whether expenses are deducted before or after the fee, and the lawyer must give a written statement of the outcome and remittance at the end (1.5(c)). Contingent fees are banned in domestic relations matters contingent on securing a divorce, alimony, support, or property settlement, and in criminal defense (1.5(d)).",
+          "elements": ["Signed writing", "Method of calculation and expense treatment", "Closing statement", "Not a domestic relations or criminal matter"],
+          "exceptions": ["A contingent fee can still be unreasonable if little or no work was involved", "Mid-litigation increases get special scrutiny and are generally not allowed (Rest. § 18 cmt. e)"],
+          "authorities": ["Rule 1.5(c), (d)", "Rest. § 18"],
+          "tip": "Policy justifications if asked: access, incentive and screening, risk-sharing."
+        },
+        {
+          "id": "fee-splitting",
+          "name": "Fee splitting between firms",
+          "trigger": "A referring lawyer wants a cut from the lawyer who does the work.",
+          "rule": "Lawyers in different firms may divide a fee only if the division is proportional to the work or each lawyer assumes joint responsibility, the client agrees to the arrangement including each lawyer's share in a writing, and the total fee is reasonable (1.5(e)).",
+          "elements": ["Proportional or joint responsibility", "Client's written agreement including shares", "Total fee reasonable"],
+          "exceptions": [],
+          "authorities": ["Rule 1.5(e)"],
+          "tip": "All three elements must be met; the writing must state each lawyer's share."
+        },
+        {
+          "id": "business-with-clients",
+          "name": "Business transactions and interests adverse to clients",
+          "trigger": "A lawyer takes stock or property as a fee, buys from or sells to a client, acquires media rights, is paid by a third party, lends the client money, or takes a stake in the lawsuit.",
+          "rule": "A business transaction with a client requires fair and reasonable terms fully disclosed in writing, written advice to seek independent counsel with time to do so, and the client's signed informed consent (1.8(a)). Media rights may be acquired only after the representation ends (1.8(d)). Third-party payment requires informed consent, no interference with the lawyer's judgment, and protected confidentiality (1.8(f)). A lawyer may not acquire a proprietary interest in the subject of litigation except a lien authorized by law or a reasonable contingent fee in a civil case (1.8(i)).",
+          "elements": ["1.8(a): fair terms in writing; advice to seek counsel; signed informed consent", "1.8(d): no media rights until the end", "1.8(f): consent, independence, confidentiality", "1.8(i): no stake in the litigation except lien or contingent fee"],
+          "exceptions": ["Advancing court costs repayable only on winning is allowed (1.8(e))", "Modest pro bono gifts for living expenses are allowed if not promised in advance or advertised (1.8(e)(3))", "Property as a fee is allowed but may be a 1.8(a) business transaction"],
+          "authorities": ["Rule 1.8(a), (d), (e), (f), (i)"],
+          "tip": "A 10% ownership interest in the client's patent in a patent case is a proprietary interest in the subject of litigation."
+        },
+        {
+          "id": "trust-accounts",
+          "name": "Safekeeping property and court-awarded fees",
+          "trigger": "Advance fees deposited in the operating account, a disputed portion of a settlement, commingling, missing records, or a statutory fee award.",
+          "rule": "Client funds must be kept in a separate trust account; the lawyer may deposit her own money only to pay bank charges (1.15(b)); advance fees go into trust until earned (1.15(c)); disputed portions stay separate until resolved while undisputed portions are promptly distributed (1.15(e)); records are kept for 5 years. Court-awarded fees use the lodestar, presumed sufficient, enhanced only for extraordinary circumstances (Perdue v. Kenny A.), and statutory fee awards belong to the client.",
+          "elements": ["Separate trust account", "Advance fees in trust until earned", "Disputed funds held, undisputed paid promptly", "Records for 5 years", "Lodestar for court awards"],
+          "exceptions": ["Lawyer's own funds allowed only for bank service charges"],
+          "authorities": ["Rule 1.15", "Perdue v. Kenny A."],
+          "tip": "Trust-account violations are strict and heavily sanctioned; there is rarely a defense."
+        }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "name": "Privilege and confidentiality",
+      "tags": ["Privilege & Confidentiality"],
+      "issues": [
+        {
+          "id": "three-doctrines",
+          "name": "Privilege vs. work product vs. confidentiality",
+          "trigger": "Someone wants information from a lawyer: in discovery, on the stand, or in conversation.",
+          "rule": "Attorney-client privilege is a rule of evidence protecting confidential communications (not underlying facts) made to obtain or provide legal advice. Work product is a rule of discovery protecting materials prepared in anticipation of litigation, discoverable only on substantial need and undue hardship. The duty of confidentiality is an ethical rule covering all information relating to the representation from any source (1.6).",
+          "elements": ["Privilege: communication between client and counsel, intended and kept confidential, for legal advice", "Work product: prepared in anticipation of litigation", "Confidentiality: any information relating to the representation, any source"],
+          "exceptions": ["Privilege does not protect underlying facts", "Information meant to go public (IPO prospectus details) is not confidential, though discussion of whether to disclose it is privileged", "Privileged persons include prospective clients, agents who facilitate the representation (Kovel accountants and assistants), and someone the client reasonably believes is a lawyer (Rest. §§ 70, 72)", "In federal court, federal common law governs privilege except state law for state-law civil claims (FRE 501)"],
+          "authorities": ["Rule 1.6", "Rest. §§ 70–72", "FRE 501", "United States v. Kovel"],
+          "tip": "Always say which of the three doctrines is in play; the exam fact (deposition vs. cocktail party) tells you."
+        },
+        {
+          "id": "disclosure-exceptions",
+          "name": "When a lawyer may reveal client information",
+          "trigger": "A client threatens violence, is running a fraud using the lawyer's work, sues the lawyer, or a court orders disclosure; the lawyer changes firms.",
+          "rule": "A lawyer may reveal information relating to the representation only with informed consent, implied authorization, or under a 1.6(b) exception. The exceptions are permissive: to prevent reasonably certain death or substantial bodily harm; to prevent or to mitigate or rectify a crime or fraud reasonably certain to cause substantial financial injury in which the client used the lawyer's services; to secure ethics advice; to defend the lawyer; to comply with law or a court order; and to detect conflicts when changing firms. Lawyers must make reasonable efforts to prevent unauthorized disclosure (1.6(c)).",
+          "elements": ["Consent, implied authorization, or an exception?", "(b)(1) death or substantial bodily harm", "(b)(2) prevent crime or fraud using the lawyer's services; (b)(3) mitigate it after the fact", "(b)(4) ethics advice; (b)(5) self-defense; (b)(6) law or court order; (b)(7) conflicts check"],
+          "exceptions": ["All 1.6(b) exceptions are \"may,\" never \"must\"", "(b)(2) and (b)(3) require substantial financial injury and use of the lawyer's services", "Conflicts-check disclosures may not compromise privilege"],
+          "authorities": ["Rule 1.6(a), (b), (c)"],
+          "tip": "Quote the exception by subsection number and say \"permitted, not required.\""
+        },
+        {
+          "id": "corporate-privilege",
+          "name": "Privilege in organizations and mixed advice",
+          "trigger": "A company lawyer interviews low-level employees; in-house counsel gives business and legal advice in one email.",
+          "rule": "Communications from employees at any level to company lawyers are privileged if made to secure legal advice for the company (Upjohn). Mixed advice is privileged when its predominant purpose is legal (In re County of Erie). If the work is one a nonlawyer could do just as well, ask whether it is primarily legal.",
+          "elements": ["Employee communication made at the direction of management to obtain legal advice", "Predominant purpose legal, not business or policy"],
+          "exceptions": [],
+          "authorities": ["Upjohn Co. v. United States", "In re County of Erie"],
+          "tip": "Upjohn rejected the control-group test; mention that in a sentence."
+        },
+        {
+          "id": "physical-evidence",
+          "name": "Physical evidence and observations",
+          "trigger": "A client tells the lawyer where evidence is; the defense team looks at it, moves it, or alters it.",
+          "rule": "Observations flowing from a privileged communication are protected, but once the defense moves or alters physical evidence, the original location and condition lose protection and must be disclosed (People v. Meredith).",
+          "elements": ["Did the knowledge come from a privileged communication?", "Did the defense remove or alter the evidence?"],
+          "exceptions": ["Looking but leaving the evidence in place keeps the observation privileged"],
+          "authorities": ["People v. Meredith"],
+          "tip": "The wallet case: digging it up ended the privilege over its location."
+        }
+      ]
+    }
+  ]
+}

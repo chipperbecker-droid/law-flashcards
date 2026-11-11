@@ -1,0 +1,424 @@
+{
+  "class": "admin-law",
+  "intro": "Admin law exams usually hand you a statute, an agency action, and a challenger. Work the checklist in order: is the structure constitutional (delegation, appointments, removal, Article III), did the agency use the right procedure (which APA box, formal or informal, guidance or rule, due process), and will a court uphold the substance (reviewability, standard of review, deference).",
+  "topics": [
+    {
+      "id": "foundations",
+      "name": "What an agency is",
+      "part": "Intro",
+      "tags": ["Foundations", "PartIntro"],
+      "issues": [
+        {
+          "id": "agency-definition",
+          "name": "Is it an \"agency\" under the APA?",
+          "trigger": "A board, office, commission, or even a single official takes final, binding action; or the challenger wants APA review of the President.",
+          "rule": "An agency is any authority of the federal government able to take final and binding action (APA § 551(1)); what matters is its responsibilities, not its size. The President is not an agency, to avoid Article II problems.",
+          "elements": ["Authority of the federal government", "Capable of final and binding action", "Judged by responsibilities, not size (a one-person office counts)"],
+          "exceptions": ["The President is not an \"agency\" (constitutional avoidance)", "Congress alone creates and abolishes an agency through its organic statute; the President can only hollow it out"],
+          "authorities": ["APA § 551(1)", "Organic statute"],
+          "tip": "Dispose of this in two sentences unless the actor is the President or a private body; then it becomes the whole issue."
+        }
+      ]
+    },
+    {
+      "id": "delegation",
+      "name": "Nondelegation",
+      "part": "Part One",
+      "tags": ["Delegation"],
+      "issues": [
+        {
+          "id": "intelligible-principle",
+          "name": "Nondelegation: intelligible principle",
+          "trigger": "Congress hands an agency sweeping power (\"regulate as the public interest requires\") with little guidance, or the challenger argues the statute itself is unconstitutional rather than the agency's reading of it.",
+          "rule": "Congress may delegate so long as it supplies an intelligible principle to guide the agency's discretion. The bar is very low: a delegation fails only when Congress has entirely abdicated the policy choice.",
+          "elements": ["Congress made the important choice of social policy itself (Rehnquist, Benzene)", "Congress supplied an intelligible principle to guide the agency", "The principle is judicially reviewable, a standard a court can test the agency against"],
+          "exceptions": ["\"Just and reasonable,\" \"fair and equitable,\" and \"excessive profit\" have all passed", "Only two statutes have ever failed: Schechter Poultry and Panama Refining (1935)", "Courts first construe the statute narrowly to avoid the problem (Benzene, Gundy)"],
+          "authorities": ["Whitman v. American Trucking (the NDD's \"death certificate\")", "Gundy v. United States (2019)", "Industrial Union v. API (Benzene)", "Mistretta v. United States", "A.L.A. Schechter Poultry"],
+          "tip": "Say it probably survives, then show where the worry went: constitutional avoidance (Benzene), removal cases, and the major questions doctrine. Larsen: the NDD \"never died.\""
+        },
+        {
+          "id": "private-delegation",
+          "name": "Delegation to a private entity",
+          "trigger": "An industry group, trade association, or nominally private corporation writes, co-writes, or approves binding rules.",
+          "rule": "Congress may not delegate legislative power to a private entity, and an intelligible principle does not cure it. Private actors may advise, guide, vote, or even veto, but may never make or co-author rules.",
+          "elements": ["Is the entity really private? Congress's label is relevant but not controlling (Lebron)", "Is it wielding legislative power, or something short of it (advice, participation, veto)?"],
+          "exceptions": ["Advising, guiding, taking part in an industry vote, or vetoing is allowed", "An entity Congress created and controls (Amtrak) is governmental for this purpose (Lebron)"],
+          "authorities": ["Carter Coal", "Ass'n of American Railroads v. DOT (D.C. Cir.)", "Lebron v. Amtrak"],
+          "tip": "Name the two concerns: democratic accountability and private gain over public good. The mnemonic: private companies can veto but not co-author; Congress can override but not veto."
+        }
+      ]
+    },
+    {
+      "id": "controlling-delegations",
+      "name": "Congress controlling a delegation",
+      "part": "Part One",
+      "tags": ["Controlling_delegations"],
+      "issues": [
+        {
+          "id": "legislative-veto",
+          "name": "Legislative veto",
+          "trigger": "A statute lets one House, both Houses, or a committee disapprove or reverse an agency action without a new bill.",
+          "rule": "Action with the purpose and effect of altering the legal rights, duties, and relations of persons outside the legislative branch is legislation, and legislation requires bicameralism and presentment (Chadha).",
+          "elements": ["Does the congressional action alter legal rights, duties, or relations outside Congress?", "If so, did it pass both Houses and go to the President?"],
+          "exceptions": ["Congress may still control agencies by amending or overriding by statute, appropriations, legislative history, and the Congressional Review Act"],
+          "authorities": ["INS v. Chadha (1983)", "Justice White's functionalist dissent"],
+          "tip": "Flag the formalist majority against White's dissent in one sentence; professors reward the method, not just the result."
+        },
+        {
+          "id": "cra",
+          "name": "Congressional Review Act",
+          "trigger": "Congress passes a joint resolution disapproving a rule; an agency later tries to reissue something similar; or a question about whether a rule is \"major.\"",
+          "rule": "Under the CRA, Congress has 60 legislative days to disapprove a rule by joint resolution that passes both Houses and is signed by the President; after disapproval the agency may not issue a substantially similar rule without new statutory authorization.",
+          "elements": ["A rule (not an adjudication)", "Joint resolution within 60 legislative days", "Bicameralism and presentment satisfied, which is why it survives Chadha", "Bars a \"substantially similar\" rule afterward"],
+          "exceptions": ["Only rules can be erased, never adjudications", "OIRA decides whether a rule is \"major\" (annual economic effect of $100 million or more, CRA § 804(2))"],
+          "authorities": ["CRA § 801–808", "INS v. Chadha"],
+          "tip": "The CRA is the clean answer to \"how can Congress undo this rule without a veto?\""
+        }
+      ]
+    },
+    {
+      "id": "appointments",
+      "name": "Appointments Clause",
+      "part": "Part One",
+      "tags": ["Appointments"],
+      "issues": [
+        {
+          "id": "officer-or-employee",
+          "name": "Officer or employee?",
+          "trigger": "Someone chosen by staff, by Congress, by a court, or by a department head exercises power: ALJs, commissioners, special counsels, patent judges, board members.",
+          "rule": "A person is an officer of the United States if they exercise significant authority pursuant to the laws of the United States (Buckley) in a continuing position established by law (Germaine, Lucia). Officers must be appointed under the Appointments Clause; mere employees need not.",
+          "elements": ["Significant authority pursuant to federal law (enforcement power, binding decisions, taking testimony and issuing orders)", "A continuing position established by law: not transient or incidental, though it need not be permanent"],
+          "exceptions": ["Employees face no Appointments Clause requirement at all", "The Necessary and Proper Clause cannot substitute: the Clause is a specific recipe that must be followed (Buckley)"],
+          "authorities": ["Buckley v. Valeo (1976)", "United States v. Germaine", "Lucia v. SEC (2018)", "Freytag v. Commissioner (1991)"],
+          "tip": "Run the three questions in order: officer at all; inferior or principal; appointed by a permitted appointer. Lucia: SEC ALJs chosen by staff were officers, so their appointment failed."
+        },
+        {
+          "id": "inferior-or-principal",
+          "name": "Inferior or principal officer?",
+          "trigger": "An officer is appointed by someone other than the President with Senate consent: by a court, a department head, or a commission.",
+          "rule": "Principal officers must be appointed by the President with Senate advice and consent. Congress may vest appointment of inferior officers in the President alone, the Courts of Law, or the Heads of Departments. An inferior officer is one with a superior other than the President (Edmond), supervised in substance.",
+          "elements": ["Edmond: does the officer have a superior other than the President who directs and supervises their work?", "Morrison factors: removable by a higher executive officer; limited duties; limited jurisdiction; limited tenure", "Arthrex: at-will removal is not enough; the superior must be able to review the officer's decisions"],
+          "exceptions": ["Appointer must be the President alone, a Court of Law (any body that adjudicates under law, Freytag), or a Head of Department (a freestanding component of the Executive Branch, Free Enterprise Fund)", "A multi-member commission is itself the Head of Department (Lucia)"],
+          "authorities": ["Edmond v. United States", "Morrison v. Olson (1988)", "United States v. Arthrex (2021)", "Freytag v. Commissioner", "Free Enterprise Fund v. PCAOB"],
+          "tip": "Lead with Edmond (the modern test) and use Morrison's factors as support. Arthrex: the fix was letting the PTO Director review PTAB decisions, so remedy is usually severance or added supervision, not invalidating the office."
+        },
+        {
+          "id": "germaneness-recess",
+          "name": "New duties and recess appointments",
+          "trigger": "Congress gives an existing officer new duties without a new appointment, or the President fills a vacancy while the Senate is away.",
+          "rule": "Congress may add duties to an existing office without a new appointment if the duties are germane to the old office and Congress is not aggrandizing itself (Weiss). A recess appointment requires a recess of at least ten days; pro forma sessions count as the Senate being in session; the vacancy may arise before the recess (Noel Canning).",
+          "elements": ["Germaneness: are the new duties related to the existing office?", "Recess: fewer than ten days is too short", "Pro forma sessions prevent a recess", "The vacancy need not arise during the recess"],
+          "exceptions": [],
+          "authorities": ["Weiss v. United States", "NLRB v. Noel Canning"],
+          "tip": "Usually a side issue worth a paragraph; do not let it crowd out the officer analysis."
+        }
+      ]
+    },
+    {
+      "id": "removal",
+      "name": "Removal power",
+      "part": "Part One",
+      "tags": ["Removal"],
+      "issues": [
+        {
+          "id": "removal-framework",
+          "name": "For-cause removal protection",
+          "trigger": "A statute says an official may be removed only for \"inefficiency, neglect of duty, or malfeasance,\" the President fires someone anyway, or an agency is described as \"independent.\"",
+          "rule": "After Trump v. Slaughter (June 29, 2026), the President has unlimited power to remove officers who exercise executive power; Humphrey's Executor survives only for entities exercising no part of the executive power. Rulemaking, enforcement, and in-house adjudication that is part of an enforcement scheme are all executive power.",
+          "elements": ["Identify the officer and the statutory removal limit", "Does the officer exercise executive power (rulemaking, enforcement, adjudication in an enforcement scheme)? If yes, the limit falls", "Check the Slaughter reservations: no-executive-power entities, the Federal Reserve, non-Article III courts such as the Tax Court, and inferior officers", "Remedy: sever the removal restriction; the officer becomes removable at will"],
+          "exceptions": ["Federal Reserve Governors keep for-cause protection; \"cause\" implies unfitness, not a wish for a more congenial replacement (Trump v. Cook)", "Inferior officers may still be protected (Perkins, Morrison)", "Two layers of for-cause protection are unconstitutional (Free Enterprise Fund)", "Congress may not give itself a role in removal (Bowsher v. Synar)"],
+          "authorities": ["Trump v. Slaughter (2026)", "Trump v. Cook (2026)", "Myers v. United States (1926)", "Humphrey's Executor (1935)", "Seila Law v. CFPB (2020)", "Free Enterprise Fund v. PCAOB (2010)", "Bowsher v. Synar", "United States v. Perkins"],
+          "tip": "Walk the history in one paragraph (Myers, Humphrey's, FEF, Seila, Slaughter), then spend your time on the single live question: does this officer exercise executive power? Mention liquidation and the unitary executive theory as the reasoning."
+        },
+        {
+          "id": "structural-features",
+          "name": "Single director and double layers",
+          "trigger": "An agency headed by one person with tenure protection, or an officer protected from removal by someone who is themselves protected.",
+          "rule": "A single director with for-cause protection violates Article II (Seila Law), and two layers of for-cause protection do too, because nobody the President controls can control the officer (Free Enterprise Fund).",
+          "elements": ["Count the layers between the President and the officer", "Identify whether the agency head is a single director or a multi-member body", "Note budget independence as an aggravating feature (Seila Law)"],
+          "exceptions": ["Remedy is severance, not dismantling the agency"],
+          "authorities": ["Seila Law v. CFPB (2020)", "Free Enterprise Fund v. PCAOB (2010)"],
+          "tip": "FEF condemns double layers; Seila condemns a single director. After Slaughter both are mostly subsumed by the executive-power question, but still name them as independent grounds."
+        }
+      ]
+    },
+    {
+      "id": "article-iii",
+      "name": "Article III and juries",
+      "part": "Part One",
+      "tags": ["Article_III_and_juries"],
+      "issues": [
+        {
+          "id": "public-rights",
+          "name": "Agency adjudication and Article III",
+          "trigger": "An agency or non-Article III tribunal decides a dispute, especially one involving a private party's common-law or state-law claim, or a counterclaim.",
+          "rule": "Article III adjudication is required unless the case fits an exception: territorial courts, courts-martial, claims against the United States, or public rights that pass Schor balancing. A public right is one integrally related to a particular federal government action (Stern); state-law claims are never public rights.",
+          "elements": ["Schor factor: breadth of the agency's adjudicative jurisdiction", "Schor factor: extent of Article III supervision (standard of review, finality)", "Schor factor: public or private right", "Schor factor: the concerns that drove Congress to depart from Article III", "Schor factor: whether the parties consented to the forum"],
+          "exceptions": ["Territorial courts, courts-martial (Dynes v. Hoover), claims against the United States", "Consent to the forum cuts strongly against the challenger (Schor chose the CFTC, then complained)", "Surviving public rights: customs, immigration, tariffs, public benefits, patents, OSHA compliance, Indian tribes, public lands"],
+          "authorities": ["Murray's Lessee", "Crowell v. Benson", "CFTC v. Schor (1986)", "Stern v. Marshall (2011)", "Northern Pipeline"],
+          "tip": "Schor asks whether the non-Article III body may decide at all; Jarkesy asks whether a jury is required. Answer them separately."
+        },
+        {
+          "id": "jury-right",
+          "name": "Seventh Amendment jury right",
+          "trigger": "An agency seeks civil penalties in-house for fraud or another claim that resembles a common-law action.",
+          "rule": "A defendant facing a claim that is legal in nature is entitled to a jury unless the public-rights exception applies (Jarkesy). A claim is legal in nature by its remedy and common-law analogue, and the remedy matters most: money that punishes or deters is legal; money that restores the status quo is equitable.",
+          "elements": ["Is the claim legal in nature? Look at the remedy (punitive or deterrent money is legal) and the common-law analogue (fraud)", "Does the public-rights exception apply?"],
+          "exceptions": ["Regulatory-compliance claims with no common-law analogue can be decided without a jury (Atlas Roofing, as distinguished in Jarkesy)", "Statutory claims that are legal in nature still get a jury (Tull)"],
+          "authorities": ["SEC v. Jarkesy (2024)", "Atlas Roofing v. OSHRC (1977)", "Granfinanciera v. Nordberg", "Tull v. United States"],
+          "tip": "Distinguish Atlas Roofing explicitly: OSHA penalties were regulatory compliance, securities fraud has a common-law twin."
+        }
+      ]
+    },
+    {
+      "id": "apa-framework",
+      "name": "The APA framework",
+      "part": "Part Two",
+      "tags": ["APA_framework"],
+      "issues": [
+        {
+          "id": "rule-or-order",
+          "name": "Rule or order? Which APA box?",
+          "trigger": "An agency acts and you must decide what procedure it owed: setting rates, granting a license, announcing a policy, deciding one party's case.",
+          "rule": "Congress chooses the APA quadrant in the organic statute. A rule is an agency statement of future effect, of general or particular applicability (§ 551(4)); rate-setting is always a rule. An order is any final disposition other than rulemaking (§ 551(6)); licensing is always an order. Informal rulemaking is § 553, formal hearings §§ 556–557, informal adjudication § 555(e), formal adjudication § 554.",
+          "elements": ["Future effect or past-looking?", "General or particular (particular can still be a rule)", "Special categories: rate-setting is a rule, licensing is an order", "Then ask whether the organic statute makes it formal"],
+          "exceptions": ["For due process, use the Londoner/Bi-Metallic definition of rule instead of § 551(4)", "§ 559: the APA does not repeal extra procedures required by other statutes", "OIRA reviews significant rules for cost-benefit before they take effect"],
+          "authorities": ["APA §§ 551(4), 551(6), 553, 554, 555(e), 556–557, 559"],
+          "tip": "Open the procedural section of any answer by placing the action in its box. The six sources of procedure: APA, organic statute, Constitution, agency regulations, past practice, judicial gloss."
+        },
+        {
+          "id": "londoner-bimetallic",
+          "name": "Due process hearing for rules vs. orders",
+          "trigger": "The government acts against a small, identifiable group on individual facts, or against everyone at once, and someone claims they were owed a hearing.",
+          "rule": "Due process requires notice and a hearing when action is specific and backward-looking and substantially affects a small group on individual grounds (Londoner). No hearing is required for general, prospective, legislative-type action affecting many (Bi-Metallic): those people are heard through the political process.",
+          "elements": ["Specific vs. general", "Backward-looking vs. prospective", "Small group vs. everyone", "Individual facts vs. policy judgments"],
+          "exceptions": ["Even Londoner-type action can satisfy due process with limited process (Mathews)"],
+          "authorities": ["Londoner v. Denver (1908)", "Bi-Metallic v. State Board of Equalization (1915)"],
+          "tip": "Policy makes this answer: individual hearings for everyone would be inefficient, and the ballot box is the remedy for general policy."
+        }
+      ]
+    },
+    {
+      "id": "formal-proceedings",
+      "name": "Formal proceedings",
+      "part": "Part Two",
+      "tags": ["Formal_proceedings"],
+      "issues": [
+        {
+          "id": "formal-trigger",
+          "name": "Is the hearing formal?",
+          "trigger": "The organic statute requires a \"hearing,\" \"after hearing,\" or \"on the record,\" and a party demands trial-type procedures.",
+          "rule": "Formal procedures under §§ 556–557 are triggered only when the statute requires a decision \"on the record after opportunity for an agency hearing.\" \"After hearing\" alone is not enough (Florida East Coast). When the statute says only \"hearing,\" the majority view defers to the agency's reasonable reading (Chemical Waste).",
+          "elements": ["Find the magic words: \"on the record after opportunity for an agency hearing\"", "If only \"hearing\": presume informal (City of West Chicago), presume formal (Seacoast), or defer to the agency (Chemical Waste, majority)"],
+          "exceptions": ["Chemical Waste survives Loper Bright through statutory stare decisis", "Rulemaking vs. adjudication context matters: courts are more willing to find formality for adjudication (Seacoast) than rulemaking (Florida East Coast)"],
+          "authorities": ["United States v. Florida East Coast Ry. (1973)", "Chemical Waste Management v. EPA (D.C. Cir.)", "Seacoast Anti-Pollution League v. Costle (1st Cir.)", "City of West Chicago v. NRC (7th Cir.)"],
+          "tip": "State all three circuit approaches, pick Chemical Waste as the majority, and say what formality buys: §§ 554, 556, 557."
+        },
+        {
+          "id": "formal-requirements",
+          "name": "What formal procedure requires",
+          "trigger": "In a formal proceeding the ALJ talks to investigators, relies on something outside the record, or the agency head reverses the ALJ.",
+          "rule": "In formal proceedings the proponent bears the burden of proof (§ 556(d)); the presiding officer may not consult anyone ex parte on a fact in issue or be supervised by investigators or prosecutors (§ 554(d)); the ALJ's initial decision becomes the agency's unless appealed or reviewed, and on review the agency has all the powers it would have had deciding initially (§ 557(b)).",
+          "elements": ["Burden on the proponent", "No ex parte contacts on facts in issue", "Separation of functions: no supervision by prosecutors or investigators", "Decision on the exclusive record (Seacoast: reliance on an outside study was error)", "Agency review de novo over the ALJ"],
+          "exceptions": [],
+          "authorities": ["APA §§ 554(d), 556(d), 557(b)", "Seacoast Anti-Pollution League v. Costle"],
+          "tip": "Universal Camera makes the rejected ALJ findings part of the record on review, so link the two."
+        }
+      ]
+    },
+    {
+      "id": "notice-comment",
+      "name": "Notice-and-comment rulemaking",
+      "part": "Part Two",
+      "tags": ["Notice_and_comment"],
+      "issues": [
+        {
+          "id": "section-553",
+          "name": "§ 553 requirements",
+          "trigger": "An agency issues a rule after publishing a proposal; a commenter says the agency hid its data, changed the rule too much, or ignored their comment; or a court demands cross-examination.",
+          "rule": "Informal rulemaking requires (1) notice in the Federal Register, (2) an opportunity for written comment, and (3) a concise general statement of basis and purpose; a substantive rule must generally be published 30 days before it takes effect (§ 553(d)). Courts may not add procedures beyond the APA (Vermont Yankee), but three hybrid requirements survive because they strengthen steps 1 and 3: adequate notice of the data that animated the agency, logical outgrowth, and response to significant comments.",
+          "elements": ["Notice in the Federal Register", "Opportunity for written comment (oral optional; no hearing or cross-examination)", "Concise general statement of basis and purpose", "Adequate notice: disclose the data the agency relied on", "Logical outgrowth: the final rule cannot stray too far from the proposal", "Respond to significant comments (a comment is significant if, if true, it would require a change in the rule)"],
+          "exceptions": ["Courts cannot demand cross-examination or other extra procedures (Vermont Yankee)", "Exemptions from § 553: interpretive rules, policy statements, procedural rules, and good cause"],
+          "authorities": ["APA § 553", "Vermont Yankee v. NRDC (1978)"],
+          "tip": "Vermont Yankee is the ceiling; the hybrid trio is the floor. If a challenger wants more process, show they are really arguing one of the three survivors."
+        }
+      ]
+    },
+    {
+      "id": "guidance-good-cause",
+      "name": "Guidance and the good-cause exception",
+      "part": "Part Two",
+      "tags": ["Guidance_and_good_cause"],
+      "issues": [
+        {
+          "id": "legislative-vs-guidance",
+          "name": "Legislative rule or guidance?",
+          "trigger": "An agency issues a \"policy,\" \"guidance,\" \"letter,\" \"manual,\" or \"schedule\" without notice and comment, then applies it as if binding.",
+          "rule": "A legislative rule creates rights or obligations with the force of law and requires notice and comment. An interpretive rule clarifies rather than creates law; a general statement of policy announces the factors or tentative goals the agency will consider. Neither needs notice and comment, but a document labeled guidance that actually binds is a legislative rule.",
+          "elements": ["Practical impact: does the agency intend to bind itself? (USTA v. FCC: 300 cases, 8 deviations, none from the schedule itself)", "Fairly encompassed: does it refine the existing regulation or change it? (Air Transport Ass'n v. FAA)", "Binding norms: is it prospective and does it leave discretion open? (PPCC v. Shalala)"],
+          "exceptions": ["Guidance can still be challenged when applied in an enforcement action", "Agencies may choose adjudication over rulemaking (Chenery II)"],
+          "authorities": ["U.S. Telephone Ass'n v. FCC (D.C. Cir. 1994)", "Air Transport Ass'n v. FAA (D.C. Cir.)", "Professionals & Patients for Customized Care v. Shalala (5th Cir. 1995)"],
+          "tip": "Use the facts about how the agency actually treats the document: deviations, enforcement, language like \"shall.\" Label alone never decides."
+        },
+        {
+          "id": "good-cause",
+          "name": "Good-cause exception",
+          "trigger": "An agency skips notice and comment citing an emergency, a deadline, or harm from delay.",
+          "rule": "Notice and comment may be skipped when the agency for good cause finds, and incorporates in the rule a brief statement of reasons, that it is impracticable, unnecessary, or contrary to the public interest (§ 553(b)(B)). The agency bears the burden, and the exception is read narrowly.",
+          "elements": ["Agency makes the finding and states reasons in the rule", "Impracticable, unnecessary, or contrary to the public interest", "Real harm from delay (Dean), not a single instance (Tennessee Gas)"],
+          "exceptions": ["The agency's own delay undercuts the claim", "An emergency is not required if delay would cause real harm (Dean)", "Biden v. Missouri upheld the health-worker vaccine rule on good cause"],
+          "authorities": ["APA § 553(b)(B)", "United States v. Dean (11th Cir. 2010)", "Tennessee Gas Pipeline v. FERC (D.C. Cir.)", "Biden v. Missouri (2022)"],
+          "tip": "Argue both ways with the timeline: how long did the agency sit on the problem before calling it urgent?"
+        }
+      ]
+    },
+    {
+      "id": "informal-adjudication",
+      "name": "Informal adjudication, reviewability, Chenery",
+      "part": "Part Two",
+      "tags": ["Informal_adjudication_and_Chenery"],
+      "issues": [
+        {
+          "id": "informal-adjudication-review",
+          "name": "Informal adjudication and the record",
+          "trigger": "An agency denies a permit, grant, or request without a formal hearing and the challenger wants review; the agency defends with new reasons in court.",
+          "rule": "Informal adjudication requires prompt notice and a brief statement of the grounds for denial (§ 555(e)). Review is on the whole administrative record before the agency, not post hoc litigation affidavits (Overton Park), and a court may uphold the action only on the grounds the agency itself gave (Chenery I).",
+          "elements": ["Brief statement of grounds (§ 555(e))", "Whole administrative record", "Agency's contemporaneous reasons only"],
+          "exceptions": ["The agency may act again with new reasons on remand (Regents)"],
+          "authorities": ["APA § 555(e)", "Citizens to Preserve Overton Park v. Volpe (1971)", "SEC v. Chenery (Chenery I) (1943)", "DHS v. Regents (2020)"],
+          "tip": "Chenery I is a one-line point that wins paragraphs: any reason first offered by lawyers in court does not count."
+        },
+        {
+          "id": "reviewability",
+          "name": "Is the action reviewable at all?",
+          "trigger": "A statute says the agency's decision is \"final\" or \"in its discretion,\" or the challenger attacks a decision not to enforce or not to act.",
+          "rule": "The APA presumes judicial review (§ 702) except where a statute precludes review or the action is committed to agency discretion by law (§ 701(a)). Action is committed to discretion only when there is no law to apply (Overton Park). Decisions not to enforce are presumptively unreviewable (Heckler v. Chaney), rebutted when the statute supplies enforcement guidelines (Dunlop v. Bachowski: \"shall investigate, shall bring\").",
+          "elements": ["Statutory preclusion?", "Committed to agency discretion: no law to apply?", "Non-enforcement decision: Heckler presumption, rebuttable by statutory guidelines"],
+          "exceptions": ["§ 706(1) lets a court compel action unlawfully withheld or unreasonably delayed", "Procedural challenges are reviewed de novo"],
+          "authorities": ["APA §§ 701(a), 702, 706(1)", "Overton Park", "Heckler v. Chaney (1985)", "Dunlop v. Bachowski"],
+          "tip": "Reviewability is a threshold issue. Resolve it, then say \"assuming review is available\" and keep going."
+        },
+        {
+          "id": "chenery-ii-retroactivity",
+          "name": "Rulemaking vs. adjudication and retroactivity",
+          "trigger": "An agency announces a new standard in a case rather than a rule and applies it to the party before it, or applies a rule to past conduct.",
+          "rule": "The choice between rulemaking and adjudication lies in the agency's informed discretion (Chenery II). Retroactive adjudication is barred when it replaces a reasonably clear policy that induced reliance; retroactive rulemaking requires a clear statement from Congress.",
+          "elements": ["Did the agency choose adjudication? That is allowed", "Did the new standard replace a reasonably clear prior policy?", "Did the party rely on it?", "For rules: is there a clear congressional statement authorizing retroactivity?"],
+          "exceptions": ["Jackson's Chenery II dissent: \"administrative authoritarianism\""],
+          "authorities": ["SEC v. Chenery (Chenery II) (1947)"],
+          "tip": "Reliance is the fact to hunt for."
+        }
+      ]
+    },
+    {
+      "id": "due-process",
+      "name": "Procedural due process",
+      "part": "Part Two",
+      "tags": ["Due_process"],
+      "issues": [
+        {
+          "id": "protected-interest",
+          "name": "Protected interest",
+          "trigger": "Benefits cut off, a job not renewed, a license pulled, a reputation damaged, or a visa denied, and the person got no hearing.",
+          "rule": "Due process attaches only to life, liberty, or property. A property interest requires a legitimate claim of entitlement from an independent source such as a statute, contract, or rules (Roth); mutually explicit understandings can create one (Perry). Reputation alone is not a protected interest; reputation-plus some tangible loss is (Paul v. Davis).",
+          "elements": ["Life, liberty, or property?", "Property: legitimate claim of entitlement from an independent source", "Liberty: not reputation alone; reputation plus a job or license"],
+          "exceptions": ["A one-year contract with no promise of renewal creates no property interest (Roth)", "De facto tenure can (Perry v. Sindermann)", "No liberty interest in living in the U.S. with a noncitizen spouse (Kerry v. Din)", "Tax-sale surplus is protected by the Takings Clause (Tyler v. Hennepin County)"],
+          "authorities": ["Board of Regents v. Roth (1972)", "Perry v. Sindermann (1972)", "Paul v. Davis (1976)", "Kerry v. Din (2015)", "Tyler v. Hennepin County (2023)"],
+          "tip": "Find the independent source in the facts (a statute, a handbook, a contract term). No source, no interest, no process."
+        },
+        {
+          "id": "mathews",
+          "name": "What process is due",
+          "trigger": "A protected interest exists and the question is whether a pre-deprivation hearing, a written submission, or a post-deprivation hearing was enough.",
+          "rule": "Process due is set by balancing (1) the private interest affected, (2) the risk of error under current procedures and the value of added safeguards, and (3) the government's interest, including administrative and fiscal burden (Mathews v. Eldridge).",
+          "elements": ["Private interest (need-based welfare vs. disability benefits)", "Risk of erroneous deprivation and value of more process", "Government's interest and burden"],
+          "exceptions": ["Welfare needs a pre-termination evidentiary hearing (Goldberg) because recipients live on the edge", "Disability does not (Mathews) because it is not need-based and the evidence is documentary medical reports", "The opportunity to be heard must be tailored to the capacities and circumstances of those heard (Goldberg)"],
+          "authorities": ["Mathews v. Eldridge (1976)", "Goldberg v. Kelly (1970)"],
+          "tip": "Argue each factor with facts from the problem. Explain why Mathews came out differently from Goldberg; that contrast is the whole exam move."
+        }
+      ]
+    },
+    {
+      "id": "apa-review",
+      "name": "Scope and standard of review",
+      "part": "Part Three",
+      "tags": ["APA_review", "Fact_finding"],
+      "issues": [
+        {
+          "id": "section-706",
+          "name": "Picking the § 706 ground and the type of question",
+          "trigger": "A party challenges the substance of an agency action in court.",
+          "rule": "A court shall set aside agency action that is arbitrary, capricious, an abuse of discretion, or not in accordance with law (§ 706(2)(A)); in excess of statutory authority (C); without observance of required procedure (D); or unsupported by substantial evidence in formal or on-the-record proceedings (E). Always identify first what type of question the agency answered: fact, law, mixed, or policy.",
+          "elements": ["Question of fact: substantial evidence (formal) or arbitrary and capricious (informal)", "Question of law: independent judgment (Loper Bright), Skidmore weight", "Mixed question: applying a legal standard to particular facts (Hearst: meaning de novo, application with deference)", "Policy: arbitrary and capricious", "Procedure: de novo"],
+          "exceptions": ["§ 706(1): compel action unlawfully withheld or unreasonably delayed"],
+          "authorities": ["APA § 706", "NLRB v. Hearst Publications (1944)"],
+          "tip": "Classify the question before you pick the standard. Graders look for that sentence."
+        },
+        {
+          "id": "substantial-evidence",
+          "name": "Substantial evidence review of facts",
+          "trigger": "An agency's factual finding after a hearing is challenged, especially where the agency reversed its own ALJ or relied on an expert who would not share data.",
+          "rule": "Substantial evidence is such relevant evidence as a reasonable mind, or a reasonable jury (Allentown Mack), might accept as adequate, judged on the record as a whole including the ALJ's rejected findings (Universal Camera).",
+          "elements": ["Whole record, not just supporting evidence", "ALJ findings count against the agency when the agency reverses them", "Reasonable-jury threshold"],
+          "exceptions": ["An expert's refusal to share underlying data does not automatically defeat substantial evidence (Biestek)"],
+          "authorities": ["Universal Camera v. NLRB (1951)", "Allentown Mack v. NLRB (1998)", "Biestek v. Berryhill (2019)"],
+          "tip": "Substantial evidence is deferential; the challenger's best move is the ALJ's contrary credibility findings."
+        }
+      ]
+    },
+    {
+      "id": "legal-conclusions",
+      "name": "Questions of law after Loper Bright",
+      "part": "Part Three",
+      "tags": ["Legal_conclusions"],
+      "issues": [
+        {
+          "id": "loper-bright",
+          "name": "Agency statutory interpretation",
+          "trigger": "An agency reads an ambiguous term in its statute (\"employee,\" \"source,\" \"appropriate\") and a court must decide whether the reading is correct.",
+          "rule": "Courts exercise independent judgment on questions of law under APA § 706 and may not defer to an agency's reading merely because the statute is ambiguous (Loper Bright, overruling Chevron). Where Congress has delegated discretion, courts police the limits of that delegation. Agency views earn Skidmore respect according to their power to persuade.",
+          "elements": ["Find the best reading of the statute with independent judgment", "Did Congress expressly delegate discretion (\"appropriate,\" \"reasonable,\" power to define terms or fill up details)? If so, police its limits", "Skidmore: thoroughness, validity of reasoning, consistency, and other factors giving power to persuade"],
+          "exceptions": ["Cases decided under Chevron keep statutory stare decisis", "Hearst: application of a legal term to facts can still get deference as a mixed question"],
+          "authorities": ["Loper Bright Enterprises v. Raimondo (2024)", "Skidmore v. Swift (1944)", "Chevron v. NRDC (overruled)", "NLRB v. Hearst (1944)"],
+          "tip": "State Chevron's two steps in one sentence for history, then apply the three Loper Bright steps. Kagan dissented."
+        }
+      ]
+    },
+    {
+      "id": "major-questions",
+      "name": "Major questions doctrine",
+      "part": "Part Three",
+      "tags": ["Major_questions"],
+      "issues": [
+        {
+          "id": "mqd",
+          "name": "Major questions doctrine",
+          "trigger": "An agency (or the President) finds a new, sweeping power in an old or general statute: a moratorium, a mandate, a nationwide program, tariffs, loan cancellation.",
+          "rule": "For agency action of vast economic and political significance, courts require clear congressional authorization; a plausible textual basis is not enough. The doctrine is statutory, though driven by nondelegation concerns.",
+          "elements": ["Is the question major? Markers: political controversy, lots of money, a new lane of power, an old statute read anew, an unheralded claim of authority", "If major, is there clear congressional authorization?"],
+          "exceptions": ["No exception for the President (Learning Resources)", "Barrett treats it as a linguistic canon; Gorsuch as a substantive canon"],
+          "authorities": ["West Virginia v. EPA (2022)", "Biden v. Nebraska (2023)", "NFIB v. OSHA (2022)", "Alabama Ass'n of Realtors v. HHS (2021)", "FDA v. Brown & Williamson (2000)", "King v. Burwell (2015)", "Learning Resources v. Trump (2026)"],
+          "tip": "Run the majorness markers against the facts one by one, then ask for the clear statement. Pair with Loper Bright: even without MQD, the best reading controls."
+        }
+      ]
+    },
+    {
+      "id": "auer-kisor",
+      "name": "Deference to an agency's own regulation",
+      "part": "Part Three",
+      "tags": ["Auer_and_Kisor"],
+      "issues": [
+        {
+          "id": "kisor",
+          "name": "Auer/Kisor deference",
+          "trigger": "An agency interprets its own regulation, often in a manual, brief, or enforcement letter, and applies it to a regulated party.",
+          "rule": "Courts defer to an agency's reasonable reading of its own genuinely ambiguous regulation only after exhausting the tools of construction, and only when the character and context of the interpretation warrant it: an official position, implicating expertise, reflecting fair and considered judgment (Kisor v. Wilkie).",
+          "elements": ["Genuinely ambiguous after all tools of construction", "The agency's reading is reasonable", "Character and context: authoritative, expertise-based, fair and considered judgment, no unfair surprise"],
+          "exceptions": ["If the conditions fail, the reading gets only Skidmore weight", "Unfair surprise defeats deference: DOL's position in an amicus brief against pharma detailers (Christopher v. SmithKline)"],
+          "authorities": ["Kisor v. Wilkie (2019)", "Auer v. Robbins", "Christopher v. SmithKline Beecham (2012)"],
+          "tip": "Gorsuch would have overruled Auer. Note that Kisor survived Loper Bright because it concerns regulations, not statutes."
+        }
+      ]
+    }
+  ]
+}
